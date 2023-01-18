@@ -1,0 +1,13 @@
+{
+  "name": "🔁 Repeat",
+  "intentId": "RepeatIntent",
+  "slots": [],
+  "utterancePatterns": [
+    "repeat",
+    "repeat please",
+    "please repeat",
+    "say that again",
+    "say again"
+  ],
+  "langCode": "en-US"
+}

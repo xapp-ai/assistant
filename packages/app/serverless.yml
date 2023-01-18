@@ -1,0 +1,116 @@
+service: studio-runtime-${env:STUDIO_APP_ID, "appId"}
+
+useDotenv: true
+
+plugins:
+  - serverless-plugin-common-excludes
+
+custom:
+  myEnvironment:
+    APP_ID: ${env:STUDIO_APP_ID, "appId"}
+    STENTOR_USER_TABLE_NAME: ${self:custom.myEnvironment.APP_ID}-user-${sls:stage}
+    STUDIO_SECRET_NAME: ${self:custom.myEnvironment.APP_ID}-secrets-${sls:stage}
+
+package:
+  excludeDevDependencies: true
+  exclude:
+    - .env
+    - .github/**
+    - dist/**/*.d.ts
+    - dist/**/*.js.map
+    - resources/**
+    - src/**
+    - temp/**
+    - widget/**
+    - yarn.lock
+    - node_modules/aws-sdk/**
+
+provider:
+  name: aws
+  runtime: nodejs16.x
+  stage: ${sls:stage}
+  region: us-east-1
+  stackName: ${self:custom.myEnvironment.APP_ID}-${sls:stage}
+  profile: ${env:AWS_PROFILE}
+  timeout: 15
+  environment:
+    NODE_ENV: ${sls:stage}
+    STUDIO_SECRET_NAME: ${self:custom.myEnvironment.STUDIO_SECRET_NAME}
+    USER_STORAGE_TABLE: ${self:custom.myEnvironment.STENTOR_USER_TABLE_NAME}
+    STUDIO_APP_ID: ${self:custom.myEnvironment.APP_ID}
+    LEX_BOT_ID: ${env:LEX_BOT_ID, ""}
+    LEX_BOT_ALIAS_ID: ${env:LEX_BOT_ALIAS_ID, ""}
+    STENTOR_LOG_LEVEL: ${env:STENTOR_LOG_LEVEL, "info"}
+  iam:
+    role:
+      name: studio-runtime-role-${self:custom.myEnvironment.APP_ID}-${sls:stage}
+      statements:
+        - Effect: Allow
+          Action:
+            - dynamodb:Query
+            - dynamodb:Scan
+            - dynamodb:GetItem
+            - dynamodb:PutItem
+            - dynamodb:UpdateItem
+            - dynamodb:DeleteItem
+          Resource:
+            - "arn:aws:dynamodb:${opt:region, self:provider.region}:*:table/${self:custom.myEnvironment.STENTOR_USER_TABLE_NAME}"
+        - Effect: Allow
+          Action:
+            - logs:*
+          Resource: "arn:aws:logs:*:*:*"
+        - Effect: Allow
+          Action:
+            - secretsmanager:GetSecretValue
+          Resource: "arn:aws:secretsmanager:*:*:secret:*"
+        - Effect: Allow
+          Action:
+            - lex:PostContent
+            - lex:PostText
+            - lex:PutSession
+            - lex:GetSession
+            - lex:DeleteSession
+            - lex:RecognizeText
+            - lex:RecognizeUtterance
+          Resource: "arn:aws:lex:*:*:*"
+
+functions:
+  app:
+    name: studio-runtime-${self:custom.myEnvironment.APP_ID}-${sls:stage}
+    handler: lib/index.handler
+    events:
+      - http:
+          method: POST
+          path: /
+          cors: true
+      - http:
+          method: POST
+          path: /{proxy+}
+          cors: true
+
+resources:
+  Resources:
+    Secrets:
+      Type: "AWS::SecretsManager::Secret"
+      Properties:
+        Name: ${self:custom.myEnvironment.STUDIO_SECRET_NAME }
+        Description: Super secret runtime
+        SecretString: '{"STUDIO_TOKEN":"${env:STUDIO_TOKEN, "Replace_with_app_token"}"}'
+    UserTable:
+      Type: "AWS::DynamoDB::Table"
+      DeletionPolicy: Retain
+      Properties:
+        AttributeDefinitions:
+          - AttributeName: userId
+            AttributeType: S
+          - AttributeName: appId
+            AttributeType: S
+        KeySchema:
+          - AttributeName: userId
+            KeyType: HASH
+          - AttributeName: appId
+            KeyType: RANGE
+        ProvisionedThroughput:
+          ReadCapacityUnits: 5
+          WriteCapacityUnits: 5
+        TableName: ${self:custom.myEnvironment.STENTOR_USER_TABLE_NAME}

@@ -1,0 +1,52 @@
+{
+  "content": {
+    "LaunchRequest": [
+      {
+        "tag": "WELCOME_NEW_USER",
+        "outputSpeech": {
+          "displayText": "${GREETING}, how can I help?",
+          "ssml": "${GREETING}, how can I help?",
+          "suggestions": []
+        },
+        "reprompt": {
+          "displayText": "What can I help you with?",
+          "ssml": "What can I help you with?",
+          "suggestions": []
+        },
+        "segments": {
+          "GREETING": [
+            { "segment": { "displayText": "Hi", "ssml": "Hi" } },
+            { "segment": { "displayText": "Hello", "ssml": "Hello" } }
+          ]
+        }
+      },
+      {
+        "tag": "WELCOME_RETURNING_USER",
+        "reprompt": {
+          "ssml": "<speak>What can I help you with?</speak>",
+          "displayText": "What can I help you with?"
+        },
+        "conditions": "activeWithin(1, \"day\")",
+        "outputSpeech": {
+          "ssml": "<speak>Hello again.  What can I help you with?</speak>",
+          "displayText": "Hello again.  What can I help you with?",
+          "suggestions": [
+            {
+              "title": "Contact Us"
+            },
+            {
+              "title": "Request Service"
+            }
+          ]
+        },
+        "segments": {}
+      }
+    ]
+  },
+  "data": {},
+  "intentId": "LaunchRequest",
+  "langCode": "en-US",
+  "name": "👋 Welcome",
+  "type": "ConversationHandler",
+  "utterancePatterns": ["hello", "hi", "howdy"]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "💁 Agent",
+  "intentId": "OCAgent",
+  "langCode": "en-US",
+  "slots": [
+    {
+      "name": "agent",
+      "type": "AGENT"
+    }
+  ],
+  "type": "ConversationHandler",
+  "content": {
+    "OCAgent": [
+      {
+        "outputSpeech": {
+          "displayText": "I'm sorry, an agent isn't available at this time.  Is there anything else I can try to help you with?",
+          "ssml": "I'm sorry, an agent isn't available at this time.  Is there anything else I can try to help you with?",
+          "suggestions": []
+        },
+        "reprompt": {
+          "displayText": "Is there anything else I can try to help you with?",
+          "ssml": "Is there anything else I can try to help you with?",
+          "suggestions": []
+        }
+      }
+    ]
+  },
+  "utterancePatterns": [
+    "${agent}",
+    "${agent} {please|now}",
+    "i {want|need} to speak to {a|an} ${agent}",
+    "give me an ${agent}"
+  ]
+}

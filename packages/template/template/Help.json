@@ -1,0 +1,26 @@
+{
+  "content": {
+    "Help": [
+      {
+        "tag": "GENERIC_HELP",
+        "outputSpeech": {
+          "displayText": "Sure, I can do my best to answer any questions you may have and if there is a question I can't answer I will direct you to the correct resources that can.  What can I help you with?",
+          "ssml": "Sure, I can do my best to answer any questions you may have and if there is a question I can't answer I will direct you to the correct resources that can.  What can I help you with?",
+          "suggestions": []
+        },
+        "reprompt": {
+          "displayText": "What question can I answer for you?",
+          "ssml": "What question can I answer for you?",
+          "suggestions": []
+        }
+      }
+    ]
+  },
+  "slots": [],
+  "data": {},
+  "name": "ℹ️ Global Help",
+  "intentId": "Help",
+  "langCode": "en-US",
+  "type": "ConversationHandler",
+  "utterancePatterns": ["help", "help please", "i need help", "please help"]
+}
