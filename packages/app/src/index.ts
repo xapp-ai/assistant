@@ -15,11 +15,12 @@ import { LexV2Channel } from "@xapp/stentor-lex-v2";
 import { Stentor } from "stentor-channel";
 
 // NLU
-import { LexServiceV2 } from "@xapp/stentor-service-lex";
+import { ExtendedNLU } from "./services/ExtendedNLU";
 
 // Services
 import { DynamoUserStorage } from "stentor-user-storage-dynamo";
 import { StudioService } from "stentor-service-studio";
+import { SalesforceService } from "@xapp/stentor-service-salesforce";
 
 // Custom Handlers
 import { QuestionAnsweringHandler } from "@xapp/question-answering-handler";
@@ -28,8 +29,7 @@ import { ContactCaptureHandler } from "@xapp/contact-capture-handler";
 export async function handler(event: any, context: Context, callback: Callback<any>): Promise<void> {
     await setEnv().then().catch((error: Error) => console.error("Environment failed to load", error));
 
-    // Leverage external NLU
-    const nlu = new LexServiceV2({
+    const nlu = new ExtendedNLU({
         botId: process.env.LEX_BOT_ID,
         botAliasId: process.env.LEX_BOT_ALIAS_ID
     });
@@ -40,6 +40,13 @@ export async function handler(event: any, context: Context, callback: Callback<a
     const assistant = new Assistant()
         // We are using a simple dynamo user storage but all you need is something that implements the interface UserStorageService
         .withUserStorage(new DynamoUserStorage())
+        .withCrmService(new SalesforceService(
+            {
+                appId: process.env.STUDIO_APP_ID,
+                leadOwner: process.env.SALESFORCE_LEAD_OWNER,
+                leadSource: "xappy"
+            }
+        ))
         .withKnowledgeBaseService(studioService, {
             // Intent ID for your fallback to determine if we call  KnowledgeBase
             matchIntentId: "InputUnknown",
