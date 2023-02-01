@@ -54,8 +54,6 @@ export function parseNameFrom(q: string): NameOnlyIntentRequestSlotMap {
         // high confidence is parsed person
         const person = first.person;
 
-        console.log(person);
-
         if (person.honorific) {
             slots.title = {
                 name: "title",

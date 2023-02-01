@@ -16,10 +16,12 @@ export class ExtendedNLU extends LexServiceV2 {
     public async query(q: string, props?: NLURequestProps): Promise<NLUQueryResponse> {
 
         const timerQuery = q.replace(/ /gm, "_");
+        // eslint-disable-next-line no-console
         console.time(`NLU_QUERY_${timerQuery}`);
         const results = await super.query(q, props);
-        log().info(`Lex returned:`)
-        log().info(results);
+        log().debug(`Lex returned:`)
+        log().debug(results);
+        // eslint-disable-next-line no-console
         console.timeEnd(`NLU_QUERY_${timerQuery}`);
 
         const sentences = tokenize(q);
@@ -49,8 +51,8 @@ export class ExtendedNLU extends LexServiceV2 {
         if (results.intentId === "NameOnly") {
             // we are going to assume it is a name here
             const named = parseAssumingName(q);
-            console.log(`Parsing assuming it is a name from NameOnly`);
-            console.log(named);
+            log().debug(`Parsing assuming it is a name from NameOnly`);
+            log().debug(named);
 
             if (named) {
                 results.slots = {
