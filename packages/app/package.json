@@ -77,6 +77,6 @@
     "express": "4.18.2",
     "stentor": "1.57.46",
     "stentor-channel": "1.57.46",
-    "stentor-user-storage-dynamo": "1.57.46"
+    "stentor-user-storage-dynamo": "1.57.61"
   }
 }
