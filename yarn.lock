@@ -1723,50 +1723,50 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/console@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "@jest/console@npm:29.3.1"
+"@jest/console@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "@jest/console@npm:29.4.1"
   dependencies:
-    "@jest/types": ^29.3.1
+    "@jest/types": ^29.4.1
     "@types/node": "*"
     chalk: ^4.0.0
-    jest-message-util: ^29.3.1
-    jest-util: ^29.3.1
+    jest-message-util: ^29.4.1
+    jest-util: ^29.4.1
     slash: ^3.0.0
-  checksum: 9eecbfb6df4f5b810374849b7566d321255e6fd6e804546236650384966be532ff75a3e445a3277eadefe67ddf4dc56cd38332abd72d6a450f1bea9866efc6d7
+  checksum: 5b061e4fec29016d42ab1dbbc0fd8386cfa28f921deb6880ff1a82203c7df0776827c2819f2fe1feb8872c8a5cf6d0a04aaf008e80c239813357ccf8790332e9
   languageName: node
   linkType: hard
 
-"@jest/core@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "@jest/core@npm:29.3.1"
+"@jest/core@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "@jest/core@npm:29.4.1"
   dependencies:
-    "@jest/console": ^29.3.1
-    "@jest/reporters": ^29.3.1
-    "@jest/test-result": ^29.3.1
-    "@jest/transform": ^29.3.1
-    "@jest/types": ^29.3.1
+    "@jest/console": ^29.4.1
+    "@jest/reporters": ^29.4.1
+    "@jest/test-result": ^29.4.1
+    "@jest/transform": ^29.4.1
+    "@jest/types": ^29.4.1
     "@types/node": "*"
     ansi-escapes: ^4.2.1
     chalk: ^4.0.0
     ci-info: ^3.2.0
     exit: ^0.1.2
     graceful-fs: ^4.2.9
-    jest-changed-files: ^29.2.0
-    jest-config: ^29.3.1
-    jest-haste-map: ^29.3.1
-    jest-message-util: ^29.3.1
+    jest-changed-files: ^29.4.0
+    jest-config: ^29.4.1
+    jest-haste-map: ^29.4.1
+    jest-message-util: ^29.4.1
     jest-regex-util: ^29.2.0
-    jest-resolve: ^29.3.1
-    jest-resolve-dependencies: ^29.3.1
-    jest-runner: ^29.3.1
-    jest-runtime: ^29.3.1
-    jest-snapshot: ^29.3.1
-    jest-util: ^29.3.1
-    jest-validate: ^29.3.1
-    jest-watcher: ^29.3.1
+    jest-resolve: ^29.4.1
+    jest-resolve-dependencies: ^29.4.1
+    jest-runner: ^29.4.1
+    jest-runtime: ^29.4.1
+    jest-snapshot: ^29.4.1
+    jest-util: ^29.4.1
+    jest-validate: ^29.4.1
+    jest-watcher: ^29.4.1
     micromatch: ^4.0.4
-    pretty-format: ^29.3.1
+    pretty-format: ^29.4.1
     slash: ^3.0.0
     strip-ansi: ^6.0.0
   peerDependencies:
@@ -1774,19 +1774,19 @@ __metadata:
   peerDependenciesMeta:
     node-notifier:
       optional: true
-  checksum: e3ac9201e8a084ccd832b17877b56490402b919f227622bb24f9372931e77b869e60959d34144222ce20fb619d0a6a6be20b257adb077a6b0f430a4584a45b0f
+  checksum: 70bf65187bdc14825512bbb5afda6f578cca62cda70d8fc2bf08377d916785cfa5da3f3b6aabda42e535c1353fc9a1073b8370f49b2d49ad8fca798119219c3e
   languageName: node
   linkType: hard
 
-"@jest/environment@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "@jest/environment@npm:29.3.1"
+"@jest/environment@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "@jest/environment@npm:29.4.1"
   dependencies:
-    "@jest/fake-timers": ^29.3.1
-    "@jest/types": ^29.3.1
+    "@jest/fake-timers": ^29.4.1
+    "@jest/types": ^29.4.1
     "@types/node": "*"
-    jest-mock: ^29.3.1
-  checksum: 974102aba7cc80508f787bb5504dcc96e5392e0a7776a63dffbf54ddc2c77d52ef4a3c08ed2eedec91965befff873f70cd7c9ed56f62bb132dcdb821730e6076
+    jest-mock: ^29.4.1
+  checksum: f6fed37d2e4aede2930f0a030432b72efeed6d3ea2eee165c1e64afd9fb3af8cf827e306c800cdb3f7bbd106bc5b2405cdec98b91a85695e3f62b1e228cb8d09
   languageName: node
   linkType: hard
 
@@ -1799,51 +1799,60 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/expect@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "@jest/expect@npm:29.3.1"
+"@jest/expect-utils@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "@jest/expect-utils@npm:29.4.1"
   dependencies:
-    expect: ^29.3.1
-    jest-snapshot: ^29.3.1
-  checksum: 1d7b5cc735c8a99bfbed884d80fdb43b23b3456f4ec88c50fd86404b097bb77fba84f44e707fc9b49f106ca1154ae03f7c54dc34754b03f8a54eeb420196e5bf
+    jest-get-type: ^29.2.0
+  checksum: 865b4ee79d43e2457efb8ce3f58108f2fe141ce620350fe21d0baaf7e2f00b9b67f6e9c1c89760b1008c100e844fb03a6dda264418ed378243956904d9a88c69
   languageName: node
   linkType: hard
 
-"@jest/fake-timers@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "@jest/fake-timers@npm:29.3.1"
+"@jest/expect@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "@jest/expect@npm:29.4.1"
   dependencies:
-    "@jest/types": ^29.3.1
-    "@sinonjs/fake-timers": ^9.1.2
+    expect: ^29.4.1
+    jest-snapshot: ^29.4.1
+  checksum: 5e9979822a83847f2671e6ed8482e1afc6553ea6579527fdcc6f31ac4f54975e74f1410b9ca133e80ad30dfc38510a9e731ffe70e9eecea61abad487095d969a
+  languageName: node
+  linkType: hard
+
+"@jest/fake-timers@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "@jest/fake-timers@npm:29.4.1"
+  dependencies:
+    "@jest/types": ^29.4.1
+    "@sinonjs/fake-timers": ^10.0.2
     "@types/node": "*"
-    jest-message-util: ^29.3.1
-    jest-mock: ^29.3.1
-    jest-util: ^29.3.1
-  checksum: b1dafa8cdc439ef428cd772c775f0b22703677f52615513eda11a104bbfc352d7ec69b1225db95d4ef2e1b4ef0f23e1a7d96de5313aeb0950f672e6548ae069d
+    jest-message-util: ^29.4.1
+    jest-mock: ^29.4.1
+    jest-util: ^29.4.1
+  checksum: 6e1f404054cae54291c1aba7e6b16d7895e2f14b2a1814a0133f9859d6bf49b8e91ce5b3ee15517013bcc6061b63e7a9aeebabd32a68f27a1a15a6dfb15644d1
   languageName: node
   linkType: hard
 
-"@jest/globals@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "@jest/globals@npm:29.3.1"
+"@jest/globals@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "@jest/globals@npm:29.4.1"
   dependencies:
-    "@jest/environment": ^29.3.1
-    "@jest/expect": ^29.3.1
-    "@jest/types": ^29.3.1
-    jest-mock: ^29.3.1
-  checksum: 4d2b9458aabf7c28fd167e53984477498c897b64eec67a7f84b8fff465235cae1456ee0721cb0e7943f0cda443c7656adb9801f9f34e27495b8ebbd9f3033100
+    "@jest/environment": ^29.4.1
+    "@jest/expect": ^29.4.1
+    "@jest/types": ^29.4.1
+    jest-mock: ^29.4.1
+  checksum: 492af8f7c1a97c88464951dfe30fdfcc1566138658df87ab4cdd3b0e20245022637ee4636270af35346391fc4dcd18130d21b643c7e317355087b7cece392476
   languageName: node
   linkType: hard
 
-"@jest/reporters@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "@jest/reporters@npm:29.3.1"
+"@jest/reporters@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "@jest/reporters@npm:29.4.1"
   dependencies:
     "@bcoe/v8-coverage": ^0.2.3
-    "@jest/console": ^29.3.1
-    "@jest/test-result": ^29.3.1
-    "@jest/transform": ^29.3.1
-    "@jest/types": ^29.3.1
+    "@jest/console": ^29.4.1
+    "@jest/test-result": ^29.4.1
+    "@jest/transform": ^29.4.1
+    "@jest/types": ^29.4.1
     "@jridgewell/trace-mapping": ^0.3.15
     "@types/node": "*"
     chalk: ^4.0.0
@@ -1856,9 +1865,9 @@ __metadata:
     istanbul-lib-report: ^3.0.0
     istanbul-lib-source-maps: ^4.0.0
     istanbul-reports: ^3.1.3
-    jest-message-util: ^29.3.1
-    jest-util: ^29.3.1
-    jest-worker: ^29.3.1
+    jest-message-util: ^29.4.1
+    jest-util: ^29.4.1
+    jest-worker: ^29.4.1
     slash: ^3.0.0
     string-length: ^4.0.1
     strip-ansi: ^6.0.0
@@ -1868,7 +1877,7 @@ __metadata:
   peerDependenciesMeta:
     node-notifier:
       optional: true
-  checksum: 273e0c6953285f01151e9d84ac1e55744802a1ec79fb62dafeea16a49adfe7b24e7f35bef47a0214e5e057272dbfdacf594208286b7766046fd0f3cfa2043840
+  checksum: fb70886e90eeb45e1df7c4196e1768285d5f1db4c01edd6eeed33619971d8c33031a9a3705004f14dff9c3460f5d605a9dac9779c5a91c73e4f7a4b303ff25ff
   languageName: node
   linkType: hard
 
@@ -1901,27 +1910,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/test-result@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "@jest/test-result@npm:29.3.1"
+"@jest/test-result@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "@jest/test-result@npm:29.4.1"
   dependencies:
-    "@jest/console": ^29.3.1
-    "@jest/types": ^29.3.1
+    "@jest/console": ^29.4.1
+    "@jest/types": ^29.4.1
     "@types/istanbul-lib-coverage": ^2.0.0
     collect-v8-coverage: ^1.0.0
-  checksum: b24ac283321189b624c372a6369c0674b0ee6d9e3902c213452c6334d037113718156b315364bee8cee0f03419c2bdff5e2c63967193fb422830e79cbb26866a
+  checksum: 8909e5033bf52b85840da8bbc7ded98d52a86f63f2708d6c976f204e007739ada8fc2f985394a8950e40b1e17508bd8e26db4fa328a5fb37c411fe534bb192ec
   languageName: node
   linkType: hard
 
-"@jest/test-sequencer@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "@jest/test-sequencer@npm:29.3.1"
+"@jest/test-sequencer@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "@jest/test-sequencer@npm:29.4.1"
   dependencies:
-    "@jest/test-result": ^29.3.1
+    "@jest/test-result": ^29.4.1
     graceful-fs: ^4.2.9
-    jest-haste-map: ^29.3.1
+    jest-haste-map: ^29.4.1
     slash: ^3.0.0
-  checksum: a8325b1ea0ce644486fb63bb67cedd3524d04e3d7b1e6c1e3562bf12ef477ecd0cf34044391b2a07d925e1c0c8b4e0f3285035ceca3a474a2c55980f1708caf3
+  checksum: ddf26b780579b239076d5eaf445ff17b8cf1d363c2cfdd3842f281c597d2ef1ee42e93f3cd2ac52803a88de0107a6059d72007ecc51bcd535406c17941ef33be
   languageName: node
   linkType: hard
 
@@ -1945,29 +1954,6 @@ __metadata:
     source-map: ^0.6.1
     write-file-atomic: ^3.0.0
   checksum: 31667b925a2f3b310d854495da0ab67be8f5da24df76ecfc51162e75f1140aed5d18069ba190cb5e0c7e492b04272c8c79076ddf5bbcff530ee80a16a02c4545
-  languageName: node
-  linkType: hard
-
-"@jest/transform@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "@jest/transform@npm:29.3.1"
-  dependencies:
-    "@babel/core": ^7.11.6
-    "@jest/types": ^29.3.1
-    "@jridgewell/trace-mapping": ^0.3.15
-    babel-plugin-istanbul: ^6.1.1
-    chalk: ^4.0.0
-    convert-source-map: ^2.0.0
-    fast-json-stable-stringify: ^2.1.0
-    graceful-fs: ^4.2.9
-    jest-haste-map: ^29.3.1
-    jest-regex-util: ^29.2.0
-    jest-util: ^29.3.1
-    micromatch: ^4.0.4
-    pirates: ^4.0.4
-    slash: ^3.0.0
-    write-file-atomic: ^4.0.1
-  checksum: 673df5900ffc95bc811084e09d6e47948034dea6ab6cc4f81f80977e3a52468a6c2284d0ba9796daf25a62ae50d12f7e97fc9a3a0c587f11f2a479ff5493ca53
   languageName: node
   linkType: hard
 
@@ -3844,15 +3830,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sinonjs/commons@npm:^1.7.0":
-  version: 1.8.6
-  resolution: "@sinonjs/commons@npm:1.8.6"
-  dependencies:
-    type-detect: 4.0.8
-  checksum: 7d3f8c1e85f30cd4e83594fc19b7a657f14d49eb8d95a30095631ce15e906c869e0eff96c5b93dffea7490c00418b07f54582ba49c6560feb2a8c34c0b16832d
-  languageName: node
-  linkType: hard
-
 "@sinonjs/commons@npm:^2.0.0":
   version: 2.0.0
   resolution: "@sinonjs/commons@npm:2.0.0"
@@ -3868,15 +3845,6 @@ __metadata:
   dependencies:
     "@sinonjs/commons": ^2.0.0
   checksum: c62aa98e7cefda8dedc101ce227abc888dc46b8ff9706c5f0a8dfd9c3ada97d0a5611384738d9ba0b26b59f99c2ba24efece8e779bb08329e9e87358fa309824
-  languageName: node
-  linkType: hard
-
-"@sinonjs/fake-timers@npm:^9.1.2":
-  version: 9.1.2
-  resolution: "@sinonjs/fake-timers@npm:9.1.2"
-  dependencies:
-    "@sinonjs/commons": ^1.7.0
-  checksum: 7d3aef54e17c1073101cb64d953157c19d62a40e261a30923fa1ee337b049c5f29cc47b1f0c477880f42b5659848ba9ab897607ac8ea4acd5c30ddcfac57fca6
   languageName: node
   linkType: hard
 
@@ -6274,14 +6242,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xapp/contact-capture-handler@npm:1.0.4":
-  version: 1.0.4
-  resolution: "@xapp/contact-capture-handler@npm:1.0.4"
-  dependencies:
-    "@xapp/question-answering-handler": 2.1.8
+"@xapp/contact-capture-handler@npm:1.0.5":
+  version: 1.0.5
+  resolution: "@xapp/contact-capture-handler@npm:1.0.5"
   peerDependencies:
+    "@xapp/question-answering-handler": 2.x
     stentor: 1.X
-  checksum: 373eef763838818da8c26d0e602fbe3599efe65f48bcf746b0bb4340e098876691aaa55cec9ebd972fad1935c971cb5c56edc5c15289e32677c4bdf7d733abec
+  checksum: b56084d6fe179d56509a0e90d1352d69fe1463ded21bfa8bf5650087d2b9424ac35a5baebf814ff9f76b5e76ac1f6cd185425e77617f1e53147eb13083cf214b
   languageName: node
   linkType: hard
 
@@ -6318,9 +6285,9 @@ __metadata:
     css-loader: 5.2.6
     enzyme: 3.11.0
     enzyme-adapter-react-16: 1.15.7
-    eslint: 8.32.0
+    eslint: 8.33.0
     eslint-plugin-notice: 0.9.10
-    jest: 29.3.1
+    jest: 29.4.1
     postcss: 8.4.21
     react: 17.0.2
     react-dom: 17.0.2
@@ -6335,7 +6302,7 @@ __metadata:
     rollup-plugin-typescript2: 0.34.1
     sass: 1.57.1
     sass-loader: 10.4.1
-    stentor-models: 1.57.60
+    stentor-models: 1.57.61
     style-loader: 2.0.0
     ts-jest: 29.0.5
     typescript: 4.9.5
@@ -6351,9 +6318,9 @@ __metadata:
   resolution: "@xapp/oc-studio-starter-models@workspace:packages/models"
   dependencies:
     "@typescript-eslint/eslint-plugin": 5.50.0
-    eslint: 8.32.0
+    eslint: 8.33.0
     eslint-plugin-notice: 0.9.10
-    stentor-models: 1.57.60
+    stentor-models: 1.57.61
     typescript: 4.9.5
   peerDependencies:
     stentor-models: 1.X
@@ -6386,15 +6353,15 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 5.50.0
     "@typescript-eslint/parser": 5.50.0
     "@xapp/config": 0.2.3
-    "@xapp/contact-capture-handler": 1.0.4
+    "@xapp/contact-capture-handler": 1.0.5
     "@xapp/oc-studio-starter-models": 1.0.0
-    "@xapp/question-answering-handler": 2.1.8
+    "@xapp/question-answering-handler": 2.1.9
     "@xapp/stentor-gbm": 1.44.10
-    "@xapp/stentor-lex-v2": 1.44.10
-    "@xapp/stentor-service-salesforce": 1.44.11
+    "@xapp/stentor-lex-v2": 1.44.15
+    "@xapp/stentor-service-salesforce": 1.44.13
     addresser: 1.1.19
     ansi-styles: 6.2.1
-    aws-sdk: 2.1305.0
+    aws-sdk: 2.1307.0
     babel-loader: 9.1.2
     babel-preset-minify: 0.5.2
     body-parser: 1.20.1
@@ -6402,11 +6369,11 @@ __metadata:
     chai: 4.3.7
     compromise: 14.8.1
     cors: 2.8.5
-    eslint: 8.32.0
+    eslint: 8.33.0
     eslint-plugin-notice: 0.9.10
     express: 4.18.2
     fork-ts-checker-webpack-plugin: 7.3.0
-    jest: 29.3.1
+    jest: 29.4.1
     nodemon: 2.0.20
     parse-full-name: 1.2.6
     rimraf: 4.1.2
@@ -6414,9 +6381,9 @@ __metadata:
     serverless-plugin-common-excludes: 4.0.0
     sinon: 15.0.1
     sinon-chai: 3.7.0
-    stentor: 1.57.60
-    stentor-channel: 1.57.60
-    stentor-user-storage-dynamo: 1.57.60
+    stentor: 1.57.61
+    stentor-channel: 1.57.61
+    stentor-user-storage-dynamo: 1.57.61
     ts-node: 10.9.1
     typescript: 4.9.5
     webpack: 5.75.0
@@ -6432,15 +6399,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xapp/question-answering-handler@npm:2.1.8":
-  version: 2.1.8
-  resolution: "@xapp/question-answering-handler@npm:2.1.8"
+"@xapp/question-answering-handler@npm:2.1.9":
+  version: 2.1.9
+  resolution: "@xapp/question-answering-handler@npm:2.1.9"
   dependencies:
     fuse.js: 6.6.2
-    linkifyjs: 4.0.2
+    linkifyjs: 4.1.0
   peerDependencies:
     stentor: 1.X
-  checksum: 1dce899fb95bb1a5fe0cbdd844db092f8b30dc1f4f0d03bf7033b5f333d8e05728368cb5c965af2ee56226a8378e059eef4ee80c1e5849b7c677737517388cb6
+  checksum: 5663ccb5febc579e9c9b92022b6f18e3b5ee89e8b199f5427b8369b2fc01051d9bce586507b326aa3ca45a183f8e0de76fa3d6befb96910d23e7b0366e21e66e
   languageName: node
   linkType: hard
 
@@ -6463,17 +6430,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xapp/stentor-alexa-lib@npm:1.44.10":
-  version: 1.44.10
-  resolution: "@xapp/stentor-alexa-lib@npm:1.44.10"
+"@xapp/stentor-alexa-lib@npm:1.44.15":
+  version: 1.44.15
+  resolution: "@xapp/stentor-alexa-lib@npm:1.44.15"
   dependencies:
-    ask-sdk-model: 1.43.0
+    ask-sdk-model: 1.44.0
     lodash.invert: 4.3.0
   peerDependencies:
     stentor-constants: 1.x
     stentor-models: 1.x
     stentor-utils: 1.x
-  checksum: c69e9a25f64d6c38bfe282e3f7ec6abfbdbeb0f6674b478b6e723219b70980e31c3abf588043bbc56c2b5f64a7e66ae3479df8466a7295ce2422e4b47d3c007b
+  checksum: f42a10c403f13812882bc0d4aa8de2150e47bd9adcfc0f320afe25aa6795857f968d15f307b8e01df03d762129b0229d4a56fd099e1831c219426ffb6eb78e2e
   languageName: node
   linkType: hard
 
@@ -6524,11 +6491,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xapp/stentor-lex-lib@npm:1.44.10":
-  version: 1.44.10
-  resolution: "@xapp/stentor-lex-lib@npm:1.44.10"
+"@xapp/stentor-lex-lib@npm:1.44.15":
+  version: 1.44.15
+  resolution: "@xapp/stentor-lex-lib@npm:1.44.15"
   dependencies:
-    "@xapp/stentor-alexa-lib": 1.44.10
+    "@xapp/stentor-alexa-lib": 1.44.15
     lodash.merge: 4.6.2
   peerDependencies:
     stentor-interaction-model: 1.x
@@ -6536,18 +6503,18 @@ __metadata:
     stentor-models: 1.x
     stentor-request: 1.x
     stentor-utils: 1.x
-  checksum: 87dc4da4711193fde3e2da1a983b0cce287d73969df3c318f053664987e5b7aa796f4e91b51a7cb105c2260da9e47a401450eb1cef4a923720080329cf92bdee
+  checksum: c136422a9b46f269134321ee3f213844d33ab5852148d454030fd6dc9fe6e09f54d9b1c8691e0c6bcb03cf0a3f08c6bd0846b9205172f1de1c0354fff06b73df
   languageName: node
   linkType: hard
 
-"@xapp/stentor-lex-v2@npm:1.44.10":
-  version: 1.44.10
-  resolution: "@xapp/stentor-lex-v2@npm:1.44.10"
+"@xapp/stentor-lex-v2@npm:1.44.15":
+  version: 1.44.15
+  resolution: "@xapp/stentor-lex-v2@npm:1.44.15"
   dependencies:
     "@xapp/patterns": 2.0.1
-    "@xapp/stentor-alexa-lib": 1.44.10
-    "@xapp/stentor-lex-lib": 1.44.10
-    "@xapp/stentor-service-lex": 1.44.10
+    "@xapp/stentor-alexa-lib": 1.44.15
+    "@xapp/stentor-lex-lib": 1.44.15
+    "@xapp/stentor-service-lex": 1.44.15
     actions-on-google: 2.14.0
   peerDependencies:
     stentor-channel: 1.x
@@ -6558,16 +6525,16 @@ __metadata:
     stentor-request: 1.x
     stentor-response: 1.x
     stentor-utils: 1.x
-  checksum: 15340982cd61caa98af52da4a16c88d84bfb08f853626bd2c289f5571eacdbb7336084263e76a86a844a96bff68f97dc76ff1d40400bb57e57eb37a560bb02ca
+  checksum: 8554bcf5b3ca434c9ab005519735ea8a967adbdd21f02827f54294b7bcd407e5bf387f5e1a3f034062b2fc279af6232f5533e6e292ed03b077c37a5014e71cda
   languageName: node
   linkType: hard
 
-"@xapp/stentor-service-lex@npm:1.44.10":
-  version: 1.44.10
-  resolution: "@xapp/stentor-service-lex@npm:1.44.10"
+"@xapp/stentor-service-lex@npm:1.44.15":
+  version: 1.44.15
+  resolution: "@xapp/stentor-service-lex@npm:1.44.15"
   dependencies:
-    "@xapp/stentor-alexa-lib": 1.44.10
-    "@xapp/stentor-lex-lib": 1.44.10
+    "@xapp/stentor-alexa-lib": 1.44.15
+    "@xapp/stentor-lex-lib": 1.44.15
     lodash.merge: 4.6.2
     uuid: 9.0.0
   peerDependencies:
@@ -6577,20 +6544,20 @@ __metadata:
     stentor-history: 1.x
     stentor-media: 1.x
     stentor-models: 1.x
-  checksum: f0393d0f813535fd4facedd0905e236deb9f5fb081a2747570a70cfddf23160f5ff8ba2d1e83603f903fd1b98425175ef572d56c38c552e2e98aa89d46759ace
+  checksum: cf0220024042c95a714dcddf07fa53da861b5460e8205bbd3496dc01d501eb6918e72011d6cc7b9070462efea90967ec87fb7bac4db7d1e81dc432d45cfa0819
   languageName: node
   linkType: hard
 
-"@xapp/stentor-service-salesforce@npm:1.44.11":
-  version: 1.44.11
-  resolution: "@xapp/stentor-service-salesforce@npm:1.44.11"
+"@xapp/stentor-service-salesforce@npm:1.44.13":
+  version: 1.44.13
+  resolution: "@xapp/stentor-service-salesforce@npm:1.44.13"
   dependencies:
     jsforce: 1.11.0
-    stentor-service-fetch: 1.57.60
+    stentor-service-fetch: 1.57.61
   peerDependencies:
     stentor-logger: 1.x
     stentor-models: 1.x
-  checksum: 556e76d5fc89ded7070f3da29994e3fe1f290c9b3b8e22fc2d3c0298cf0982ee7dd7f268491f55b78cd01e8d88890cb0e5716d49f43235ed2cbf659cbbfef615
+  checksum: b7977e9419da89901a44cb68002b4d1867af0518174a770b4a5548f5085a8d6bb2f362dbc8862c0bbc7b2e3939131cdb87c4134bae63f5cfea749daaa42f9b22
   languageName: node
   linkType: hard
 
@@ -7376,10 +7343,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ask-sdk-model@npm:1.43.0":
-  version: 1.43.0
-  resolution: "ask-sdk-model@npm:1.43.0"
-  checksum: 4d1c00deeed90448df27610ae571c635e8ceaf53309a06340a9c947e916aeddf3ea3d138394c8488699cdd3ebed72c357d9eb2d45cdb6034f079552ead4e5e0b
+"ask-sdk-model@npm:1.44.0":
+  version: 1.44.0
+  resolution: "ask-sdk-model@npm:1.44.0"
+  checksum: d02814d076d7e8152b82dac55d6b8d64822eea19d2a2ce0476887b0d0620688f61f8e36c2f94d4075621f7ac250e0986e17b343493a448604c83c439d0b96fd5
   languageName: node
   linkType: hard
 
@@ -7505,7 +7472,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-sdk@npm:2.1305.0, aws-sdk@npm:^2.1303.0":
+"aws-sdk@npm:2.1307.0":
+  version: 2.1307.0
+  resolution: "aws-sdk@npm:2.1307.0"
+  dependencies:
+    buffer: 4.9.2
+    events: 1.1.1
+    ieee754: 1.1.13
+    jmespath: 0.16.0
+    querystring: 0.2.0
+    sax: 1.2.1
+    url: 0.10.3
+    util: ^0.12.4
+    uuid: 8.0.0
+    xml2js: 0.4.19
+  checksum: c7a24aeb0c91d2d64b449e05a32913182adc8820b1d6179323a9c16f230060d772f75f7135a9e7d3a368a194e23cdd847345020c68a17e05e126c1f666b7db0c
+  languageName: node
+  linkType: hard
+
+"aws-sdk@npm:^2.1303.0":
   version: 2.1305.0
   resolution: "aws-sdk@npm:2.1305.0"
   dependencies:
@@ -7616,7 +7601,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-jest@npm:29.4.1":
+"babel-jest@npm:29.4.1, babel-jest@npm:^29.4.1":
   version: 29.4.1
   resolution: "babel-jest@npm:29.4.1"
   dependencies:
@@ -7630,23 +7615,6 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.8.0
   checksum: 4a2971ee50d0e467ccc9ca3557c2e721aaac1a165c34cd82fd056be8fc0bce258247b3c960059ecf05beddafe06b37dceeb8b8c32fa7393b8a42d2055a70559f
-  languageName: node
-  linkType: hard
-
-"babel-jest@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "babel-jest@npm:29.3.1"
-  dependencies:
-    "@jest/transform": ^29.3.1
-    "@types/babel__core": ^7.1.14
-    babel-plugin-istanbul: ^6.1.1
-    babel-preset-jest: ^29.2.0
-    chalk: ^4.0.0
-    graceful-fs: ^4.2.9
-    slash: ^3.0.0
-  peerDependencies:
-    "@babel/core": ^7.8.0
-  checksum: 793848238a771a931ddeb5930b9ec8ab800522ac8d64933665698f4a39603d157e572e20b57d79610277e1df88d3ee82b180d59a21f3570388f602beeb38a595
   languageName: node
   linkType: hard
 
@@ -7716,18 +7684,6 @@ __metadata:
     istanbul-lib-instrument: ^5.0.4
     test-exclude: ^6.0.0
   checksum: cb4fd95738219f232f0aece1116628cccff16db891713c4ccb501cddbbf9272951a5df81f2f2658dfdf4b3e7b236a9d5cbcf04d5d8c07dd5077297339598061a
-  languageName: node
-  linkType: hard
-
-"babel-plugin-jest-hoist@npm:^29.2.0":
-  version: 29.2.0
-  resolution: "babel-plugin-jest-hoist@npm:29.2.0"
-  dependencies:
-    "@babel/template": ^7.3.3
-    "@babel/types": ^7.3.3
-    "@types/babel__core": ^7.1.14
-    "@types/babel__traverse": ^7.0.6
-  checksum: 368d271ceae491ae6b96cd691434859ea589fbe5fd5aead7660df75d02394077273c6442f61f390e9347adffab57a32b564d0fabcf1c53c4b83cd426cb644072
   languageName: node
   linkType: hard
 
@@ -8011,18 +7967,6 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.0.0
   checksum: d118c2742498c5492c095bc8541f4076b253e705b5f1ad9a2e7d302d81a84866f0070346662355c8e25fc02caa28dc2da8d69bcd67794a0d60c4d6fab6913cc8
-  languageName: node
-  linkType: hard
-
-"babel-preset-jest@npm:^29.2.0":
-  version: 29.2.0
-  resolution: "babel-preset-jest@npm:29.2.0"
-  dependencies:
-    babel-plugin-jest-hoist: ^29.2.0
-    babel-preset-current-node-syntax: ^1.0.0
-  peerDependencies:
-    "@babel/core": ^7.0.0
-  checksum: 1b09a2db968c36e064daf98082cfffa39c849b63055112ddc56fc2551fd0d4783897265775b1d2f8a257960a3339745de92e74feb01bad86d41c4cecbfa854fc
   languageName: node
   linkType: hard
 
@@ -11737,9 +11681,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.32.0":
-  version: 8.32.0
-  resolution: "eslint@npm:8.32.0"
+"eslint@npm:8.33.0":
+  version: 8.33.0
+  resolution: "eslint@npm:8.33.0"
   dependencies:
     "@eslint/eslintrc": ^1.4.1
     "@humanwhocodes/config-array": ^0.11.8
@@ -11782,7 +11726,7 @@ __metadata:
     text-table: ^0.2.0
   bin:
     eslint: bin/eslint.js
-  checksum: 23c8fb3c57291eecd9c1448faf603226a8f885022a2cd96e303459bf72e39b7f54987c6fb948f0f9eecaf7085600e6eb0663482a35ea83da12e9f9141a22b91e
+  checksum: 727e63ab8b7acf281442323c5971f6afdd5b656fbcebc4476cf54e35af51b2f180617433fc5e1952f0449ca3f43a905527f9407ea4b8a7ea7562fc9c3f278d4c
   languageName: node
   linkType: hard
 
@@ -12014,7 +11958,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expect@npm:^29.0.0, expect@npm:^29.3.1":
+"expect@npm:^29.0.0":
   version: 29.3.1
   resolution: "expect@npm:29.3.1"
   dependencies:
@@ -12024,6 +11968,19 @@ __metadata:
     jest-message-util: ^29.3.1
     jest-util: ^29.3.1
   checksum: e9588c2a430b558b9a3dc72d4ad05f36b047cb477bc6a7bb9cfeef7614fe7e5edbab424c2c0ce82739ee21ecbbbd24596259528209f84cd72500cc612d910d30
+  languageName: node
+  linkType: hard
+
+"expect@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "expect@npm:29.4.1"
+  dependencies:
+    "@jest/expect-utils": ^29.4.1
+    jest-get-type: ^29.2.0
+    jest-matcher-utils: ^29.4.1
+    jest-message-util: ^29.4.1
+    jest-util: ^29.4.1
+  checksum: 5918f69371557bbceb01bc163cd0ac03e8cbbc5de761892a9c27ef17a1f9e94dc91edd8298b4eaca18b71ba4a9d521c74b072f0a46950b13d6b61123b0431836
   languageName: node
   linkType: hard
 
@@ -15409,57 +15366,57 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-changed-files@npm:^29.2.0":
-  version: 29.2.0
-  resolution: "jest-changed-files@npm:29.2.0"
+"jest-changed-files@npm:^29.4.0":
+  version: 29.4.0
+  resolution: "jest-changed-files@npm:29.4.0"
   dependencies:
     execa: ^5.0.0
     p-limit: ^3.1.0
-  checksum: 8ad8290324db1de2ee3c9443d3e3fbfdcb6d72ec7054c5796be2854b2bc239dea38a7c797c8c9c2bd959f539d44305790f2f75b18f3046b04317ed77c7480cb1
+  checksum: d8883b32b8b28f4f63cbbe32ff75283401a11647303bd74e2c522981457a88b9146b77974759023c74215a0a55c1b1d0fc3070fe3cde9d4f33aaa1c76aede4eb
   languageName: node
   linkType: hard
 
-"jest-circus@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "jest-circus@npm:29.3.1"
+"jest-circus@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "jest-circus@npm:29.4.1"
   dependencies:
-    "@jest/environment": ^29.3.1
-    "@jest/expect": ^29.3.1
-    "@jest/test-result": ^29.3.1
-    "@jest/types": ^29.3.1
+    "@jest/environment": ^29.4.1
+    "@jest/expect": ^29.4.1
+    "@jest/test-result": ^29.4.1
+    "@jest/types": ^29.4.1
     "@types/node": "*"
     chalk: ^4.0.0
     co: ^4.6.0
     dedent: ^0.7.0
     is-generator-fn: ^2.0.0
-    jest-each: ^29.3.1
-    jest-matcher-utils: ^29.3.1
-    jest-message-util: ^29.3.1
-    jest-runtime: ^29.3.1
-    jest-snapshot: ^29.3.1
-    jest-util: ^29.3.1
+    jest-each: ^29.4.1
+    jest-matcher-utils: ^29.4.1
+    jest-message-util: ^29.4.1
+    jest-runtime: ^29.4.1
+    jest-snapshot: ^29.4.1
+    jest-util: ^29.4.1
     p-limit: ^3.1.0
-    pretty-format: ^29.3.1
+    pretty-format: ^29.4.1
     slash: ^3.0.0
     stack-utils: ^2.0.3
-  checksum: 125710debd998ad9693893e7c1235e271b79f104033b8169d82afe0bc0d883f8f5245feef87adcbb22ad27ff749fd001aa998d11a132774b03b4e2b8af77d5d8
+  checksum: e1aff95668c2e17397e65b201d472a430d0713e9a75650b0a73ba7aed71f5eb0c2065c0f593dc2f422dcb817db1ec41b6eb888a3a8c01dbaf5eaeec7429a83d5
   languageName: node
   linkType: hard
 
-"jest-cli@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "jest-cli@npm:29.3.1"
+"jest-cli@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "jest-cli@npm:29.4.1"
   dependencies:
-    "@jest/core": ^29.3.1
-    "@jest/test-result": ^29.3.1
-    "@jest/types": ^29.3.1
+    "@jest/core": ^29.4.1
+    "@jest/test-result": ^29.4.1
+    "@jest/types": ^29.4.1
     chalk: ^4.0.0
     exit: ^0.1.2
     graceful-fs: ^4.2.9
     import-local: ^3.0.2
-    jest-config: ^29.3.1
-    jest-util: ^29.3.1
-    jest-validate: ^29.3.1
+    jest-config: ^29.4.1
+    jest-util: ^29.4.1
+    jest-validate: ^29.4.1
     prompts: ^2.0.1
     yargs: ^17.3.1
   peerDependencies:
@@ -15469,34 +15426,34 @@ __metadata:
       optional: true
   bin:
     jest: bin/jest.js
-  checksum: 829895d33060042443bd1e9e87eb68993773d74f2c8a9b863acf53cece39d227ae0e7d76df2e9c5934c414bdf70ce398a34b3122cfe22164acb2499a74d7288d
+  checksum: 12318e61d51288f4c43ad38f776df8e31264f31458d4b810583945b137ddf9ebbcdd2018cef9987e973f56cf716892649bff650d8b80cae8d868a35c4f0f3f93
   languageName: node
   linkType: hard
 
-"jest-config@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "jest-config@npm:29.3.1"
+"jest-config@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "jest-config@npm:29.4.1"
   dependencies:
     "@babel/core": ^7.11.6
-    "@jest/test-sequencer": ^29.3.1
-    "@jest/types": ^29.3.1
-    babel-jest: ^29.3.1
+    "@jest/test-sequencer": ^29.4.1
+    "@jest/types": ^29.4.1
+    babel-jest: ^29.4.1
     chalk: ^4.0.0
     ci-info: ^3.2.0
     deepmerge: ^4.2.2
     glob: ^7.1.3
     graceful-fs: ^4.2.9
-    jest-circus: ^29.3.1
-    jest-environment-node: ^29.3.1
+    jest-circus: ^29.4.1
+    jest-environment-node: ^29.4.1
     jest-get-type: ^29.2.0
     jest-regex-util: ^29.2.0
-    jest-resolve: ^29.3.1
-    jest-runner: ^29.3.1
-    jest-util: ^29.3.1
-    jest-validate: ^29.3.1
+    jest-resolve: ^29.4.1
+    jest-runner: ^29.4.1
+    jest-util: ^29.4.1
+    jest-validate: ^29.4.1
     micromatch: ^4.0.4
     parse-json: ^5.2.0
-    pretty-format: ^29.3.1
+    pretty-format: ^29.4.1
     slash: ^3.0.0
     strip-json-comments: ^3.1.1
   peerDependencies:
@@ -15507,7 +15464,7 @@ __metadata:
       optional: true
     ts-node:
       optional: true
-  checksum: 6e663f04ae1024a53a4c2c744499b4408ca9a8b74381dd5e31b11bb3c7393311ecff0fb61b06287768709eb2c9e5a2fd166d258f5a9123abbb4c5812f99c12fe
+  checksum: 7ca9c46b25cdf1bd1dd77edeb9ae1a9669e47e6d3af7097bb21b43883415e8311ef97d7b17da5d8eaae695d89e368cfd427a98836391ffec2bdb683b3f4fa060
   languageName: node
   linkType: hard
 
@@ -15523,6 +15480,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jest-diff@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "jest-diff@npm:29.4.1"
+  dependencies:
+    chalk: ^4.0.0
+    diff-sequences: ^29.3.1
+    jest-get-type: ^29.2.0
+    pretty-format: ^29.4.1
+  checksum: 359af2d11a75bbb3c91e3def8cfd0ede00afc6fb5d69d9495f2af5f6e18f692adb940d8338a186159f75afe48088d82bce14e2cc272cad9a5c2148bf0bc7f6bf
+  languageName: node
+  linkType: hard
+
 "jest-docblock@npm:^29.2.0":
   version: 29.2.0
   resolution: "jest-docblock@npm:29.2.0"
@@ -15532,30 +15501,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-each@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "jest-each@npm:29.3.1"
+"jest-each@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "jest-each@npm:29.4.1"
   dependencies:
-    "@jest/types": ^29.3.1
+    "@jest/types": ^29.4.1
     chalk: ^4.0.0
     jest-get-type: ^29.2.0
-    jest-util: ^29.3.1
-    pretty-format: ^29.3.1
-  checksum: 16d51ef8f96fba44a3479f1c6f7672027e3b39236dc4e41217c38fe60a3b66b022ffcee72f8835a442f7a8a0a65980a93fb8e73a9782d192452526e442ad049a
+    jest-util: ^29.4.1
+    pretty-format: ^29.4.1
+  checksum: af44c12c747c4b76534b34f7135176c645ff740b59b20a29a3c6c97590ddb4216e7a2e076a43e98a0132350b4af5af3d8e5334bdd7753bf999a5ee240b7360b8
   languageName: node
   linkType: hard
 
-"jest-environment-node@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "jest-environment-node@npm:29.3.1"
+"jest-environment-node@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "jest-environment-node@npm:29.4.1"
   dependencies:
-    "@jest/environment": ^29.3.1
-    "@jest/fake-timers": ^29.3.1
-    "@jest/types": ^29.3.1
+    "@jest/environment": ^29.4.1
+    "@jest/fake-timers": ^29.4.1
+    "@jest/types": ^29.4.1
     "@types/node": "*"
-    jest-mock: ^29.3.1
-    jest-util: ^29.3.1
-  checksum: 16d4854bd2d35501bd4862ca069baf27ce9f5fd7642fdcab9d2dab49acd28c082d0c8882bf2bb28ed7bbaada486da577c814c9688ddc62d1d9f74a954fde996a
+    jest-mock: ^29.4.1
+    jest-util: ^29.4.1
+  checksum: 1de024edbc8a281b2c54d379d649a2d63e153049848c257be4118eaa5136cc4943a32f3ce44841ca2356e18850ab51f833cb94509f268e25ebcd32c6bfac27a3
   languageName: node
   linkType: hard
 
@@ -15591,29 +15560,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-haste-map@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "jest-haste-map@npm:29.3.1"
-  dependencies:
-    "@jest/types": ^29.3.1
-    "@types/graceful-fs": ^4.1.3
-    "@types/node": "*"
-    anymatch: ^3.0.3
-    fb-watchman: ^2.0.0
-    fsevents: ^2.3.2
-    graceful-fs: ^4.2.9
-    jest-regex-util: ^29.2.0
-    jest-util: ^29.3.1
-    jest-worker: ^29.3.1
-    micromatch: ^4.0.4
-    walker: ^1.0.8
-  dependenciesMeta:
-    fsevents:
-      optional: true
-  checksum: 97ea26af0c28a2ba568c9c65d06211487bbcd501cb4944f9d55e07fd2b00ad96653ea2cc9033f3d5b7dc1feda33e47ae9cc56b400191ea4533be213c9f82e67c
-  languageName: node
-  linkType: hard
-
 "jest-haste-map@npm:^29.4.1":
   version: 29.4.1
   resolution: "jest-haste-map@npm:29.4.1"
@@ -15637,13 +15583,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-leak-detector@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "jest-leak-detector@npm:29.3.1"
+"jest-leak-detector@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "jest-leak-detector@npm:29.4.1"
   dependencies:
     jest-get-type: ^29.2.0
-    pretty-format: ^29.3.1
-  checksum: 0dd8ed31ae0b5a3d14f13f567ca8567f2663dd2d540d1e55511d3b3fd7f80a1d075392179674ebe9fab9be0b73678bf4d2f8bbbc0f4bdd52b9815259194da559
+    pretty-format: ^29.4.1
+  checksum: 94f8091e52e163a4e50420112988d8386117dfa92bd21738d9a367dc5e1f87d3e645bee2db4fc7fc25a1d495934761bb7a64750d61a7e7b6477b8f1f54da317c
   languageName: node
   linkType: hard
 
@@ -15656,6 +15602,18 @@ __metadata:
     jest-get-type: ^29.2.0
     pretty-format: ^29.3.1
   checksum: 311e8d9f1e935216afc7dd8c6acf1fbda67a7415e1afb1bf72757213dfb025c1f2dc5e2c185c08064a35cdc1f2d8e40c57616666774ed1b03e57eb311c20ec77
+  languageName: node
+  linkType: hard
+
+"jest-matcher-utils@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "jest-matcher-utils@npm:29.4.1"
+  dependencies:
+    chalk: ^4.0.0
+    jest-diff: ^29.4.1
+    jest-get-type: ^29.2.0
+    pretty-format: ^29.4.1
+  checksum: ea84dbcae82241cb28e94ff586660aeec51196d9245413dc516ce3aa78140b3ea728b1168b242281b59ad513b0148b9f12d674729bd043a894a3ba9d6ec164f4
   languageName: node
   linkType: hard
 
@@ -15676,14 +15634,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-mock@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "jest-mock@npm:29.3.1"
+"jest-message-util@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "jest-message-util@npm:29.4.1"
   dependencies:
-    "@jest/types": ^29.3.1
+    "@babel/code-frame": ^7.12.13
+    "@jest/types": ^29.4.1
+    "@types/stack-utils": ^2.0.0
+    chalk: ^4.0.0
+    graceful-fs: ^4.2.9
+    micromatch: ^4.0.4
+    pretty-format: ^29.4.1
+    slash: ^3.0.0
+    stack-utils: ^2.0.3
+  checksum: 7d49823401b6d42f0d2d63dd9c0f11d2f64783416f82a68634190abee46e600e25bb0b380c746726acc56e854687bb03a76e26e617fcdda78e8c6316423b694f
+  languageName: node
+  linkType: hard
+
+"jest-mock@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "jest-mock@npm:29.4.1"
+  dependencies:
+    "@jest/types": ^29.4.1
     "@types/node": "*"
-    jest-util: ^29.3.1
-  checksum: 9098852cb2866db4a1a59f9f7581741dfc572f648e9e574a1b187fd69f5f2f6190ad387ede21e139a8b80a6a1343ecc3d6751cd2ae1ae11d7ea9fa1950390fb2
+    jest-util: ^29.4.1
+  checksum: 7f595a71886a64eda21b9fc2660e86a02f0efe6685496c675e6be921d5609fe9ac5fe97e8c7d1cae811974967439e8daa12c1779e731bdd777c47326f173e4a2
   languageName: node
   linkType: hard
 
@@ -15713,89 +15688,90 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-resolve-dependencies@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "jest-resolve-dependencies@npm:29.3.1"
+"jest-resolve-dependencies@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "jest-resolve-dependencies@npm:29.4.1"
   dependencies:
     jest-regex-util: ^29.2.0
-    jest-snapshot: ^29.3.1
-  checksum: 6ec4727a87c6e7954e93de9949ab9967b340ee2f07626144c273355f05a2b65fa47eb8dece2d6e5f4fd99cdb893510a3540aa5e14ba443f70b3feb63f6f98982
+    jest-snapshot: ^29.4.1
+  checksum: 561e588abc1aae3d44a46b53eaeee1bc86419407c2e9b97afb7b3fc6ea2df06ef1523e9561bfc8d790c7a48a40031c3b1e1f38281850d23b0a07351553f7e85e
   languageName: node
   linkType: hard
 
-"jest-resolve@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "jest-resolve@npm:29.3.1"
+"jest-resolve@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "jest-resolve@npm:29.4.1"
   dependencies:
     chalk: ^4.0.0
     graceful-fs: ^4.2.9
-    jest-haste-map: ^29.3.1
+    jest-haste-map: ^29.4.1
     jest-pnp-resolver: ^1.2.2
-    jest-util: ^29.3.1
-    jest-validate: ^29.3.1
+    jest-util: ^29.4.1
+    jest-validate: ^29.4.1
     resolve: ^1.20.0
-    resolve.exports: ^1.1.0
+    resolve.exports: ^2.0.0
     slash: ^3.0.0
-  checksum: 0dea22ed625e07b8bfee52dea1391d3a4b453c1a0c627a0fa7c22e44bb48e1c289afe6f3c316def70753773f099c4e8f436c7a2cc12fcc6c7dd6da38cba2cd5f
+  checksum: 1e19c0156937366b3edc867d38ca4c6c8193067605921544a5f5d2019a96c01be5fb9b385bb61a3600eacaceb7a3333f42dbed4cb699403d8575d476a9d4c5d5
   languageName: node
   linkType: hard
 
-"jest-runner@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "jest-runner@npm:29.3.1"
+"jest-runner@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "jest-runner@npm:29.4.1"
   dependencies:
-    "@jest/console": ^29.3.1
-    "@jest/environment": ^29.3.1
-    "@jest/test-result": ^29.3.1
-    "@jest/transform": ^29.3.1
-    "@jest/types": ^29.3.1
+    "@jest/console": ^29.4.1
+    "@jest/environment": ^29.4.1
+    "@jest/test-result": ^29.4.1
+    "@jest/transform": ^29.4.1
+    "@jest/types": ^29.4.1
     "@types/node": "*"
     chalk: ^4.0.0
     emittery: ^0.13.1
     graceful-fs: ^4.2.9
     jest-docblock: ^29.2.0
-    jest-environment-node: ^29.3.1
-    jest-haste-map: ^29.3.1
-    jest-leak-detector: ^29.3.1
-    jest-message-util: ^29.3.1
-    jest-resolve: ^29.3.1
-    jest-runtime: ^29.3.1
-    jest-util: ^29.3.1
-    jest-watcher: ^29.3.1
-    jest-worker: ^29.3.1
+    jest-environment-node: ^29.4.1
+    jest-haste-map: ^29.4.1
+    jest-leak-detector: ^29.4.1
+    jest-message-util: ^29.4.1
+    jest-resolve: ^29.4.1
+    jest-runtime: ^29.4.1
+    jest-util: ^29.4.1
+    jest-watcher: ^29.4.1
+    jest-worker: ^29.4.1
     p-limit: ^3.1.0
     source-map-support: 0.5.13
-  checksum: 61ad445d8a5f29573332f27a21fc942fb0d2a82bf901a0ea1035bf3bd7f349d1e425f71f54c3a3f89b292a54872c3248d395a2829d987f26b6025b15530ea5d2
+  checksum: b6651d8ac16c9f3ce502b58c97e59b062e83b3b7a9bee91812fbbcf141098ef1456902be6598d7980727a0c22457290cb548913dea5bd25ceaca4e1822f733bf
   languageName: node
   linkType: hard
 
-"jest-runtime@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "jest-runtime@npm:29.3.1"
+"jest-runtime@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "jest-runtime@npm:29.4.1"
   dependencies:
-    "@jest/environment": ^29.3.1
-    "@jest/fake-timers": ^29.3.1
-    "@jest/globals": ^29.3.1
+    "@jest/environment": ^29.4.1
+    "@jest/fake-timers": ^29.4.1
+    "@jest/globals": ^29.4.1
     "@jest/source-map": ^29.2.0
-    "@jest/test-result": ^29.3.1
-    "@jest/transform": ^29.3.1
-    "@jest/types": ^29.3.1
+    "@jest/test-result": ^29.4.1
+    "@jest/transform": ^29.4.1
+    "@jest/types": ^29.4.1
     "@types/node": "*"
     chalk: ^4.0.0
     cjs-module-lexer: ^1.0.0
     collect-v8-coverage: ^1.0.0
     glob: ^7.1.3
     graceful-fs: ^4.2.9
-    jest-haste-map: ^29.3.1
-    jest-message-util: ^29.3.1
-    jest-mock: ^29.3.1
+    jest-haste-map: ^29.4.1
+    jest-message-util: ^29.4.1
+    jest-mock: ^29.4.1
     jest-regex-util: ^29.2.0
-    jest-resolve: ^29.3.1
-    jest-snapshot: ^29.3.1
-    jest-util: ^29.3.1
+    jest-resolve: ^29.4.1
+    jest-snapshot: ^29.4.1
+    jest-util: ^29.4.1
+    semver: ^7.3.5
     slash: ^3.0.0
     strip-bom: ^4.0.0
-  checksum: 82f27b48f000be074064a854e16e768f9453e9b791d8c5f9316606c37f871b5b10f70544c1b218ab9784f00bd972bb77f868c5ab6752c275be2cd219c351f5a7
+  checksum: 6c5fcc350ef019bbc0c0601e41c236f4f666c6cee2eef5048fd07a48cc579133d68c852a0d68d9ebbc9b4e115a4f1d0ab5641f3d204944f312fbcb11b73cef8f
   languageName: node
   linkType: hard
 
@@ -15809,9 +15785,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-snapshot@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "jest-snapshot@npm:29.3.1"
+"jest-snapshot@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "jest-snapshot@npm:29.4.1"
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/generator": ^7.7.2
@@ -15819,25 +15795,25 @@ __metadata:
     "@babel/plugin-syntax-typescript": ^7.7.2
     "@babel/traverse": ^7.7.2
     "@babel/types": ^7.3.3
-    "@jest/expect-utils": ^29.3.1
-    "@jest/transform": ^29.3.1
-    "@jest/types": ^29.3.1
+    "@jest/expect-utils": ^29.4.1
+    "@jest/transform": ^29.4.1
+    "@jest/types": ^29.4.1
     "@types/babel__traverse": ^7.0.6
     "@types/prettier": ^2.1.5
     babel-preset-current-node-syntax: ^1.0.0
     chalk: ^4.0.0
-    expect: ^29.3.1
+    expect: ^29.4.1
     graceful-fs: ^4.2.9
-    jest-diff: ^29.3.1
+    jest-diff: ^29.4.1
     jest-get-type: ^29.2.0
-    jest-haste-map: ^29.3.1
-    jest-matcher-utils: ^29.3.1
-    jest-message-util: ^29.3.1
-    jest-util: ^29.3.1
+    jest-haste-map: ^29.4.1
+    jest-matcher-utils: ^29.4.1
+    jest-message-util: ^29.4.1
+    jest-util: ^29.4.1
     natural-compare: ^1.4.0
-    pretty-format: ^29.3.1
+    pretty-format: ^29.4.1
     semver: ^7.3.5
-  checksum: d7d0077935e78c353c828be78ccb092e12ba7622cb0577f21641fadd728ae63a7c1f4a0d8113bfb38db3453a64bfa232fb1cdeefe0e2b48c52ef4065b0ab75ae
+  checksum: 0d309d4a5edd985be1a9e2d64a78f588f5d98b8add709cdf72c6ce77508329dccdb0de3f0be45223f67535691f3eb6430c13fdfb7dfcca7a81d4a210de2fa736
   languageName: node
   linkType: hard
 
@@ -15883,33 +15859,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-validate@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "jest-validate@npm:29.3.1"
+"jest-validate@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "jest-validate@npm:29.4.1"
   dependencies:
-    "@jest/types": ^29.3.1
+    "@jest/types": ^29.4.1
     camelcase: ^6.2.0
     chalk: ^4.0.0
     jest-get-type: ^29.2.0
     leven: ^3.1.0
-    pretty-format: ^29.3.1
-  checksum: 92584f0b8ac284235f12b3b812ccbc43ef6dea080a3b98b1aa81adbe009e962d0aa6131f21c8157b30ac3d58f335961694238a93d553d1d1e02ab264c923778c
+    pretty-format: ^29.4.1
+  checksum: f2cd98293ed961e79bc75935fbc8fc18e57bcd207175a4119baf810da38542704545afa8ca402456e34d298e44c7564570400645537c31dab9bf27e18284a650
   languageName: node
   linkType: hard
 
-"jest-watcher@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "jest-watcher@npm:29.3.1"
+"jest-watcher@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "jest-watcher@npm:29.4.1"
   dependencies:
-    "@jest/test-result": ^29.3.1
-    "@jest/types": ^29.3.1
+    "@jest/test-result": ^29.4.1
+    "@jest/types": ^29.4.1
     "@types/node": "*"
     ansi-escapes: ^4.2.1
     chalk: ^4.0.0
     emittery: ^0.13.1
-    jest-util: ^29.3.1
+    jest-util: ^29.4.1
     string-length: ^4.0.1
-  checksum: 60d189473486c73e9d540406a30189da5a3c67bfb0fb4ad4a83991c189135ef76d929ec99284ca5a505fe4ee9349ae3c99b54d2e00363e72837b46e77dec9642
+  checksum: 210c4931e065367bf8fcd08a31506245610f25cf4bf566c67136afd963fdf9ff56730570e794e52d7ae2f9e6e64f6d92b9287691af14b01dd7deacac840415fb
   languageName: node
   linkType: hard
 
@@ -15935,18 +15911,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-worker@npm:^29.3.1":
-  version: 29.3.1
-  resolution: "jest-worker@npm:29.3.1"
-  dependencies:
-    "@types/node": "*"
-    jest-util: ^29.3.1
-    merge-stream: ^2.0.0
-    supports-color: ^8.0.0
-  checksum: 38687fcbdc2b7ddc70bbb5dfc703ae095b46b3c7f206d62ecdf5f4d16e336178e217302138f3b906125576bb1cfe4cfe8d43681276fa5899d138ed9422099fb3
-  languageName: node
-  linkType: hard
-
 "jest-worker@npm:^29.4.1":
   version: 29.4.1
   resolution: "jest-worker@npm:29.4.1"
@@ -15959,14 +15923,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:29.3.1":
-  version: 29.3.1
-  resolution: "jest@npm:29.3.1"
+"jest@npm:29.4.1":
+  version: 29.4.1
+  resolution: "jest@npm:29.4.1"
   dependencies:
-    "@jest/core": ^29.3.1
-    "@jest/types": ^29.3.1
+    "@jest/core": ^29.4.1
+    "@jest/types": ^29.4.1
     import-local: ^3.0.2
-    jest-cli: ^29.3.1
+    jest-cli: ^29.4.1
   peerDependencies:
     node-notifier: ^8.0.1 || ^9.0.0 || ^10.0.0
   peerDependenciesMeta:
@@ -15974,7 +15938,7 @@ __metadata:
       optional: true
   bin:
     jest: bin/jest.js
-  checksum: 613f4ec657b14dd84c0056b2fef1468502927fd551bef0b19d4a91576a609678fb316c6a5b5fc6120dd30dd4ff4569070ffef3cb507db9bb0260b28ddaa18d7a
+  checksum: b2f74b24d74e135460579a34727d5027818ab6d55a84cbb1d6e730064f8c8fec0590092c6a84334178b310b923587798b0091ab8ae40baba372530fc46dfd195
   languageName: node
   linkType: hard
 
@@ -16665,10 +16629,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"linkifyjs@npm:4.0.2":
-  version: 4.0.2
-  resolution: "linkifyjs@npm:4.0.2"
-  checksum: b457d6c8ce1817645764969d9420358fad19b3576399ce4dc96a846fe953d022f7ec4d8362a0895d4b7db374c5563febc075fb7080f5f058479b9fb6d6b64285
+"linkifyjs@npm:4.1.0":
+  version: 4.1.0
+  resolution: "linkifyjs@npm:4.1.0"
+  checksum: 290931a320052a26bd3b28ccb7794c8b6b607d639a3c987e63b28cf2885e67bc748a87c390316c4786dc6e3e0acf59385345df1b03fb6206dcaff18c04382fa8
   languageName: node
   linkType: hard
 
@@ -20284,6 +20248,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pretty-format@npm:^29.4.1":
+  version: 29.4.1
+  resolution: "pretty-format@npm:29.4.1"
+  dependencies:
+    "@jest/schemas": ^29.4.0
+    ansi-styles: ^5.0.0
+    react-is: ^18.0.0
+  checksum: bcc8e86bcf8e7f5106c96e2ea7905912bd17ae2aac76e4e0745d2a50df4b340638ed95090ee455a1c0f78189efa05077bd655ca08bf66292e83ebd7035fc46fd
+  languageName: node
+  linkType: hard
+
 "pretty-hrtime@npm:^1.0.3":
   version: 1.0.3
   resolution: "pretty-hrtime@npm:1.0.3"
@@ -21497,10 +21472,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"resolve.exports@npm:^1.1.0":
-  version: 1.1.1
-  resolution: "resolve.exports@npm:1.1.1"
-  checksum: 485aa10082eb388a569d696e17ad7b16f4186efc97dd34eadd029d95b811f21ffee13b1b733198bb4584dbb3cb296aa6f141835221fb7613b9606b84f1386655
+"resolve.exports@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "resolve.exports@npm:2.0.0"
+  checksum: d8bee3b0cc0a0ae6c8323710983505bc6a3a2574f718e96f01e048a0f0af035941434b386cc9efc7eededc5e1199726185c306ec6f6a1aa55d5fbad926fd0634
   languageName: node
   linkType: hard
 
@@ -22907,31 +22882,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stentor-channel@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-channel@npm:1.57.60"
+"stentor-channel@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-channel@npm:1.57.61"
   dependencies:
     "@xapp/patterns": 2.0.1
-    stentor-logger: 1.57.60
-    stentor-utils: 1.57.60
+    stentor-logger: 1.57.61
+    stentor-utils: 1.57.61
   peerDependencies:
     stentor-models: 1.x
-  checksum: 6f64fc69bfff22935849be7287f0cac38dcfb213ced1b7263602a8d59925db52f0f935556964f8cb799b193817a67616618060c1c0afaae20250fd0bb4466957
+  checksum: 71a7c9ec52759d329396db7bc751694521c62331581baed711c0302368acfcf084630ad47ae8f95c8c1958893f40a475553ebd7529f842899ac5d632994f4b8d
   languageName: node
   linkType: hard
 
-"stentor-conditional@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-conditional@npm:1.57.60"
+"stentor-conditional@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-conditional@npm:1.57.61"
   dependencies:
-    stentor-logger: 1.57.60
+    stentor-logger: 1.57.61
     vm2: 3.9.13
   peerDependencies:
     stentor-models: 1.x
   dependenciesMeta:
     vm2:
       optional: true
-  checksum: 53de0ffc0d5dc932bfba2d16de9c044e347420ab87be0308d367ca1e47eb072eb49daf654956fd42108d7546c62978e991ac2d09aa83af563e98a910730236c3
+  checksum: 6bb6625013753c3e14a3956053584a9f06f440284a08269fbb6f9b3d1fa2dd2ccfb2d42aee2593a26b54c3ca98758af2c1bf8b4fbee98441f84972f75dc6aca1
   languageName: node
   linkType: hard
 
@@ -22944,47 +22919,47 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stentor-constants@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-constants@npm:1.57.60"
+"stentor-constants@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-constants@npm:1.57.61"
   peerDependencies:
     stentor-models: 1.x
-  checksum: 14ac61b90dc7bdd7bd4d56e1fbf6f989c6b9ec015f851fbaaf70f95002ffd56eb7701d8e34abf643e809960869941c63dd1272654cf09a8efce6beb06df90f36
+  checksum: 81b004c08555ac0b4cf4842bda086404d27344c23dc40dbf9ddfab6d9de59dee419937a443afcd34daec360d8f6e479c936410963851b9d911ec30749d26deb9
   languageName: node
   linkType: hard
 
-"stentor-context@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-context@npm:1.57.60"
+"stentor-context@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-context@npm:1.57.61"
   dependencies:
     "@xapp/patterns": 2.0.1
-    stentor-constants: 1.57.60
-    stentor-guards: 1.57.60
-    stentor-response: 1.57.60
-    stentor-storage: 1.57.60
+    stentor-constants: 1.57.61
+    stentor-guards: 1.57.61
+    stentor-response: 1.57.61
+    stentor-storage: 1.57.61
   peerDependencies:
     stentor-models: 1.x
-  checksum: 46087059706bb134d13aee6e4b20376a46afd01f8629315648249f55b9eea52d9405a204599336151424c89d1034e9ac7e279add4f9633e1f82d4ddf3cb60ffc
+  checksum: 2afae985c6fa531f6dfd1daba88690beef0646fecee31029abd5254ddc4f96817c0b035041ec07df6c9a09ad643cb1a6a78f483b085c7bfe8de3735b9ffddacc
   languageName: node
   linkType: hard
 
-"stentor-determiner@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-determiner@npm:1.57.60"
+"stentor-determiner@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-determiner@npm:1.57.61"
   dependencies:
     jsonpath-plus: 7.2.0
-    stentor-conditional: 1.57.60
-    stentor-constants: 1.57.60
-    stentor-guards: 1.57.60
-    stentor-interaction-model: 1.57.60
-    stentor-logger: 1.57.60
-    stentor-request: 1.57.60
-    stentor-storage: 1.57.60
-    stentor-time: 1.57.60
-    stentor-utils: 1.57.60
+    stentor-conditional: 1.57.61
+    stentor-constants: 1.57.61
+    stentor-guards: 1.57.61
+    stentor-interaction-model: 1.57.61
+    stentor-logger: 1.57.61
+    stentor-request: 1.57.61
+    stentor-storage: 1.57.61
+    stentor-time: 1.57.61
+    stentor-utils: 1.57.61
   peerDependencies:
     stentor-models: 1.x
-  checksum: 2faafea67d5ababbdbf28d207774ac903b90aeda37015fcc5b8f36b15769af29db88183cf33466088344197983305ed70925036da7b88402237750c916ae0170
+  checksum: 3e97decba267d3971e18fee9d6b70562bd4961b215f6730da8ab62bf921d910e0786c280b5d159607ab32123ee1c0eb59c05d1d3f1a5ed1c55c1ff67f5cbcd86
   languageName: node
   linkType: hard
 
@@ -22999,300 +22974,300 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stentor-guards@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-guards@npm:1.57.60"
+"stentor-guards@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-guards@npm:1.57.61"
   dependencies:
-    stentor-constants: 1.57.60
+    stentor-constants: 1.57.61
   peerDependencies:
     stentor-models: 1.x
-  checksum: 908fdf2e06adee0e068ffa58df10886073ae795bb2a54d4d9dfecb69d1f7cb72fc4f072582b344407c1acef0e658b873ad62133240041399e27d7177bc2f25c3
+  checksum: 984132b66f5f90ccc7f6367ed19a32f6ebc143a1eef833f0d185d1d6d9b509445c5cde906df52adfaf933a30eb69de280f05014ae76319aeccfadc6ad74cb60d
   languageName: node
   linkType: hard
 
-"stentor-handler-delegating@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-handler-delegating@npm:1.57.60"
+"stentor-handler-delegating@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-handler-delegating@npm:1.57.61"
   dependencies:
-    stentor-handler: 1.57.60
-    stentor-utils: 1.57.60
+    stentor-handler: 1.57.61
+    stentor-utils: 1.57.61
   peerDependencies:
     stentor-models: 1.x
-  checksum: 0975128864f016330b9b6a6b1174451219cea2e367ef224fac2c437c6ee51919fb242707ca55e5b1e7717c2ac4e5e3b52abafe66a1c64ace7a8ddada35a1b412
+  checksum: 8830520470e7db9574e42b2a604ab4f98d1df9120e996bb5bdeb67fc6e88f1e404b316ca554e1b133cb49b57ad12debdd4c12c3e6d5a6300cca57a22aeedb9ef
   languageName: node
   linkType: hard
 
-"stentor-handler-factory@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-handler-factory@npm:1.57.60"
+"stentor-handler-factory@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-handler-factory@npm:1.57.61"
   dependencies:
-    stentor-constants: 1.57.60
-    stentor-context: 1.57.60
-    stentor-handler: 1.57.60
-    stentor-handler-delegating: 1.57.60
-    stentor-interaction-model: 1.57.60
-    stentor-logger: 1.57.60
-    stentor-response: 1.57.60
-    stentor-utils: 1.57.60
+    stentor-constants: 1.57.61
+    stentor-context: 1.57.61
+    stentor-handler: 1.57.61
+    stentor-handler-delegating: 1.57.61
+    stentor-interaction-model: 1.57.61
+    stentor-logger: 1.57.61
+    stentor-response: 1.57.61
+    stentor-utils: 1.57.61
   peerDependencies:
     stentor-models: 1.x
-  checksum: 058677b023603eeebe2c2bcd4e5cbf6e92c4b106756611b590d8ce89ffcb79a1c3a039ec30519b5774123aca17b66a06e6d6cfd7e740d6e61d486a242cd345ab
+  checksum: 99d12ca0bbfe6364503516141f87f03bb0e92049ecf728983ece03c0b58cb7adf1db922ab7f33c742a3a0d988c82fdd636e58618b874559b7fd5bacc21f38ddb
   languageName: node
   linkType: hard
 
-"stentor-handler-manager@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-handler-manager@npm:1.57.60"
+"stentor-handler-manager@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-handler-manager@npm:1.57.61"
   dependencies:
-    stentor-guards: 1.57.60
-    stentor-handler: 1.57.60
-    stentor-handler-factory: 1.57.60
-    stentor-logger: 1.57.60
-    stentor-response: 1.57.60
-    stentor-storage: 1.57.60
+    stentor-guards: 1.57.61
+    stentor-handler: 1.57.61
+    stentor-handler-factory: 1.57.61
+    stentor-logger: 1.57.61
+    stentor-response: 1.57.61
+    stentor-storage: 1.57.61
   peerDependencies:
     stentor-models: 1.x
-  checksum: 08d2a211110309730e3d0375240f537f454c093debf6538ec2e690c6a6d70dab21c644a8198266143c534442408fb4b1784717c9d54783bd8e9c2ba513402904
+  checksum: e538124d5c509a224655687aa5677d47f6546af2d1ae36dd83df1d19068f9ada7b1230b03372005d0c6972bf1189fabefdaad4f31c5f5abf14b368a7bc78c1ca
   languageName: node
   linkType: hard
 
-"stentor-handler@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-handler@npm:1.57.60"
+"stentor-handler@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-handler@npm:1.57.61"
   dependencies:
     "@xapp/patterns": 2.0.1
-    stentor-conditional: 1.57.60
-    stentor-constants: 1.57.60
-    stentor-context: 1.57.60
-    stentor-guards: 1.57.60
-    stentor-history: 1.57.60
-    stentor-interaction-model: 1.57.60
-    stentor-locales: 1.57.60
-    stentor-logger: 1.57.60
-    stentor-response: 1.57.60
-    stentor-storage: 1.57.60
-    stentor-utils: 1.57.60
+    stentor-conditional: 1.57.61
+    stentor-constants: 1.57.61
+    stentor-context: 1.57.61
+    stentor-guards: 1.57.61
+    stentor-history: 1.57.61
+    stentor-interaction-model: 1.57.61
+    stentor-locales: 1.57.61
+    stentor-logger: 1.57.61
+    stentor-response: 1.57.61
+    stentor-storage: 1.57.61
+    stentor-utils: 1.57.61
   peerDependencies:
     stentor-models: 1.x
-  checksum: 80af10122fd7cecb30694e0f929d2e4c203b5d0151f8058adae1f299b089a81cf31d524cb7fdbf9103f32a6c865d2f7967ef11d3220c9e6c7b99e6347e156ab0
+  checksum: 9bf3101c0c7fcf5d6478df9669ce2825116d736123e08e8cc6328118bf377b584d28199e1338135ef5394588813fbbd48fae723a1c613eb0945d811504b5735f
   languageName: node
   linkType: hard
 
-"stentor-history@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-history@npm:1.57.60"
+"stentor-history@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-history@npm:1.57.61"
   peerDependencies:
     stentor-models: 1.x
-  checksum: 3db19682525b8a665076e062a44ebf521fe0c57b299d72352a740bdc6d3e5821a146a08b44018eac7af8fe05c176f28c48be3aa18e3afd2a61f834c2eb5f38e1
+  checksum: b78612a7e53963443c43d2c2e14e98dee5a9607328064442c41af42e52d35294ee80670a6bae2d7dba22c026425cbe32f287b7f338f965a6154af2a5d102a7d3
   languageName: node
   linkType: hard
 
-"stentor-interaction-model@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-interaction-model@npm:1.57.60"
+"stentor-interaction-model@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-interaction-model@npm:1.57.61"
   dependencies:
-    stentor-constants: 1.57.60
-    stentor-locales: 1.57.60
-    stentor-logger: 1.57.60
-    stentor-utils: 1.57.60
+    stentor-constants: 1.57.61
+    stentor-locales: 1.57.61
+    stentor-logger: 1.57.61
+    stentor-utils: 1.57.61
   peerDependencies:
     stentor-models: 1.x
-  checksum: ce78da0a909cc5d4194a4bde32fed55601adc5ca39c0b2f4248f9dc204f68d0a4a5a184b15134ed009215ea3f60603e44e90490d6c10da0c147b4569ac579547
+  checksum: c638af5c82c41049dbcb3492bddb816447fc53b1e2ae05a4ed8047599e9d28c3fa85a37e19183b495b2f7fbbb57b2cd724b30a6fcf443f9e21d6a0c7409bd45a
   languageName: node
   linkType: hard
 
-"stentor-locales@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-locales@npm:1.57.60"
+"stentor-locales@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-locales@npm:1.57.61"
   dependencies:
-    stentor-utils: 1.57.60
+    stentor-utils: 1.57.61
   peerDependencies:
     stentor-models: 1.x
-  checksum: e76b7e2cb357f279a6579b598c79b82053984339dcdc7d8ea8fb51b7524c7e717f401ba5b3ec7b73c0b89de9bb4c77ef4a1ce91fd7c7c8728eef69a621e25c74
+  checksum: 9be3d89ca1521573c1610d764acd1c348ea9f4c5280a86134b59c36e15141d32faa7021a692ec4385091af681e0a39911b4f2968af2a7c5f547e8e6a1a83377e
   languageName: node
   linkType: hard
 
-"stentor-logger@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-logger@npm:1.57.60"
+"stentor-logger@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-logger@npm:1.57.61"
   dependencies:
     chalk: 4.1.2
-    stentor-utils: 1.57.60
+    stentor-utils: 1.57.61
     winston: 3.8.2
-  checksum: 1f8dc2d7f4064e4468cc1d4146d1c45cb330f2aeb371ca238b03350bf34cd830d90473a0e85ffd110e5134ed32b616412aa9cbf5aeca76c40d47e3f1df54f5a0
+  checksum: ae25bf875415bb02700c040ed8ff697680b40bc6d1b62c618f22a7419fffe9ae1933a09f8357a00f920c49e84ad51896cd2561493731986a6c275f19b3133795
   languageName: node
   linkType: hard
 
-"stentor-media@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-media@npm:1.57.60"
+"stentor-media@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-media@npm:1.57.61"
   dependencies:
-    stentor-guards: 1.57.60
-    stentor-time: 1.57.60
-    stentor-utils: 1.57.60
+    stentor-guards: 1.57.61
+    stentor-time: 1.57.61
+    stentor-utils: 1.57.61
   peerDependencies:
     stentor-models: 1.x
-  checksum: 9cf66782053a074a9bd631532ba15f4ec6659b5966c3801d3df4143877dace0ecb8f11f1766e293a1d338e3e493740ccd56109f6199179ef01f022306c29334a
+  checksum: c12f16730044dba038fd1fd352971f229df1a8eaecd44ebb7ced86f46939c860677c8fde7a1e4dbd2e96a0466e93302aebb859747b104a10f9022dcfe9fb77d1
   languageName: node
   linkType: hard
 
-"stentor-models@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-models@npm:1.57.60"
+"stentor-models@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-models@npm:1.57.61"
   dependencies:
     "@xapp/patterns": 2.0.1
-  checksum: 080e46eaae8055ee141121ad7d185d751381ae3408f0a15c1733313da23866f07e8c318b0ba739ed03df8202af79266ca37dbccad5f99818ce4bff12fd4ffbb2
+  checksum: b3e4f35657359dc56076c833a99204c7130b1b8d75e72f953f90e4f401b9bf179b844fbbecc8694386723cfac08338dfd5c5e9d3227c32d997a7f6e4352955a4
   languageName: node
   linkType: hard
 
-"stentor-request@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-request@npm:1.57.60"
+"stentor-request@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-request@npm:1.57.61"
   dependencies:
     "@xapp/patterns": 2.0.1
-    stentor-constants: 1.57.60
-    stentor-interaction-model: 1.57.60
-    stentor-utils: 1.57.60
+    stentor-constants: 1.57.61
+    stentor-interaction-model: 1.57.61
+    stentor-utils: 1.57.61
   peerDependencies:
     stentor-models: 1.x
-  checksum: a792be4c9e9c871847308fb6dfd77570037a0357f81637ee38574b7bc4e65c1a15f778e0f1bd7a77e857bc19143f3ed2970138fb3d5dda873c703c00f2c1d920
+  checksum: 57b150a753987cac65fc1f48bf3acce075827a56ef7e06c78dd09c59994d934a73031d74fa94e432429d577c38ed772f8f5d21321e9291e0803a2a006effe8df
   languageName: node
   linkType: hard
 
-"stentor-response@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-response@npm:1.57.60"
+"stentor-response@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-response@npm:1.57.61"
   dependencies:
     "@xapp/patterns": 2.0.1
     lodash.template: 4.5.0
-    stentor-determiner: 1.57.60
-    stentor-locales: 1.57.60
-    stentor-media: 1.57.60
-    stentor-utils: 1.57.60
+    stentor-determiner: 1.57.61
+    stentor-locales: 1.57.61
+    stentor-media: 1.57.61
+    stentor-utils: 1.57.61
   peerDependencies:
     stentor-models: 1.x
-  checksum: d29b63d2c43d7195ac5fa577fbaf41f5d16bf12bae0304561474055e94756ed79b5c4354beabd8c63d018213382feb363a1e930ddda78362c65b81568fb83ef1
+  checksum: d4ee0a7c364dfb05069330e00c41cefab883ed9a2659cf44c05867777eec10b4095897daff044450e6c95d51ed3c5d9b164b4d5adbb6faf15ff30b5b3b28147f
   languageName: node
   linkType: hard
 
-"stentor-runtime@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-runtime@npm:1.57.60"
+"stentor-runtime@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-runtime@npm:1.57.61"
   dependencies:
-    stentor-constants: 1.57.60
-    stentor-context: 1.57.60
-    stentor-handler: 1.57.60
-    stentor-handler-factory: 1.57.60
-    stentor-handler-manager: 1.57.60
-    stentor-history: 1.57.60
-    stentor-interaction-model: 1.57.60
-    stentor-logger: 1.57.60
-    stentor-response: 1.57.60
-    stentor-service-event: 1.57.60
-    stentor-utils: 1.57.60
+    stentor-constants: 1.57.61
+    stentor-context: 1.57.61
+    stentor-handler: 1.57.61
+    stentor-handler-factory: 1.57.61
+    stentor-handler-manager: 1.57.61
+    stentor-history: 1.57.61
+    stentor-interaction-model: 1.57.61
+    stentor-logger: 1.57.61
+    stentor-response: 1.57.61
+    stentor-service-event: 1.57.61
+    stentor-utils: 1.57.61
   peerDependencies:
     stentor-models: 1.x
-  checksum: e6a0ed8fd1d4857de19fece07931ed84c01e9cefe11a804f73e75c52d67c9ecb127c5b22ff1521d3f529be6898e6df9392242efb20b83c42c05357316f8fc49c
+  checksum: 06ae0078fbdc50ae8ce4d722028179f090c1faba978e4a34e0414857557b3bcbf20c9507cd4f6a711de88ac8520ab4417e87d7244c4178f627c3242e38afdeeb
   languageName: node
   linkType: hard
 
-"stentor-service-event@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-service-event@npm:1.57.60"
+"stentor-service-event@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-service-event@npm:1.57.61"
   dependencies:
     stacktrace-parser: 0.1.10
-    stentor-guards: 1.57.60
-    stentor-logger: 1.57.60
-    stentor-utils: 1.57.60
+    stentor-guards: 1.57.61
+    stentor-logger: 1.57.61
+    stentor-utils: 1.57.61
   peerDependencies:
     aws-sdk: 2.x
     stentor-models: 1.x
-  checksum: 6d698cb4e9e18f592f2675863464df835924c643d6cf95e228154a0f9f6f7469c8f96077bf39a73618908f8b88792e266cc347f688673eeb835668d50ad6bc53
+  checksum: 6b2f5526afdadeafe8cff3e7bbd1b3d9f5881b2197b8badc71cd2f604f3f709534176398bea34cd3c346c5aa69c689ac1ec68ed33f8e122ae1d6430ec376adc4
   languageName: node
   linkType: hard
 
-"stentor-service-fetch@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-service-fetch@npm:1.57.60"
+"stentor-service-fetch@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-service-fetch@npm:1.57.61"
   dependencies:
     abort-controller: 3.0.0
     isomorphic-fetch: 3.0.0
   peerDependencies:
     stentor-models: 1.x
-  checksum: a2c3028924eb3b81ac26d7d25fcd3892b61e3e0c50f37733f53ee57917cdbd3356f303ce4b2c55097178283f8864533bb0bab74539e3dc247c2a736a61bc1dad
+  checksum: f78b2c1a76dbbc954adcfa835407c550e5ea817b24a15d71871c54cc6e68b21f78e00acc9788e11d5e21055c40990e9ec7687e24fda054ab7bac2b67557ac2df
   languageName: node
   linkType: hard
 
-"stentor-service-ovai@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-service-ovai@npm:1.57.60"
+"stentor-service-ovai@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-service-ovai@npm:1.57.61"
   dependencies:
     isomorphic-fetch: 3.0.0
-    stentor-constants: 1.57.60
-    stentor-service-event: 1.57.60
-    stentor-utils: 1.57.60
+    stentor-constants: 1.57.61
+    stentor-service-event: 1.57.61
+    stentor-utils: 1.57.61
   peerDependencies:
     stentor-models: 1.x
-  checksum: 4e8389f98de54f62175b22b879117585adf49223e45571abdca62108954d57c16c199ec027d18a82e70badf5a37f8c96329a00d5b637791e34b581c96d90918b
+  checksum: 19148d699f76a0daffb5d7f2b7a2144b7a4c49e1c60b2871d82d242091fe397f8a5ce611e15c64e4a9593e6391428c5a23dc76cf955443e0605ad731b8c2b15e
   languageName: node
   linkType: hard
 
-"stentor-service-studio@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-service-studio@npm:1.57.60"
+"stentor-service-studio@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-service-studio@npm:1.57.61"
   dependencies:
     isomorphic-fetch: 3.0.0
-    stentor-constants: 1.57.60
-    stentor-service-event: 1.57.60
-    stentor-utils: 1.57.60
+    stentor-constants: 1.57.61
+    stentor-service-event: 1.57.61
+    stentor-utils: 1.57.61
   peerDependencies:
     stentor-models: 1.x
-  checksum: 38566b6c7838f27db67a92b6aa8639de5d3faf723c6221f479bb7b043160bb180f82d3c1ef829f48d11f8becfbc1864e8b335694bae44307f3a556aed93a206d
+  checksum: b0645cb24b0ab4c700dd69aa8ccbdc3e8e25e6138faaad220ae8e0054071b84112b9c786fc0098a585311f3033d8f1622898caccbfcc13f64c6dcee81b03021c
   languageName: node
   linkType: hard
 
-"stentor-storage@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-storage@npm:1.57.60"
+"stentor-storage@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-storage@npm:1.57.61"
   dependencies:
     jsonpath-plus: 7.2.0
-    stentor-utils: 1.57.60
+    stentor-utils: 1.57.61
   peerDependencies:
     stentor-models: 1.x
-  checksum: bda20edbe79e211bd2028146286c32f614d966805079d7efe8dbce4b78b8dfa39f9ce55a1550e82804418b37f5e867807afbfa591714033d77cb9c6e64fa2f0a
+  checksum: c04d4b11ce6ca808d7b48a0a815e4b9032880723abda11cfdc9fffbf339893ac2ecb2cdf5a43f2000dbfc534b5ea96a9d95ceb47a02a79ea3cba47fc2a31a138
   languageName: node
   linkType: hard
 
-"stentor-time@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-time@npm:1.57.60"
+"stentor-time@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-time@npm:1.57.61"
   dependencies:
     moment: 2.29.4
     moment-range: 4.0.2
     moment-timezone: 0.5.40
-    stentor-guards: 1.57.60
-    stentor-logger: 1.57.60
-    stentor-utils: 1.57.60
+    stentor-guards: 1.57.61
+    stentor-logger: 1.57.61
+    stentor-utils: 1.57.61
   peerDependencies:
     stentor-models: 1.x
-  checksum: 3f040a2bf65eee13b2170685e4e64fad606c73ad9f6d50611368c5954a6326aae0a73f09c424c08c0a8054d9bb2882fef1c0f9b2f9521b94e17ce65fc0e3340b
+  checksum: 4d1a20e617208b250c1a34121d2ee638684039016181b5ebfa6dbc254ce27f4c49a95bbf0b8691087f044ef089383d78b9d3831d66a106c88441be52c77440af
   languageName: node
   linkType: hard
 
-"stentor-user-storage-dynamo@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-user-storage-dynamo@npm:1.57.60"
+"stentor-user-storage-dynamo@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-user-storage-dynamo@npm:1.57.61"
   dependencies:
     "@xapp/dynamo-service": 1.8.7
   peerDependencies:
     stentor-models: 1.x
-  checksum: 1961115ac134ec9f8253200114a8dbe2bae6629de85bfd2a21bb87d8b5197b9aa344c21bc3400486fcacf185a59f2cc68a138d999cee42715654e43b69cfe371
+  checksum: 337d6dcc3b224a0d87712ce9998356298c6985de49108868b35a1fcde218517332fd69be30a932c750617b34abd4a3359ac30422d0a027d05bf1a42b4fd9bb8c
   languageName: node
   linkType: hard
 
-"stentor-utils@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor-utils@npm:1.57.60"
+"stentor-utils@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor-utils@npm:1.57.61"
   dependencies:
     "@types/xmldoc": 1.1.6
     blueimp-md5: 2.19.0
@@ -23313,21 +23288,21 @@ __metadata:
     numeral: 2.0.6
     sanitize-html: 2.8.1
     slugify: 1.6.5
-    stentor-constants: 1.57.60
-    stentor-guards: 1.57.60
+    stentor-constants: 1.57.61
+    stentor-guards: 1.57.61
     winston: 3.8.2
     words-to-numbers: 1.5.1
     xmldoc: 1.2.0
   peerDependencies:
     aws-sdk: 2.x
     stentor-models: 1.x
-  checksum: 9c6bcaaedff0fc98efe2a3a2f1260829e1bbc34b21e1438e20999f31a4d91145d263dbd01a8ffd95311564a46b9b3c09d2ac9a12b489827cce1bac2a30c61773
+  checksum: a5907f8af1d22cd1fe78589fa3b84337710a16c7b7af05d4b76259fe9b7b05d680ebf1afbea71096b5642af162208d2e77344c2b8daa14337398a9566ed6c0c1
   languageName: node
   linkType: hard
 
-"stentor@npm:1.57.60":
-  version: 1.57.60
-  resolution: "stentor@npm:1.57.60"
+"stentor@npm:1.57.61":
+  version: 1.57.61
+  resolution: "stentor@npm:1.57.61"
   dependencies:
     "@types/aws-lambda": 8.10.110
     "@types/body-parser": 1.19.2
@@ -23336,23 +23311,23 @@ __metadata:
     body-parser: 1.20.1
     dotenv: 16.0.3
     express: 4.18.2
-    stentor-constants: 1.57.60
-    stentor-context: 1.57.60
-    stentor-determiner: 1.57.60
-    stentor-handler: 1.57.60
-    stentor-handler-factory: 1.57.60
-    stentor-logger: 1.57.60
-    stentor-models: 1.57.60
-    stentor-request: 1.57.60
-    stentor-response: 1.57.60
-    stentor-runtime: 1.57.60
-    stentor-service-event: 1.57.60
-    stentor-service-ovai: 1.57.60
-    stentor-service-studio: 1.57.60
-    stentor-utils: 1.57.60
+    stentor-constants: 1.57.61
+    stentor-context: 1.57.61
+    stentor-determiner: 1.57.61
+    stentor-handler: 1.57.61
+    stentor-handler-factory: 1.57.61
+    stentor-logger: 1.57.61
+    stentor-models: 1.57.61
+    stentor-request: 1.57.61
+    stentor-response: 1.57.61
+    stentor-runtime: 1.57.61
+    stentor-service-event: 1.57.61
+    stentor-service-ovai: 1.57.61
+    stentor-service-studio: 1.57.61
+    stentor-utils: 1.57.61
   peerDependencies:
     aws-sdk: 2.X
-  checksum: 21b78bbcaeb7545b4ebdc7ee3b7ad2d17900caef7bab230031502ec80f0bb3241880a9eac2e04158edb919e8438f403bcffe01bb147c71d7070c10cf3dbd8d32
+  checksum: 1b3d8946c6b9cfb2a0977aa52af02251bd30fe41188455e4a64b3254b0839753a3a1caf44dc783b1dcbe9c6a19d965ce9782cf78fbb10f4a73e633628910c39c
   languageName: node
   linkType: hard
 

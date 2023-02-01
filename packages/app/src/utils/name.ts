@@ -121,7 +121,7 @@ export function parseAssumingName(name: string): NameOnlyIntentRequestSlotMap {
     // Don't pass one word strings
     if (name.split(/\s+/).length === 1) {
         // bail
-        log().warn(`#${parseAssumingName.name}() will not attempt to parse one word strings since it assumes it is always the last name.`)
+        log().warn(`#${parseAssumingName.name}() will not attempt to parse one word strings since it assumes one word strings are always the last name.`)
         return {};
     }
 

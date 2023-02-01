@@ -1,5 +1,6 @@
 /*! Copyright (c) 2023, XAPP AI */
 import { LexServiceV2 } from "@xapp/stentor-service-lex";
+import { log } from "stentor-logger";
 import { NLURequestProps, NLUQueryResponse } from "stentor-models";
 import { getSlotValue } from "stentor-utils";
 
@@ -7,6 +8,9 @@ import { parseAddress } from "../utils/address";
 import { parseNameFrom, parseAssumingName } from "../utils/name";
 import { tokenize } from "../utils/tokenize";
 
+/**
+ * A wwraper around LexV2 NLU that helps with gathering lead information
+ */
 export class ExtendedNLU extends LexServiceV2 {
 
     public async query(q: string, props?: NLURequestProps): Promise<NLUQueryResponse> {
@@ -14,7 +18,8 @@ export class ExtendedNLU extends LexServiceV2 {
         const timerQuery = q.replace(/ /gm, "_");
         console.time(`NLU_QUERY_${timerQuery}`);
         const results = await super.query(q, props);
-        console.log(results);
+        log().info(`Lex returned:`)
+        log().info(results);
         console.timeEnd(`NLU_QUERY_${timerQuery}`);
 
         const sentences = tokenize(q);
@@ -64,11 +69,11 @@ export class ExtendedNLU extends LexServiceV2 {
             // AND if is only once sentence of text
             // AND is three tokens (words) or less
             if ((getSlotValue(named, "first_name") || getSlotValue(named, "last_name")) && oneSentence && threeOrLessTokens) {
-                console.log(`Parsing assuming it is a name from InputUnknown`);
+                log().debug(`Parsing assuming it is a name from InputUnknown`);
 
                 // We will assume it is a name and parse as a name.
                 const named = parseAssumingName(q);
-                console.log(named);
+                log().debug(named);
                 if (named) {
                     results.type = "INTENT_REQUEST";
                     results.intentId = "NameOnly";

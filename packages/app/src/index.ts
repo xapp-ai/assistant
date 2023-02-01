@@ -59,12 +59,6 @@ export async function handler(event: any, context: Context, callback: Callback<a
             QuestionAnsweringHandler: QuestionAnsweringHandler
         })
         .withChannels([
-            // Add/Remove your channels here, even make custom ones!
-            // Alexa(), <-- add package @xapp/stentor-alexa & import { Alexa } from "@xapp/stentor-alexa";
-            // Note about Alexa: You may have trouble building with the current webpack config if you bring in Alexa
-            // Dialogflow(), <-- add package @xapp/stentor-dialogflow & import { Dialogflow } from "@xapp/stentor-dialogflow";
-            // LexConnect(), <-- add package @xapp/stentor-lex-connect & import { LexConnect } from "@xapp/stentor-lex-connect"
-
             GoogleBusinessMessages(nlu, {
                 //  Customize your bot name
                 botAvatarName: "Assistant"
