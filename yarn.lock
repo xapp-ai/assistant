@@ -6383,7 +6383,7 @@ __metadata:
     sinon-chai: 3.7.0
     stentor: 1.57.61
     stentor-channel: 1.57.61
-    stentor-user-storage-dynamo: 1.57.61
+    stentor-user-storage-dynamo: 1.57.62
     ts-node: 10.9.1
     typescript: 4.9.5
     webpack: 5.75.0
@@ -23254,14 +23254,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stentor-user-storage-dynamo@npm:1.57.61":
-  version: 1.57.61
-  resolution: "stentor-user-storage-dynamo@npm:1.57.61"
+"stentor-user-storage-dynamo@npm:1.57.62":
+  version: 1.57.62
+  resolution: "stentor-user-storage-dynamo@npm:1.57.62"
   dependencies:
     "@xapp/dynamo-service": 1.8.7
   peerDependencies:
     stentor-models: 1.x
-  checksum: 337d6dcc3b224a0d87712ce9998356298c6985de49108868b35a1fcde218517332fd69be30a932c750617b34abd4a3359ac30422d0a027d05bf1a42b4fd9bb8c
+  checksum: d26233a04ff05112e079e369d0ce680d10edd54c0c34b73aef53151a9482336dd7cacd6022e8892c677bc16f6a8be1d908cf87ebdb6ee3f8858f3f6ba5c317b9
   languageName: node
   linkType: hard
 
