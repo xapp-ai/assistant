@@ -25,6 +25,7 @@ import { SalesforceService } from "@xapp/stentor-service-salesforce";
 // Custom Handlers
 import { QuestionAnsweringHandler } from "@xapp/question-answering-handler";
 import { ContactCaptureHandler } from "@xapp/contact-capture-handler";
+import { preResponseHook } from "./hooks/preResponseHook";
 
 export async function handler(event: any, context: Context, callback: Callback<any>): Promise<void> {
     await setEnv().then().catch((error: Error) => console.error("Environment failed to load", error));
@@ -33,6 +34,15 @@ export async function handler(event: any, context: Context, callback: Callback<a
         botId: process.env.LEX_BOT_ID,
         botAliasId: process.env.LEX_BOT_ALIAS_ID
     });
+
+    const gbmChannel = GoogleBusinessMessages(nlu, {
+        //  Customize your bot name
+        botAvatarName: "Assistant"
+    });
+
+    gbmChannel.hooks = {
+        preResponseTranslation: preResponseHook(nlu),
+    }
 
     const studioService: StudioService = new StudioService({ appId: process.env.STUDIO_APP_ID, token: process.env.STUDIO_TOKEN });
 
@@ -59,10 +69,7 @@ export async function handler(event: any, context: Context, callback: Callback<a
             QuestionAnsweringHandler: QuestionAnsweringHandler
         })
         .withChannels([
-            GoogleBusinessMessages(nlu, {
-                //  Customize your bot name
-                botAvatarName: "Assistant"
-            }),
+            gbmChannel,
             LexV2Channel(),
             Stentor(nlu)
         ])

@@ -9,9 +9,13 @@ import { parseNameFrom, parseAssumingName } from "../utils/name";
 import { tokenize } from "../utils/tokenize";
 
 /**
- * A wwraper around LexV2 NLU that helps with gathering lead information
+ * A wrapper around LexV2 NLU that helps with gathering lead information
  */
 export class ExtendedNLU extends LexServiceV2 {
+    public async setContext(props: NLURequestProps): Promise<void>{
+        log().info(`Setting active context: ${JSON.stringify(props)}`);
+        return super.setContext(props);
+    }
 
     public async query(q: string, props?: NLURequestProps): Promise<NLUQueryResponse> {
 
