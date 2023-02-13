@@ -6381,7 +6381,7 @@ __metadata:
     "@xapp/question-answering-handler": 2.1.9
     "@xapp/stentor-gbm": 1.44.21
     "@xapp/stentor-lex-v2": 1.44.15
-    "@xapp/stentor-service-salesforce": 1.44.13
+    "@xapp/stentor-service-salesforce": 1.44.33
     addresser: 1.1.19
     ansi-styles: 6.2.1
     aws-sdk: 2.1307.0
@@ -6406,6 +6406,7 @@ __metadata:
     sinon-chai: 3.7.0
     stentor: 1.57.61
     stentor-channel: 1.57.61
+    stentor-service-fetch: ^1.57.71
     stentor-user-storage-dynamo: 1.57.62
     ts-node: 10.9.1
     typescript: 4.9.5
@@ -6571,16 +6572,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xapp/stentor-service-salesforce@npm:1.44.13":
-  version: 1.44.13
-  resolution: "@xapp/stentor-service-salesforce@npm:1.44.13"
+"@xapp/stentor-service-salesforce@npm:1.44.33":
+  version: 1.44.33
+  resolution: "@xapp/stentor-service-salesforce@npm:1.44.33"
   dependencies:
     jsforce: 1.11.0
-    stentor-service-fetch: 1.57.61
   peerDependencies:
     stentor-logger: 1.x
     stentor-models: 1.x
-  checksum: b7977e9419da89901a44cb68002b4d1867af0518174a770b4a5548f5085a8d6bb2f362dbc8862c0bbc7b2e3939131cdb87c4134bae63f5cfea749daaa42f9b22
+    stentor-service-fetch: 1.x
+  checksum: 446e7fba164a6ef7a38d2a1fb5b83b85eda8b615ecb28e52774359c4f805f11e085857c48d1e76f85c3d8fb4825b82b326e34714b264755ca4d8cfd4556ff01f
   languageName: node
   linkType: hard
 
@@ -23414,15 +23415,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stentor-service-fetch@npm:1.57.61":
-  version: 1.57.61
-  resolution: "stentor-service-fetch@npm:1.57.61"
+"stentor-service-fetch@npm:^1.57.71":
+  version: 1.57.71
+  resolution: "stentor-service-fetch@npm:1.57.71"
   dependencies:
     abort-controller: 3.0.0
     isomorphic-fetch: 3.0.0
   peerDependencies:
     stentor-models: 1.x
-  checksum: f78b2c1a76dbbc954adcfa835407c550e5ea817b24a15d71871c54cc6e68b21f78e00acc9788e11d5e21055c40990e9ec7687e24fda054ab7bac2b67557ac2df
+  checksum: 2d08ff644b1a17a83f8cfbff91e31d5fdadae61db8b7a8be5e5abad65ee2d21ad4bbedce9ff1461e0db623f19ec8dafc436745329d23db50c99931de98f3a67b
   languageName: node
   linkType: hard
 
