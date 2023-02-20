@@ -6384,7 +6384,7 @@ __metadata:
     "@xapp/stentor-service-salesforce": 1.44.13
     addresser: 1.1.19
     ansi-styles: 6.2.1
-    aws-sdk: 2.1307.0
+    aws-sdk: 2.1318.0
     babel-loader: 9.1.2
     babel-preset-minify: 0.5.2
     body-parser: 1.20.1
@@ -7505,9 +7505,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-sdk@npm:2.1307.0":
-  version: 2.1307.0
-  resolution: "aws-sdk@npm:2.1307.0"
+"aws-sdk@npm:2.1318.0":
+  version: 2.1318.0
+  resolution: "aws-sdk@npm:2.1318.0"
   dependencies:
     buffer: 4.9.2
     events: 1.1.1
@@ -7519,7 +7519,7 @@ __metadata:
     util: ^0.12.4
     uuid: 8.0.0
     xml2js: 0.4.19
-  checksum: c7a24aeb0c91d2d64b449e05a32913182adc8820b1d6179323a9c16f230060d772f75f7135a9e7d3a368a194e23cdd847345020c68a17e05e126c1f666b7db0c
+  checksum: 67106ab1637a3f5596c1cf121e3107fb8f918f0df5c4f43d1d08bf7828eef445b2be623dbbd8bc2304e60160de7dd76a65d5e0ac1adbef46ec92968c52a05dd3
   languageName: node
   linkType: hard
 
