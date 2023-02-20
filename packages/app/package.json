@@ -78,7 +78,7 @@
     "compromise": "14.8.1",
     "express": "4.18.2",
     "parse-full-name": "1.2.6",
-    "stentor": "1.57.61",
+    "stentor": "1.57.73",
     "stentor-channel": "1.57.61",
     "stentor-user-storage-dynamo": "1.57.62"
   }
