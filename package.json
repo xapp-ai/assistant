@@ -15,7 +15,7 @@
   "devDependencies": {
     "@xapp/config": "0.2.3",
     "lerna": "6.5.1",
-    "semantic-release": "20.1.0"
+    "semantic-release": "20.1.1"
   },
   "scripts": {
     "lerna": "lerna",
