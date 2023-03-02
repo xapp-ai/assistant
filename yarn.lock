@@ -6390,7 +6390,7 @@ __metadata:
     body-parser: 1.20.1
     cache-loader: 4.1.0
     chai: 4.3.7
-    compromise: 14.8.1
+    compromise: 14.8.2
     cors: 2.8.5
     eslint: 8.33.0
     eslint-plugin-notice: 0.9.10
@@ -9610,14 +9610,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"compromise@npm:14.8.1":
-  version: 14.8.1
-  resolution: "compromise@npm:14.8.1"
+"compromise@npm:14.8.2":
+  version: 14.8.2
+  resolution: "compromise@npm:14.8.2"
   dependencies:
     efrt: 2.7.0
     grad-school: 0.0.5
     suffix-thumb: 4.0.2
-  checksum: 2fe0fd6a16a36f58857a489d4541339c6506b98a3e7a49c74765becb85b4c7d858485ee4c6b6a705de9ddb123e2796c5e0ba0d553337620cf1426fdd40302b33
+  checksum: c4f13aa0c41a0824fb9f4b46dc14c53497ff2205f760aa68c9d9fe9de2621dd9e55240ef6b2c7ba2960a6bbf04a7e7428e767ee5e00401f62dd6dd5e6d91d2e8
   languageName: node
   linkType: hard
 
