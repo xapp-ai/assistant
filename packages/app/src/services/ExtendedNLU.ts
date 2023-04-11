@@ -1,7 +1,7 @@
 /*! Copyright (c) 2023, XAPP AI */
 import { LexServiceV2 } from "@xapp/stentor-service-lex";
 import { log } from "stentor-logger";
-import { NLURequestProps, NLUQueryResponse } from "stentor-models";
+import { NLURequestProps, NLUQueryResponse, NLUIntentRequest } from "stentor-models";
 import { getSlotValue } from "stentor-utils";
 
 import { parseAddress } from "../utils/address";
@@ -12,7 +12,7 @@ import { tokenize } from "../utils/tokenize";
  * A wrapper around LexV2 NLU that helps with gathering lead information
  */
 export class ExtendedNLU extends LexServiceV2 {
-    public async setContext(props: NLURequestProps): Promise<void>{
+    public async setContext(props: NLURequestProps): Promise<void> {
         log().info(`Setting active context: ${JSON.stringify(props)}`);
         return super.setContext(props);
     }
@@ -22,7 +22,7 @@ export class ExtendedNLU extends LexServiceV2 {
         const timerQuery = q.replace(/ /gm, "_");
         // eslint-disable-next-line no-console
         console.time(`NLU_QUERY_${timerQuery}`);
-        const results = await super.query(q, props);
+        let results = await super.query(q, props);
         log().debug(`Lex returned:`)
         log().debug(results);
         // eslint-disable-next-line no-console
@@ -81,9 +81,13 @@ export class ExtendedNLU extends LexServiceV2 {
                 const named = parseAssumingName(q);
                 log().debug(named);
                 if (named) {
-                    results.type = "INTENT_REQUEST";
-                    results.intentId = "NameOnly";
-                    results.slots = { ...named };
+                    const intentResult: NLUIntentRequest = {
+                        ...results,
+                        type: "INTENT_REQUEST",
+                        intentId: "NameOnly",
+                        slots: { ...named }
+                    }
+                    results = intentResult;
                 }
             }
         }
