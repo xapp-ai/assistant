@@ -25,7 +25,10 @@ import { SalesforceService } from "@xapp/stentor-service-salesforce";
 // Custom Handlers
 import { QuestionAnsweringHandler } from "@xapp/question-answering-handler";
 import { ContactCaptureHandler } from "@xapp/contact-capture-handler";
+
+// Custom Hooks
 import { preResponseHook } from "./hooks/preResponseHook";
+import { postContextCreation } from "./hooks/postContextCreation";
 
 export async function handler(event: any, context: Context, callback: Callback<any>): Promise<void> {
     await setEnv().then().catch((error: Error) => console.error("Environment failed to load", error));
@@ -63,6 +66,7 @@ export async function handler(event: any, context: Context, callback: Callback<a
             // For KnowledgeBase results we will generate a request with the following ID
             setIntentId: "OCSearch"
         })
+        .withHooks({ postContextCreation })
         .withHandlers({
             // Add pre-built handlers or make custom ones!
             ContactCaptureHandler: ContactCaptureHandler,
@@ -70,7 +74,10 @@ export async function handler(event: any, context: Context, callback: Callback<a
         })
         .withChannels([
             gbmChannel,
+            // Is used by LexV2 fulfillment arn, which supports 
+            // Lex test console and 3rd party channels through the Lex console
             LexV2Channel(),
+            // Used by the Chat Widget directly
             Stentor(nlu)
         ])
         .lambda();

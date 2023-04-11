@@ -8,11 +8,17 @@ import { parseAddress } from "../utils/address";
 import { parseNameFrom, parseAssumingName } from "../utils/name";
 import { tokenize } from "../utils/tokenize";
 
+
+const nlu = new LexServiceV2({
+    botId: process.env.LEX_BOT_ID,
+    botAliasId: process.env.LEX_BOT_ALIAS_ID
+});
+
 /**
  * A wrapper around LexV2 NLU that helps with gathering lead information
  */
 export class ExtendedNLU extends LexServiceV2 {
-    public async setContext(props: NLURequestProps): Promise<void>{
+    public async setContext(props: NLURequestProps): Promise<void> {
         log().info(`Setting active context: ${JSON.stringify(props)}`);
         return super.setContext(props);
     }

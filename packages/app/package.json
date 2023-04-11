@@ -80,6 +80,7 @@
     "parse-full-name": "1.2.6",
     "stentor": "1.57.61",
     "stentor-channel": "1.57.61",
+    "stentor-service-fetch": "1.57.78",
     "stentor-user-storage-dynamo": "1.57.62"
   }
 }

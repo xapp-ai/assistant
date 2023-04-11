@@ -5846,6 +5846,7 @@ __metadata:
     sinon-chai: 3.7.0
     stentor: 1.57.61
     stentor-channel: 1.57.61
+    stentor-service-fetch: 1.57.78
     stentor-user-storage-dynamo: 1.57.62
     ts-node: 10.9.1
     typescript: 4.9.5
@@ -23131,6 +23132,18 @@ __metadata:
   peerDependencies:
     stentor-models: 1.x
   checksum: f78b2c1a76dbbc954adcfa835407c550e5ea817b24a15d71871c54cc6e68b21f78e00acc9788e11d5e21055c40990e9ec7687e24fda054ab7bac2b67557ac2df
+  languageName: node
+  linkType: hard
+
+"stentor-service-fetch@npm:1.57.78":
+  version: 1.57.78
+  resolution: "stentor-service-fetch@npm:1.57.78"
+  dependencies:
+    abort-controller: 3.0.0
+    isomorphic-fetch: 3.0.0
+  peerDependencies:
+    stentor-models: 1.x
+  checksum: 0c1b67ba875049ff9ef6839ab0cc35fdaa432f20290c600c59d6d96d9795829aa84e2b571a46ba1973b0c2e3f4c3f69ed0f29cf3b298f9379da5059e630baa0b
   languageName: node
   linkType: hard
 
