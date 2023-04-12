@@ -33,6 +33,7 @@ provider:
   stackName: ${self:custom.myEnvironment.APP_ID}-${sls:stage}
   profile: ${env:AWS_PROFILE}
   timeout: 15
+  memorySize: 4048
   environment:
     NODE_ENV: ${sls:stage}
     STUDIO_SECRET_NAME: ${self:custom.myEnvironment.STUDIO_SECRET_NAME}
