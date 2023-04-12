@@ -68,9 +68,9 @@
   "dependencies": {
     "@xapp/contact-capture-handler": "1.0.5",
     "@xapp/oc-studio-starter-models": "1.0.0",
-    "@xapp/question-answering-handler": "2.1.9",
-    "@xapp/stentor-gbm": "1.45.47",
-    "@xapp/stentor-lex-v2": "1.45.48",
+    "@xapp/question-answering-handler": "2.1.10",
+    "@xapp/stentor-gbm": "1.45.51",
+    "@xapp/stentor-lex-v2": "1.45.52",
     "@xapp/stentor-service-salesforce": "1.45.45",
     "addresser": "1.1.19",
     "ansi-styles": "6.2.1",
