@@ -5671,7 +5671,7 @@ __metadata:
     ts-jest: 29.0.5
     typescript: 4.9.5
   peerDependencies:
-    "@xapp/chat-widget": 1.53.1
+    "@xapp/chat-widget": 1.55.1
     react: 17.0.2
     react-dom: 17.0.2
   languageName: unknown
@@ -5745,7 +5745,7 @@ __metadata:
     serverless-plugin-common-excludes: 4.0.0
     sinon: 15.0.1
     sinon-chai: 3.7.0
-    stentor: 1.57.106
+    stentor: 1.57.107
     stentor-channel: 1.57.104
     stentor-user-storage-dynamo: 1.57.104
     ts-node: 10.9.1
@@ -22932,9 +22932,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stentor-runtime@npm:1.57.105":
-  version: 1.57.105
-  resolution: "stentor-runtime@npm:1.57.105"
+"stentor-runtime@npm:1.57.107":
+  version: 1.57.107
+  resolution: "stentor-runtime@npm:1.57.107"
   dependencies:
     stentor-constants: 1.57.104
     stentor-context: 1.57.104
@@ -22949,7 +22949,7 @@ __metadata:
     stentor-utils: 1.57.104
   peerDependencies:
     stentor-models: 1.x
-  checksum: 6ccc98e8165644ad9b667a5431e774916fa6cc2b1c93091c0c803754daa29215d64915770ea9ef5cfe02dc6ad2007c93db00f649cac3a075d51732da9b9f650f
+  checksum: efb29e66028f2d3644d8f53b38ab74e18f30abdc6c4504a39bc17be4c5a42fc2f90a44f7e59800f4167d491448cd42ba93e5146c6b79678dc3f871eff7543d8a
   languageName: node
   linkType: hard
 
@@ -23082,9 +23082,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stentor@npm:1.57.106":
-  version: 1.57.106
-  resolution: "stentor@npm:1.57.106"
+"stentor@npm:1.57.107":
+  version: 1.57.107
+  resolution: "stentor@npm:1.57.107"
   dependencies:
     "@types/aws-lambda": 8.10.114
     "@types/body-parser": 1.19.2
@@ -23102,7 +23102,7 @@ __metadata:
     stentor-models: 1.57.104
     stentor-request: 1.57.104
     stentor-response: 1.57.104
-    stentor-runtime: 1.57.105
+    stentor-runtime: 1.57.107
     stentor-service-event: 1.57.104
     stentor-service-fetch: 1.57.104
     stentor-service-ovai: 1.57.104
@@ -23110,7 +23110,7 @@ __metadata:
     stentor-utils: 1.57.104
   peerDependencies:
     aws-sdk: 2.X
-  checksum: e6522aa32d7e0e67b5df0f7ec11981b72414e3563ecd8d44db14b26591972566e646d3c81a6d5708cc6425ea6e13551c233f88a0a7ee0f1ac601b86961af49a3
+  checksum: 1aae471adc86b11475df0c2698b7852d0f1ee308a90c820adc0dafc2b0cb9c293de1feac97ebc5f7a805d2d46aaa228b994523d290b90329c89609953d1e89a4
   languageName: node
   linkType: hard
 
