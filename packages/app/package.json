@@ -66,7 +66,7 @@
     "test": "exit 0"
   },
   "dependencies": {
-    "@xapp/contact-capture-handler": "1.0.5",
+    "@xapp/contact-capture-handler": "1.0.6",
     "@xapp/oc-studio-starter-models": "1.0.0",
     "@xapp/question-answering-handler": "2.1.10",
     "@xapp/stentor-gbm": "1.45.51",
