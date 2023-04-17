@@ -5731,7 +5731,7 @@ __metadata:
     "@xapp/question-answering-handler": 2.1.11
     "@xapp/stentor-gbm": 1.45.51
     "@xapp/stentor-lex-v2": 1.45.53
-    "@xapp/stentor-service-salesforce": 1.45.45
+    "@xapp/stentor-service-salesforce": 1.45.57
     addresser: 1.1.19
     ansi-styles: 6.2.1
     aws-sdk: 2.1356.0
@@ -5922,16 +5922,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xapp/stentor-service-salesforce@npm:1.45.45":
-  version: 1.45.45
-  resolution: "@xapp/stentor-service-salesforce@npm:1.45.45"
+"@xapp/stentor-service-salesforce@npm:1.45.57":
+  version: 1.45.57
+  resolution: "@xapp/stentor-service-salesforce@npm:1.45.57"
   dependencies:
     jsforce: 1.11.0
   peerDependencies:
     stentor-logger: 1.x
     stentor-models: 1.x
     stentor-service-fetch: 1.x
-  checksum: 8e0653ba658cf3b9b7567b66ec23b07e1bb23b0d2a090fed3066480423aa68852baae5bcf2e2f5ef07c7fece019d809c5cf84f90257db816bda1f8e697bbb725
+  checksum: 1e3bea5c0a547b9f424471d72785fdb5a39e616c7b3a7d2abf9054b05f995c4efe8bfc929a097bf9c4747e622a145fd296eba356229a843ddb3dc891ed44da12
   languageName: node
   linkType: hard
 
