@@ -79,7 +79,7 @@
     "express": "4.18.2",
     "parse-full-name": "1.2.6",
     "stentor": "1.57.109",
-    "stentor-channel": "1.57.109",
+    "stentor-channel": "1.57.110",
     "stentor-user-storage-dynamo": "1.57.109"
   }
 }
