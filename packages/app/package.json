@@ -71,7 +71,7 @@
     "@xapp/question-answering-handler": "2.1.11",
     "@xapp/stentor-gbm": "1.45.69",
     "@xapp/stentor-lex-v2": "1.45.69",
-    "@xapp/stentor-service-salesforce": "1.45.69",
+    "@xapp/stentor-service-salesforce": "1.45.70",
     "addresser": "1.1.19",
     "ansi-styles": "6.2.1",
     "body-parser": "1.20.2",
