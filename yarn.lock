@@ -3144,7 +3144,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@serverless/utils@npm:^6.8.2":
+"@serverless/utils@npm:^6.11.1, @serverless/utils@npm:^6.8.2":
   version: 6.11.1
   resolution: "@serverless/utils@npm:6.11.1"
   dependencies:
@@ -5783,7 +5783,7 @@ __metadata:
     nodemon: 2.0.22
     parse-full-name: 1.2.6
     rimraf: 4.1.2
-    serverless: 3.27.0
+    serverless: 3.30.1
     serverless-plugin-common-excludes: 4.0.0
     sinon: 15.0.3
     sinon-chai: 3.7.0
@@ -6917,9 +6917,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-sdk@npm:^2.1303.0":
-  version: 2.1355.0
-  resolution: "aws-sdk@npm:2.1355.0"
+"aws-sdk@npm:^2.1352.0":
+  version: 2.1373.0
+  resolution: "aws-sdk@npm:2.1373.0"
   dependencies:
     buffer: 4.9.2
     events: 1.1.1
@@ -6931,7 +6931,7 @@ __metadata:
     util: ^0.12.4
     uuid: 8.0.0
     xml2js: 0.5.0
-  checksum: 1365fa949bb5f36c2f36de7522d97a9d2617c8e94e396bd8cd8fe8c3147d215b2530f9cd6b9b12c9f9481e43ee9df51a634ae78e9888647476990f742525b101
+  checksum: 943aac1feaa9acef50582672843c4e31e457ffd4c08df0cc7ce9979cb40fe1969f59f86b6afdfbb13b89aae6a11911f760ec9c42d3bdeb3770b4aea5f2b904f2
   languageName: node
   linkType: hard
 
@@ -8539,7 +8539,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ci-info@npm:^3.2.0, ci-info@npm:^3.7.1, ci-info@npm:^3.8.0":
+"ci-info@npm:^3.2.0, ci-info@npm:^3.8.0":
   version: 3.8.0
   resolution: "ci-info@npm:3.8.0"
   checksum: d0a4d3160497cae54294974a7246202244fff031b0a6ea20dd57b10ec510aa17399c41a1b0982142c105f3255aff2173e5c0dd7302ee1b2f28ba3debda375098
@@ -10458,17 +10458,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dotenv-expand@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "dotenv-expand@npm:10.0.0"
+  checksum: 2a38b470efe0abcb1ac8490421a55e1d764dc9440fd220942bce40965074f3fb00b585f4346020cb0f0f219966ee6b4ee5023458b3e2953fe5b3214de1b314ee
+  languageName: node
+  linkType: hard
+
 "dotenv-expand@npm:^5.1.0":
   version: 5.1.0
   resolution: "dotenv-expand@npm:5.1.0"
   checksum: 8017675b7f254384915d55f9eb6388e577cf0a1231a28d54b0ca03b782be9501b0ac90ac57338636d395fa59051e6209e9b44b8ddf169ce6076dffb5dea227d3
-  languageName: node
-  linkType: hard
-
-"dotenv-expand@npm:^9.0.0":
-  version: 9.0.0
-  resolution: "dotenv-expand@npm:9.0.0"
-  checksum: 76f669b87da73d6980d1235cb18e9ccd94b294927784a0c06db5e9e98d1090b0605e75ade70880f0cd812af7f61e41367a80feea223d23fd3bd0b82f3409b9ed
   languageName: node
   linkType: hard
 
@@ -11943,7 +11943,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"filesize@npm:^10.0.6":
+"filesize@npm:^10.0.7":
   version: 10.0.7
   resolution: "filesize@npm:10.0.7"
   checksum: acabe6ddcf0c06eb86a9b2ac0a93db48d2438037dce4f7ec5cf6ee32284a8d961b1efc251af1c05e7316ccf1e78c68cdc32655511745cc2580f9b8c309b523ce
@@ -13133,7 +13133,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graceful-fs@npm:^4.1.10, graceful-fs@npm:^4.1.11, graceful-fs@npm:^4.1.15, graceful-fs@npm:^4.1.2, graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0, graceful-fs@npm:^4.2.10, graceful-fs@npm:^4.2.4, graceful-fs@npm:^4.2.6, graceful-fs@npm:^4.2.9":
+"graceful-fs@npm:^4.1.10, graceful-fs@npm:^4.1.11, graceful-fs@npm:^4.1.15, graceful-fs@npm:^4.1.2, graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0, graceful-fs@npm:^4.2.10, graceful-fs@npm:^4.2.11, graceful-fs@npm:^4.2.4, graceful-fs@npm:^4.2.6, graceful-fs@npm:^4.2.9":
   version: 4.2.11
   resolution: "graceful-fs@npm:4.2.11"
   checksum: ac85f94da92d8eb6b7f5a8b20ce65e43d66761c55ce85ac96df6865308390da45a8d3f0296dd3a663de65d30ba497bd46c696cc1e248c72b13d6d567138a4fc7
@@ -15613,10 +15613,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json-cycle@npm:^1.3.0":
-  version: 1.4.0
-  resolution: "json-cycle@npm:1.4.0"
-  checksum: 3567c59d51eecf73b7de0c66d158cb28d120ebb29a61b6b377e4c76d27d35ce693574ec56f197e6f72e620d0dc1bf6f7e3d14d87631377966f456a560994da7b
+"json-colorizer@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "json-colorizer@npm:2.2.2"
+  dependencies:
+    chalk: ^2.4.1
+    lodash.get: ^4.4.2
+  checksum: c90e88179513893c41fb6a564fcc0061834137a8e0afbbf89835bb3993d0cf0ecbcbfb3f0597d19a40822f849916ce9462ff4e9c64bc39e53c7683e71cc49d2c
+  languageName: node
+  linkType: hard
+
+"json-cycle@npm:^1.4.0":
+  version: 1.5.0
+  resolution: "json-cycle@npm:1.5.0"
+  checksum: 0a44cd349676c6726093c64283fb75402f9104b32325b06c9270af6d639e7caac419f5301a39298aef2ac1659b273b167e02bd622e628c3392cf86f0e77a9f78
   languageName: node
   linkType: hard
 
@@ -22059,55 +22069,57 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless@npm:3.27.0":
-  version: 3.27.0
-  resolution: "serverless@npm:3.27.0"
+"serverless@npm:3.30.1":
+  version: 3.30.1
+  resolution: "serverless@npm:3.30.1"
   dependencies:
     "@serverless/dashboard-plugin": ^6.2.3
     "@serverless/platform-client": ^4.3.2
-    "@serverless/utils": ^6.8.2
+    "@serverless/utils": ^6.11.1
     ajv: ^8.12.0
     ajv-formats: ^2.1.1
     archiver: ^5.3.1
-    aws-sdk: ^2.1303.0
+    aws-sdk: ^2.1352.0
     bluebird: ^3.7.2
     cachedir: ^2.3.0
     chalk: ^4.1.2
     child-process-ext: ^2.1.1
-    ci-info: ^3.7.1
+    ci-info: ^3.8.0
     cli-progress-footer: ^2.3.2
     d: ^1.0.1
     dayjs: ^1.11.7
     decompress: ^4.2.1
     dotenv: ^16.0.3
-    dotenv-expand: ^9.0.0
+    dotenv-expand: ^10.0.0
     essentials: ^1.2.0
     ext: ^1.7.0
     fastest-levenshtein: ^1.0.16
-    filesize: ^10.0.6
+    filesize: ^10.0.7
     fs-extra: ^10.1.0
     get-stdin: ^8.0.0
     globby: ^11.1.0
     got: ^11.8.6
-    graceful-fs: ^4.2.10
+    graceful-fs: ^4.2.11
     https-proxy-agent: ^5.0.1
     is-docker: ^2.2.1
     js-yaml: ^4.1.0
-    json-cycle: ^1.3.0
+    json-colorizer: ^2.2.2
+    json-cycle: ^1.4.0
     json-refs: ^3.0.15
     lodash: ^4.17.21
     memoizee: ^0.4.15
     micromatch: ^4.0.5
-    node-fetch: ^2.6.8
+    node-fetch: ^2.6.9
     npm-registry-utilities: ^1.0.0
     object-hash: ^3.0.0
-    open: ^8.4.0
+    open: ^8.4.2
     path2: ^0.1.0
     process-utils: ^4.0.0
     promise-queue: ^2.2.5
     require-from-string: ^2.0.2
     semver: ^7.3.8
     signal-exit: ^3.0.7
+    stream-buffers: ^3.0.2
     strip-ansi: ^6.0.1
     supports-color: ^8.1.1
     tar: ^6.1.13
@@ -22115,11 +22127,12 @@ __metadata:
     type: ^2.7.2
     untildify: ^4.0.0
     uuid: ^9.0.0
+    ws: ^7.5.9
     yaml-ast-parser: 0.0.43
   bin:
     serverless: bin/serverless.js
     sls: bin/serverless.js
-  checksum: d1bf7c44141b801cc2df3e7648bff11fae51dd7193a59cfd3f2f48d1d2be44a45f187bb29e3f6034a8e8086850480d3e6022889fd4a6515ed8cc6834d0c3fe92
+  checksum: cb8be3c14527d3278f691cbff8084b5d63ebd3967a999dde0242056a500dd562d23d3fdca7038417b10f0b2ae1715d2e0f34fad7b5ec45486edb83c82dec7719
   languageName: node
   linkType: hard
 
@@ -23212,6 +23225,13 @@ __metadata:
     inherits: ~2.0.1
     readable-stream: ^2.0.2
   checksum: 8de7bcab5582e9a931ae1a4768be7efe8fa4b0b95fd368d16d8cf3e494b897d6b0a7238626de5d71686e53bddf417fd59d106cfa3af0ec055f61a8d1f8fc77b3
+  languageName: node
+  linkType: hard
+
+"stream-buffers@npm:^3.0.2":
+  version: 3.0.2
+  resolution: "stream-buffers@npm:3.0.2"
+  checksum: b09fdeea606e3113ebd0e07010ed0cf038608fa396130add9e45deaff5cc3ba845dc25c31ad24f8341f85907846344cb7c85f75ea52c6572e2ac646e9b6072d0
   languageName: node
   linkType: hard
 
@@ -25743,7 +25763,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ws@npm:^7.5.3":
+"ws@npm:^7.5.3, ws@npm:^7.5.9":
   version: 7.5.9
   resolution: "ws@npm:7.5.9"
   peerDependencies:
