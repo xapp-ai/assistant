@@ -15,7 +15,7 @@ import { LexV2Channel } from "@xapp/stentor-lex-v2";
 import { Stentor } from "stentor-channel";
 
 // NLU
-import { ExtendedNLU } from "./services/ExtendedNLU";
+import { XNLU, OpenAIService } from "@xapp/x-nlu";
 
 // Services
 import { DynamoUserStorage } from "stentor-user-storage-dynamo";
@@ -30,9 +30,25 @@ import { preResponseHook } from "./hooks/preResponseHook";
 export async function handler(event: any, context: Context, callback: Callback<any>): Promise<void> {
     await setEnv().then().catch((error: Error) => console.error("Environment failed to load", error));
 
-    const nlu = new ExtendedNLU({
+
+    const studioService: StudioService = new StudioService({
+        appId: process.env.STUDIO_APP_ID,
+        token: process.env.STUDIO_TOKEN
+    });
+
+    const llmService = new OpenAIService({
+        businessDescription: "XAPP AI is a conversational AI company that provides intelligent virtual assistants for enterprise and small businesses with their home service templates."
+    });
+
+    const nlu = new XNLU({
         botId: process.env.LEX_BOT_ID,
-        botAliasId: process.env.LEX_BOT_ALIAS_ID
+        botAliasId: process.env.LEX_BOT_ALIAS_ID,
+        llmService,
+        knowledgeBaseService: studioService,
+        intentMap: {
+            questionAnswering: "OCSearch",
+            helpWith: "LeadGeneration"
+        }
     });
 
     const gbmChannel = GoogleBusinessMessages(nlu, {
@@ -43,8 +59,6 @@ export async function handler(event: any, context: Context, callback: Callback<a
     gbmChannel.hooks = {
         preResponseTranslation: preResponseHook(nlu),
     }
-
-    const studioService: StudioService = new StudioService({ appId: process.env.STUDIO_APP_ID, token: process.env.STUDIO_TOKEN });
 
     // Return the handler for running in an AWS Lambda function.
     const assistant = new Assistant()
