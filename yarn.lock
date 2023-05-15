@@ -5937,7 +5937,7 @@ __metadata:
     rollup-plugin-typescript2: 0.34.1
     sass: 1.58.0
     sass-loader: 10.4.1
-    stentor-models: 1.57.124
+    stentor-models: 1.57.131
     style-loader: 2.0.0
     ts-jest: 29.1.0
     typescript: 4.9.5
@@ -5955,7 +5955,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 5.58.0
     eslint: 8.38.0
     eslint-plugin-notice: 0.9.10
-    stentor-models: 1.57.124
+    stentor-models: 1.57.131
     typescript: 4.9.5
   peerDependencies:
     stentor-models: 1.X
@@ -23740,6 +23740,15 @@ __metadata:
   dependencies:
     "@xapp/patterns": 2.0.1
   checksum: d4c002cebeeda86cdeb309f13ec7aff540cd5a017da0500bf7dd345f1b53302f6fdf4d17e2349002186b3090e7654aee0c3461af7ae4c94a1ad027d81d3adeba
+  languageName: node
+  linkType: hard
+
+"stentor-models@npm:1.57.131":
+  version: 1.57.131
+  resolution: "stentor-models@npm:1.57.131"
+  dependencies:
+    "@xapp/patterns": 2.0.1
+  checksum: ad6d03bdc14ddc07e0737546bfae51969e8e535fceda793157297f1b9a9d2cda0525beada44d98909cf3e745afc26852b1df79b21e4e9ad9958b27a5ce1b493b
   languageName: node
   linkType: hard
 
