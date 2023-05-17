@@ -1,6 +1,6 @@
-## OC Studio Starter Template
+## XAPP Assistant
 
-A starter template repository for OC Studio leveraging 📣 stentor conversational framework.
+The XAPP Assistant, "XAPPy", that is found on https://xapp.ai, Google Business Messages, and intelligent search.
 
 ## Repository Structure
 
@@ -21,3 +21,7 @@ Shared models across all the packages, specifically the app and components.
 ### Template /packages/templates
 
 Starting point of content and interaction model.
+
+## Private XNLU
+
+We are using a private repo `@xapp/x-nlu` which cannot be accessed unless you have permission.
