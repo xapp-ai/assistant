@@ -12,7 +12,7 @@ jobs:
   ci:
     runs-on: ubuntu-latest
     env:
-      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      NPM_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
     strategy:
       matrix:
         node-version: [16.x]
@@ -22,8 +22,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-      - name: Authenticate with private NPM package
-        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NPM_TOKEN }}" > ~/.npmrc
+      - name: Setup .yarnrc.yml
+        run: |
+          yarn config set 'npmRegistries["https://registry.yarnpkg.com"].npmAuthToken' $NPM_AUTH_TOKEN
       - run: yarn --immutable
       - run: yarn lint
       - run: yarn test
