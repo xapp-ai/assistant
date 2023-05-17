@@ -5943,7 +5943,7 @@ __metadata:
     rollup-plugin-terser: 7.0.2
     rollup-plugin-typescript2: 0.34.1
     sass: 1.58.0
-    sass-loader: 10.4.1
+    sass-loader: 13.2.2
     stentor-models: 1.57.127
     style-loader: 2.0.0
     ts-jest: 29.1.0
@@ -16361,7 +16361,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"klona@npm:^2.0.4":
+"klona@npm:^2.0.4, klona@npm:^2.0.6":
   version: 2.0.6
   resolution: "klona@npm:2.0.6"
   checksum: ac9ee3732e42b96feb67faae4d27cf49494e8a3bf3fa7115ce242fe04786788e0aff4741a07a45a2462e2079aa983d73d38519c85d65b70ef11447bbc3c58ce7
@@ -22462,20 +22462,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass-loader@npm:10.4.1":
-  version: 10.4.1
-  resolution: "sass-loader@npm:10.4.1"
+"sass-loader@npm:13.2.2":
+  version: 13.2.2
+  resolution: "sass-loader@npm:13.2.2"
   dependencies:
-    klona: ^2.0.4
-    loader-utils: ^2.0.0
+    klona: ^2.0.6
     neo-async: ^2.6.2
-    schema-utils: ^3.0.0
-    semver: ^7.3.2
   peerDependencies:
     fibers: ">= 3.1.0"
     node-sass: ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
     sass: ^1.3.0
-    webpack: ^4.36.0 || ^5.0.0
+    sass-embedded: "*"
+    webpack: ^5.0.0
   peerDependenciesMeta:
     fibers:
       optional: true
@@ -22483,7 +22481,9 @@ __metadata:
       optional: true
     sass:
       optional: true
-  checksum: df9a65a62247e95305299ccbdf212cffdcdb69490928aecdf4f3dcf539b5302ed7cbffa663f83c5fc3ce0864decf84257a9ce484f6df4cb4426feeb88445dcd0
+    sass-embedded:
+      optional: true
+  checksum: 0368e4eaa4e2109bb6c6b6bc7dbfb9d8e412a0ab965f98672d336e84bd103575a1551cfe98395f20335b350f2a94e67f7c816cc8e3f4ab85147a1c1221e22fd8
   languageName: node
   linkType: hard
 
