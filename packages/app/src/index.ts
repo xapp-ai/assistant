@@ -30,14 +30,13 @@ import { preResponseHook } from "./hooks/preResponseHook";
 export async function handler(event: any, context: Context, callback: Callback<any>): Promise<void> {
     await setEnv().then().catch((error: Error) => console.error("Environment failed to load", error));
 
-
     const studioService: StudioService = new StudioService({
         appId: process.env.STUDIO_APP_ID,
         token: process.env.STUDIO_TOKEN
     });
 
     const llmService = new OpenAIService({
-        businessDescription: "XAPP AI is a conversational AI company that provides intelligent virtual assistants for enterprise and small businesses with their home service templates."
+        businessDescription: "XAPP AI is a conversational AI company that provides intelligent virtual assistants for enterprise and small businesses with their home service templates.  XAPP AI has a with deep understanding of applying conversational AI, intelligent search and generative AI to create conversational chat, search and messaging."
     });
 
     const nlu = new XNLU({

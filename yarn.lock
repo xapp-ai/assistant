@@ -5765,7 +5765,7 @@ __metadata:
     "@xapp/stentor-gbm": 1.45.69
     "@xapp/stentor-lex-v2": 1.45.69
     "@xapp/stentor-service-salesforce": 1.45.69
-    "@xapp/x-nlu": 1.1.1
+    "@xapp/x-nlu": 1.2.3
     addresser: 1.1.19
     ansi-styles: 6.2.1
     aws-sdk: 2.1373.0
@@ -5837,20 +5837,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xapp/stentor-alexa-lib@npm:1.45.65":
-  version: 1.45.65
-  resolution: "@xapp/stentor-alexa-lib@npm:1.45.65"
-  dependencies:
-    ask-sdk-model: 1.66.0
-    lodash.invert: 4.3.0
-  peerDependencies:
-    stentor-constants: 1.x
-    stentor-models: 1.x
-    stentor-utils: 1.x
-  checksum: bc560c4605584b0a0bc1b8a072cd294c6ec0eeb0aa81467f94a5355e945704d687f33d06eddedfcb362de0127b9a9f121854d361a000d51f2545dc72aa7f903b
-  languageName: node
-  linkType: hard
-
 "@xapp/stentor-alexa-lib@npm:1.45.69":
   version: 1.45.69
   resolution: "@xapp/stentor-alexa-lib@npm:1.45.69"
@@ -5862,6 +5848,20 @@ __metadata:
     stentor-models: 1.x
     stentor-utils: 1.x
   checksum: 4f9b823d32cff75110f2c828ea7cf9c936f69152c5b344d3eaffb57dffd1ecfbefec3a588aadf15ae5783c1993af6a64f092d257e4696f483bd65959b5c17c95
+  languageName: node
+  linkType: hard
+
+"@xapp/stentor-alexa-lib@npm:1.45.72":
+  version: 1.45.72
+  resolution: "@xapp/stentor-alexa-lib@npm:1.45.72"
+  dependencies:
+    ask-sdk-model: 1.66.0
+    lodash.invert: 4.3.0
+  peerDependencies:
+    stentor-constants: 1.x
+    stentor-models: 1.x
+    stentor-utils: 1.x
+  checksum: 18e3c6dadc88a748a1787451adfbb9f648b93381f24daf40c06ab585a873deb4254455472b2837aabd15eb16614ce020d9c019bffeeb99d40b1199906b6d153d
   languageName: node
   linkType: hard
 
@@ -5913,22 +5913,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xapp/stentor-lex-lib@npm:1.45.65":
-  version: 1.45.65
-  resolution: "@xapp/stentor-lex-lib@npm:1.45.65"
-  dependencies:
-    "@xapp/stentor-alexa-lib": 1.45.65
-    lodash.merge: 4.6.2
-  peerDependencies:
-    stentor-interaction-model: 1.x
-    stentor-locales: 1.x
-    stentor-models: 1.x
-    stentor-request: 1.x
-    stentor-utils: 1.x
-  checksum: 68c41e2a6e7b7bbf74e9708b829849837ab187fb8bf08da13f18b75143d4702a9aa252de4efa1f47649ca2a64d99b85b4ea6cfbb89c46f52c41c2c3c20e7211e
-  languageName: node
-  linkType: hard
-
 "@xapp/stentor-lex-lib@npm:1.45.69":
   version: 1.45.69
   resolution: "@xapp/stentor-lex-lib@npm:1.45.69"
@@ -5942,6 +5926,22 @@ __metadata:
     stentor-request: 1.x
     stentor-utils: 1.x
   checksum: cf3b12937fa228bdf956db65292f781b53905079d9477276523451607627342e6b6029b1bbf1d9f067af5dbaeaf5f3993aae3322ade2216ef4eb8e3f8e8967d3
+  languageName: node
+  linkType: hard
+
+"@xapp/stentor-lex-lib@npm:1.45.72":
+  version: 1.45.72
+  resolution: "@xapp/stentor-lex-lib@npm:1.45.72"
+  dependencies:
+    "@xapp/stentor-alexa-lib": 1.45.72
+    lodash.merge: 4.6.2
+  peerDependencies:
+    stentor-interaction-model: 1.x
+    stentor-locales: 1.x
+    stentor-models: 1.x
+    stentor-request: 1.x
+    stentor-utils: 1.x
+  checksum: 79dca65ebb1a1f3a33fe54d3e2a394b1857d7fe98ae27cf28ac4c39be6142109cc5b3fde3c5b46c8fb2713327937bc0b23260ea3435b5f7b05cb8275f360b29e
   languageName: node
   linkType: hard
 
@@ -5967,25 +5967,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xapp/stentor-service-lex@npm:1.45.65":
-  version: 1.45.65
-  resolution: "@xapp/stentor-service-lex@npm:1.45.65"
-  dependencies:
-    "@xapp/stentor-alexa-lib": 1.45.65
-    "@xapp/stentor-lex-lib": 1.45.65
-    lodash.merge: 4.6.2
-    uuid: 9.0.0
-  peerDependencies:
-    aws-sdk: 2.X
-    stentor-constants: 1.x
-    stentor-handler: 1.x
-    stentor-history: 1.x
-    stentor-media: 1.x
-    stentor-models: 1.x
-  checksum: f1cba7219bedf0977d7284469e6646c7f3c6c687688a64f13590f6b3fddfedf82a8e0ad933460fdd354b8bb14a9be713b88367c2eadfca83bd5260effe8679d5
-  languageName: node
-  linkType: hard
-
 "@xapp/stentor-service-lex@npm:1.45.69":
   version: 1.45.69
   resolution: "@xapp/stentor-service-lex@npm:1.45.69"
@@ -6005,6 +5986,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@xapp/stentor-service-lex@npm:1.45.72":
+  version: 1.45.72
+  resolution: "@xapp/stentor-service-lex@npm:1.45.72"
+  dependencies:
+    "@xapp/stentor-alexa-lib": 1.45.72
+    "@xapp/stentor-lex-lib": 1.45.72
+    lodash.merge: 4.6.2
+    uuid: 9.0.0
+  peerDependencies:
+    aws-sdk: 2.X
+    stentor-constants: 1.x
+    stentor-handler: 1.x
+    stentor-history: 1.x
+    stentor-media: 1.x
+    stentor-models: 1.x
+  checksum: 2284a1f09c90bb5e384bf597d3b8d90839379e6d027edd1e7dcf035e1ca475df7675fcdf0d9ba477a50ec66dba192727679eed6e3b4fc93439c1f96d01634e08
+  languageName: node
+  linkType: hard
+
 "@xapp/stentor-service-salesforce@npm:1.45.69":
   version: 1.45.69
   resolution: "@xapp/stentor-service-salesforce@npm:1.45.69"
@@ -6018,21 +6018,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xapp/x-nlu@npm:1.1.1":
-  version: 1.1.1
-  resolution: "@xapp/x-nlu@npm:1.1.1"
+"@xapp/x-nlu@npm:1.2.3":
+  version: 1.2.3
+  resolution: "@xapp/x-nlu@npm:1.2.3"
   dependencies:
-    "@xapp/stentor-service-lex": 1.45.65
+    "@xapp/stentor-service-lex": 1.45.72
     abort-controller: 3.0.0
     addresser: 1.1.19
-    compromise: 14.8.2
+    compromise: 14.9.0
     isomorphic-fetch: 3.0.0
     lodash.capitalize: 4.2.1
     openai: 3.2.1
     parse-full-name: 1.2.6
   peerDependencies:
     stentor: 1.X
-  checksum: ae4945f541a8499296a6ea9d4a8fe3aaf45cb98f91d1426feca981b692e35f3c8289942d57f2366837be056e6ba1f339ef83e04289c9d381aed5483e3c6fbb15
+  checksum: 71919da82b735c54969fce82e956f8dc643ac8d570bf9425e7aec24d7ab12c7b1629d5df492e463aadfd21734ac77ed784ae11b3512db7c48745a244078368e3
   languageName: node
   linkType: hard
 
@@ -9111,6 +9111,17 @@ __metadata:
     grad-school: 0.0.5
     suffix-thumb: 4.0.2
   checksum: c4f13aa0c41a0824fb9f4b46dc14c53497ff2205f760aa68c9d9fe9de2621dd9e55240ef6b2c7ba2960a6bbf04a7e7428e767ee5e00401f62dd6dd5e6d91d2e8
+  languageName: node
+  linkType: hard
+
+"compromise@npm:14.9.0":
+  version: 14.9.0
+  resolution: "compromise@npm:14.9.0"
+  dependencies:
+    efrt: 2.7.0
+    grad-school: 0.0.5
+    suffix-thumb: 5.0.2
+  checksum: 827fa45f497824dbf336747c89ea43472779ff3b50a57ea8012a32caf1c4eb46fb63cf9db21e8bd48a7875652de9809b59e2110bfa009442270a9c46ab6dfd0a
   languageName: node
   linkType: hard
 
@@ -23676,6 +23687,13 @@ __metadata:
   version: 4.0.2
   resolution: "suffix-thumb@npm:4.0.2"
   checksum: e16c47d3efff9ff363e3c19bdfcb2aff511810eabeef6136c4fdf184304148b5b9527721e87af6bc5b1fb42ea61e31802b5df7fd3b19acfe0e445a5f40686902
+  languageName: node
+  linkType: hard
+
+"suffix-thumb@npm:5.0.2":
+  version: 5.0.2
+  resolution: "suffix-thumb@npm:5.0.2"
+  checksum: 4c4f37168b9455c460451c9531fd2708dcd20aadbb3bc505901a0bb616fa9239a582661cd002625de3cf499ce747fbac45d074e75f0f1bccd7b88fb9c6f4fac9
   languageName: node
   linkType: hard
 
