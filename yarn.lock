@@ -6785,7 +6785,7 @@ __metadata:
     nodemon: 2.0.22
     parse-full-name: 1.2.6
     rimraf: 4.4.1
-    serverless: 3.30.1
+    serverless: 3.32.2
     serverless-plugin-common-excludes: 4.0.0
     sinon: 15.0.3
     sinon-chai: 3.7.0
@@ -8017,9 +8017,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-sdk@npm:^2.1352.0":
-  version: 2.1379.0
-  resolution: "aws-sdk@npm:2.1379.0"
+"aws-sdk@npm:^2.1389.0":
+  version: 2.1391.0
+  resolution: "aws-sdk@npm:2.1391.0"
   dependencies:
     buffer: 4.9.2
     events: 1.1.1
@@ -8031,7 +8031,7 @@ __metadata:
     util: ^0.12.4
     uuid: 8.0.0
     xml2js: 0.5.0
-  checksum: 919c7aa2bc8f96e21a4e98fe1a1cbf982ecb176b375d15e00c04f42796d37d8b94bfb3c3f4c3c9f7816076e675ce58fadc4600f62a0dd99833cdd889dea8de15
+  checksum: acf2abc18835a92a4ac7262e7b2185a98cd6eda3a8212e804e9204ad6188c804a995a80e046e78d2ce996d1a956f97ea9a88bae666a8370b24d13e5e28db4174
   languageName: node
   linkType: hard
 
@@ -11678,17 +11678,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:16.1.4":
+"dotenv@npm:16.1.4, dotenv@npm:^16.1.3":
   version: 16.1.4
   resolution: "dotenv@npm:16.1.4"
   checksum: c1b2e13df4d374a6a29e134c56c7b040ba20500677fe8b9939ea654f3b3badb9aaa0b172e40e4dfa1233a4177dbb8fb79d84cc79a50ac9c9641fe2ad98c14876
-  languageName: node
-  linkType: hard
-
-"dotenv@npm:^16.0.3":
-  version: 16.0.3
-  resolution: "dotenv@npm:16.0.3"
-  checksum: afcf03f373d7a6d62c7e9afea6328e62851d627a4e73f2e12d0a8deae1cd375892004f3021883f8aec85932cd2834b091f568ced92b4774625b321db83b827f8
   languageName: node
   linkType: hard
 
@@ -16972,7 +16965,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json-cycle@npm:^1.4.0":
+"json-cycle@npm:^1.5.0":
   version: 1.5.0
   resolution: "json-cycle@npm:1.5.0"
   checksum: 0a44cd349676c6726093c64283fb75402f9104b32325b06c9270af6d639e7caac419f5301a39298aef2ac1659b273b167e02bd622e628c3392cf86f0e77a9f78
@@ -19195,7 +19188,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-fetch@npm:2.6.11, node-fetch@npm:^2.3.0, node-fetch@npm:^2.6.1, node-fetch@npm:^2.6.7, node-fetch@npm:^2.6.8, node-fetch@npm:^2.6.9":
+"node-fetch@npm:2.6.11, node-fetch@npm:^2.3.0, node-fetch@npm:^2.6.1, node-fetch@npm:^2.6.11, node-fetch@npm:^2.6.7, node-fetch@npm:^2.6.8, node-fetch@npm:^2.6.9":
   version: 2.6.11
   resolution: "node-fetch@npm:2.6.11"
   dependencies:
@@ -23632,7 +23625,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:7.x, semver@npm:^7.0.0, semver@npm:^7.1.1, semver@npm:^7.1.2, semver@npm:^7.3.2, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.7, semver@npm:^7.3.8":
+"semver@npm:7.x, semver@npm:^7.0.0, semver@npm:^7.1.1, semver@npm:^7.1.2, semver@npm:^7.3.2, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.7, semver@npm:^7.3.8, semver@npm:^7.5.1":
   version: 7.5.1
   resolution: "semver@npm:7.5.1"
   dependencies:
@@ -23750,9 +23743,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"serverless@npm:3.30.1":
-  version: 3.30.1
-  resolution: "serverless@npm:3.30.1"
+"serverless@npm:3.32.2":
+  version: 3.32.2
+  resolution: "serverless@npm:3.32.2"
   dependencies:
     "@serverless/dashboard-plugin": ^6.2.3
     "@serverless/platform-client": ^4.3.2
@@ -23760,7 +23753,7 @@ __metadata:
     ajv: ^8.12.0
     ajv-formats: ^2.1.1
     archiver: ^5.3.1
-    aws-sdk: ^2.1352.0
+    aws-sdk: ^2.1389.0
     bluebird: ^3.7.2
     cachedir: ^2.3.0
     chalk: ^4.1.2
@@ -23770,7 +23763,7 @@ __metadata:
     d: ^1.0.1
     dayjs: ^1.11.7
     decompress: ^4.2.1
-    dotenv: ^16.0.3
+    dotenv: ^16.1.3
     dotenv-expand: ^10.0.0
     essentials: ^1.2.0
     ext: ^1.7.0
@@ -23785,12 +23778,12 @@ __metadata:
     is-docker: ^2.2.1
     js-yaml: ^4.1.0
     json-colorizer: ^2.2.2
-    json-cycle: ^1.4.0
+    json-cycle: ^1.5.0
     json-refs: ^3.0.15
     lodash: ^4.17.21
     memoizee: ^0.4.15
     micromatch: ^4.0.5
-    node-fetch: ^2.6.9
+    node-fetch: ^2.6.11
     npm-registry-utilities: ^1.0.0
     object-hash: ^3.0.0
     open: ^8.4.2
@@ -23798,12 +23791,12 @@ __metadata:
     process-utils: ^4.0.0
     promise-queue: ^2.2.5
     require-from-string: ^2.0.2
-    semver: ^7.3.8
+    semver: ^7.5.1
     signal-exit: ^3.0.7
     stream-buffers: ^3.0.2
     strip-ansi: ^6.0.1
     supports-color: ^8.1.1
-    tar: ^6.1.13
+    tar: ^6.1.15
     timers-ext: ^0.1.7
     type: ^2.7.2
     untildify: ^4.0.0
@@ -23813,7 +23806,7 @@ __metadata:
   bin:
     serverless: bin/serverless.js
     sls: bin/serverless.js
-  checksum: cb8be3c14527d3278f691cbff8084b5d63ebd3967a999dde0242056a500dd562d23d3fdca7038417b10f0b2ae1715d2e0f34fad7b5ec45486edb83c82dec7719
+  checksum: 4c3ef3ad249c7b88c7da80c53a9e881a1511b3c6ac23669ec8cb4ac04e0c682fe4b7411d2b7f868cfb4213f6b8153536f2132775e9212f6233c2f03776e34641
   languageName: node
   linkType: hard
 
@@ -25500,7 +25493,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tar@npm:^6.0.2, tar@npm:^6.1.0, tar@npm:^6.1.11, tar@npm:^6.1.13, tar@npm:^6.1.2":
+"tar@npm:^6.0.2, tar@npm:^6.1.0, tar@npm:^6.1.11, tar@npm:^6.1.15, tar@npm:^6.1.2":
   version: 6.1.15
   resolution: "tar@npm:6.1.15"
   dependencies:
