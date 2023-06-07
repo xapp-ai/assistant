@@ -6767,7 +6767,7 @@ __metadata:
     "@xapp/stentor-lex-v2": 1.45.97
     "@xapp/stentor-service-salesforce": 1.45.97
     "@xapp/x-nlu": 1.2.3
-    addresser: 1.1.19
+    addresser: 1.1.20
     ansi-styles: 6.2.1
     aws-sdk: 2.1373.0
     babel-loader: 9.1.2
@@ -7215,6 +7215,13 @@ __metadata:
   version: 1.1.19
   resolution: "addresser@npm:1.1.19"
   checksum: d143b19935557e9570b6d8dd42115236e770231232b602067882988b775b0326c5b57be87770293e3e26b8f87556907796ab5a17060dfab54570e2e9d429bb2f
+  languageName: node
+  linkType: hard
+
+"addresser@npm:1.1.20":
+  version: 1.1.20
+  resolution: "addresser@npm:1.1.20"
+  checksum: 27bfc8fdf9b0c5aa584b03cb9f8c75ef3acaa9b87a12e4d7ed2815f5bf1d3e98ef84f047a8988b09d857d986261962f5f62fc6c4a58462a88293f62f15e6ab20
   languageName: node
   linkType: hard
 
