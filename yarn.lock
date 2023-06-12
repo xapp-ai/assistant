@@ -6707,7 +6707,7 @@ __metadata:
     rollup-plugin-scss: 4.0.0
     rollup-plugin-terser: 7.0.2
     rollup-plugin-typescript2: 0.34.1
-    sass: 1.58.0
+    sass: 1.63.3
     sass-loader: 10.4.1
     stentor-models: 1.57.159
     style-loader: 2.0.0
@@ -23443,16 +23443,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sass@npm:1.58.0":
-  version: 1.58.0
-  resolution: "sass@npm:1.58.0"
+"sass@npm:1.63.3":
+  version: 1.63.3
+  resolution: "sass@npm:1.63.3"
   dependencies:
     chokidar: ">=3.0.0 <4.0.0"
     immutable: ^4.0.0
     source-map-js: ">=0.6.2 <2.0.0"
   bin:
     sass: sass.js
-  checksum: a7219634881d2de6441fb619787fb1a02e3fa0333fb715be26aa335ba49d6bdb4f1105d9df70a80a67200893022b08346745783dc49046095d94fc6e044492d6
+  checksum: 41d1d7e875be738a8b5ef92bc722b20fd88f9fc8db61caa17dec37e0a53739cf28dc3b79481b1998c410c82c30247f473c2559e64cec7c4d851e5cea0434ec4e
   languageName: node
   linkType: hard
 
