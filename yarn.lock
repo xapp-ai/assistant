@@ -6701,7 +6701,7 @@ __metadata:
     react-redux: 8.0.7
     redux: 4.2.1
     redux-thunk: 2.4.2
-    rollup: 2.79.1
+    rollup: 3.26.3
     rollup-plugin-peer-deps-external: 2.2.4
     rollup-plugin-postcss: 4.0.2
     rollup-plugin-scss: 4.0.0
@@ -23220,9 +23220,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:2.79.1":
-  version: 2.79.1
-  resolution: "rollup@npm:2.79.1"
+"rollup@npm:3.26.3":
+  version: 3.26.3
+  resolution: "rollup@npm:3.26.3"
   dependencies:
     fsevents: ~2.3.2
   dependenciesMeta:
@@ -23230,7 +23230,7 @@ __metadata:
       optional: true
   bin:
     rollup: dist/bin/rollup
-  checksum: 6a2bf167b3587d4df709b37d149ad0300692cc5deb510f89ac7bdc77c8738c9546ae3de9322b0968e1ed2b0e984571f5f55aae28fa7de4cfcb1bc5402a4e2be6
+  checksum: e6a765b2b7af709170344cc804392936613e06b6bdab46a04d264368d154bdadaaaf77de39e6e656bf728a060d7b4867d81e2464d791c0f37dd5b21aa9c7a6df
   languageName: node
   linkType: hard
 
