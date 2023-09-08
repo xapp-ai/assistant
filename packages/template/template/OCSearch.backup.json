@@ -1,0 +1,520 @@
+{
+  "__typename": "Handler",
+  "appId": "assistant",
+  "intentId": "OCSearch",
+  "organizationId": "xapp-ai",
+  "createdAt": "2022-03-22T14:16:04.135Z",
+  "updatedAt": null,
+  "name": "❓ Search",
+  "langCode": "en-US",
+  "utterancePatterns": [],
+  "dialogflowId": null,
+  "type": "QuestionAnsweringHandler",
+  "defaultLocale": null,
+  "graphCoords": null,
+  "permissions": null,
+  "slots": [],
+  "validation": {
+    "isValid": true,
+    "errors": []
+  },
+  "content": [
+    {
+      "__typename": "HandlerContent",
+      "key": "OCSearch",
+      "handlerResponse": [
+        {
+          "__typename": "SimpleHandlerResponse",
+          "displays": [
+            {
+              "__typename": "ListDisplay",
+              "type": "LIST",
+              "token": null,
+              "title": "Results",
+              "itemsName": "currentResult",
+              "itemsObject": "${SEARCH_RESULTS}",
+              "range": {
+                "length": 5,
+                "from": 0
+              },
+              "items": [
+                {
+                  "token": "result-${index}",
+                  "url": "${currentResult.source}",
+                  "synonyms": [],
+                  "image": null,
+                  "title": "${currentResult.title}",
+                  "description": "${currentResult.document}",
+                  "buttons": null
+                }
+              ]
+            }
+          ],
+          "outputSpeech": {
+            "ssml": "<speak></speak>",
+            "textToSpeech": null,
+            "displayText": "__Suggested Answer__\n\"${SUGGESTED_ANSWER.markdownText}\"",
+            "suggestions": [
+              {
+                "__typename": "LinkOutSuggestion",
+                "title": "Read More",
+                "url": "${SUGGESTED_ANSWER.source}"
+              }
+            ]
+          },
+          "segments": null,
+          "reprompt": null,
+          "context": null,
+          "name": "Search Bar - Suggested with List",
+          "tag": "KB_SUGGESTED_ANSWER",
+          "system": null,
+          "data": null,
+          "channel": {
+            "name": "intelligent-search"
+          },
+          "conditions": "!!session('SUGGESTED_ANSWER') && !!session('SEARCH_RESULTS') && !session('TOP_ANSWER') && !session('TOP_FAQ')"
+        },
+        {
+          "__typename": "SimpleHandlerResponse",
+          "displays": [],
+          "outputSpeech": {
+            "ssml": "<speak></speak>",
+            "textToSpeech": null,
+            "displayText": "__Suggested Answer__\n\"${SUGGESTED_ANSWER.markdownText}\"",
+            "suggestions": [
+              {
+                "__typename": "LinkOutSuggestion",
+                "title": "Read More",
+                "url": "${SUGGESTED_ANSWER.source}"
+              }
+            ]
+          },
+          "segments": null,
+          "reprompt": null,
+          "context": null,
+          "name": "Search Bar - Suggested",
+          "tag": "KB_SUGGESTED_ANSWER",
+          "system": null,
+          "data": null,
+          "channel": {
+            "name": "intelligent-search"
+          },
+          "conditions": "!!session('SUGGESTED_ANSWER') && !session('SEARCH_RESULTS') && !session('TOP_ANSWER') && !session('TOP_FAQ')"
+        },
+        {
+          "__typename": "SimpleHandlerResponse",
+          "displays": null,
+          "outputSpeech": {
+            "ssml": "<speak>Here is what I found...${SUGGESTED_ANSWER.markdownText}  Any other questions?</speak>",
+            "textToSpeech": null,
+            "displayText": "Here is what I found...\n\"${SUGGESTED_ANSWER.markdownText}\"\nAny other questions?",
+            "suggestions": [
+              {
+                "__typename": "LinkOutSuggestion",
+                "title": "Read More",
+                "url": "${SUGGESTED_ANSWER.source}"
+              },
+              {
+                "__typename": "SuggestionObject",
+                "title": "Contact Us"
+              }
+            ]
+          },
+          "segments": null,
+          "reprompt": {
+            "ssml": "<speak>Any other questions?</speak>",
+            "textToSpeech": null,
+            "displayText": "Any other questions?",
+            "suggestions": null
+          },
+          "context": null,
+          "name": "Suggested Answer",
+          "tag": "KB_SUGGESTED_ANSWER",
+          "system": null,
+          "data": null,
+          "channel": {
+            "name": "widget|google-business-messages"
+          },
+          "conditions": "!!session('SUGGESTED_ANSWER') && !session('TOP_ANSWER') && !session('TOP_FAQ')"
+        },
+        {
+          "__typename": "SimpleHandlerResponse",
+          "displays": null,
+          "outputSpeech": {
+            "ssml": "<speak></speak>",
+            "textToSpeech": null,
+            "displayText": "__Answer__\n\n${TOP_FAQ.markdownText}",
+            "suggestions": [
+              {
+                "__typename": "LinkOutSuggestion",
+                "title": "Read More",
+                "url": "${TOP_FAQ.source}"
+              }
+            ]
+          },
+          "segments": null,
+          "reprompt": {
+            "ssml": "<speak>Any other questions?</speak>",
+            "textToSpeech": null,
+            "displayText": "Any other questions?",
+            "suggestions": null
+          },
+          "context": null,
+          "name": "Search Bar - Top FAQ",
+          "tag": "KB_TOP_FAQ",
+          "system": null,
+          "data": null,
+          "channel": {
+            "name": "intelligent-search"
+          },
+          "conditions": "!!session('TOP_FAQ') && !session('SEARCH_RESULTS')"
+        },
+        {
+          "__typename": "SimpleHandlerResponse",
+          "displays": [
+            {
+              "__typename": "ListDisplay",
+              "type": "LIST",
+              "token": null,
+              "title": "Results",
+              "itemsName": "currentResult",
+              "itemsObject": "${SEARCH_RESULTS}",
+              "range": {
+                "length": 5,
+                "from": 0
+              },
+              "items": [
+                {
+                  "token": "result-${index}",
+                  "url": "${currentResult.source}",
+                  "synonyms": [],
+                  "image": null,
+                  "title": "${currentResult.title}",
+                  "description": "${currentResult.document}",
+                  "buttons": null
+                }
+              ]
+            }
+          ],
+          "outputSpeech": {
+            "ssml": "<speak></speak>",
+            "textToSpeech": null,
+            "displayText": "__Answer__\n\n${TOP_FAQ.markdownText}",
+            "suggestions": [
+              {
+                "__typename": "LinkOutSuggestion",
+                "title": "Read More",
+                "url": "${TOP_FAQ.source}"
+              }
+            ]
+          },
+          "segments": null,
+          "reprompt": {
+            "ssml": "<speak>Any other questions?</speak>",
+            "textToSpeech": null,
+            "displayText": "Any other questions?",
+            "suggestions": null
+          },
+          "context": null,
+          "name": "Search Bar - Top FAQ with List",
+          "tag": "KB_TOP_FAQ",
+          "system": null,
+          "data": null,
+          "channel": {
+            "name": "intelligent-search"
+          },
+          "conditions": "!!session('TOP_FAQ') && !!session('SEARCH_RESULTS')"
+        },
+        {
+          "__typename": "SimpleHandlerResponse",
+          "displays": null,
+          "outputSpeech": {
+            "ssml": "<speak>${TOP_FAQ.text} Any other questions?</speak>",
+            "textToSpeech": null,
+            "displayText": "${TOP_FAQ.markdownText}\n\nAny other questions?",
+            "suggestions": [
+              {
+                "__typename": "LinkOutSuggestion",
+                "title": "Read More",
+                "url": "${TOP_FAQ.source}"
+              },
+              {
+                "__typename": "SuggestionObject",
+                "title": "Contact Us"
+              }
+            ]
+          },
+          "segments": null,
+          "reprompt": {
+            "ssml": "<speak>Any other questions?</speak>",
+            "textToSpeech": null,
+            "displayText": "Any other questions?",
+            "suggestions": null
+          },
+          "context": null,
+          "name": "Top FAQ",
+          "tag": "KB_TOP_FAQ",
+          "system": null,
+          "data": null,
+          "channel": {
+            "name": "widget|google-business-messages"
+          },
+          "conditions": "!!session('TOP_FAQ')"
+        },
+        {
+          "__typename": "SimpleHandlerResponse",
+          "displays": null,
+          "outputSpeech": {
+            "ssml": "<speak>${TOP_ANSWER.text}</speak>",
+            "textToSpeech": null,
+            "displayText": "__Top Answer__\n\n${TOP_ANSWER.markdownText}",
+            "suggestions": [
+              {
+                "__typename": "LinkOutSuggestion",
+                "title": "Read More",
+                "url": "${TOP_ANSWER.source}"
+              }
+            ]
+          },
+          "segments": null,
+          "reprompt": {
+            "ssml": "<speak>Any other questions?</speak>",
+            "textToSpeech": null,
+            "displayText": "Any other questions?",
+            "suggestions": null
+          },
+          "context": null,
+          "name": "Search Bar - Top Answer",
+          "tag": "KB_TOP_ANSWER",
+          "system": null,
+          "data": null,
+          "channel": {
+            "name": "intelligent-search"
+          },
+          "conditions": "!!session('TOP_ANSWER') && !session('TOP_FAQ')"
+        },
+        {
+          "__typename": "SimpleHandlerResponse",
+          "displays": null,
+          "outputSpeech": {
+            "ssml": "<speak>${TOP_ANSWER.text} Any other questions?</speak>",
+            "textToSpeech": null,
+            "displayText": "${TOP_ANSWER.markdownText}\n\nAny other questions?",
+            "suggestions": [
+              {
+                "__typename": "LinkOutSuggestion",
+                "title": "Read More",
+                "url": "${TOP_ANSWER.source}"
+              },
+              {
+                "__typename": "SuggestionObject",
+                "title": "Contact Us"
+              }
+            ]
+          },
+          "segments": null,
+          "reprompt": {
+            "ssml": "<speak>Any other questions?</speak>",
+            "textToSpeech": null,
+            "displayText": "Any other questions?",
+            "suggestions": null
+          },
+          "context": null,
+          "name": "Top Answer",
+          "tag": "KB_TOP_ANSWER",
+          "system": null,
+          "data": null,
+          "channel": {
+            "name": "widget|google-business-messages"
+          },
+          "conditions": "!!session('TOP_ANSWER') && !session('TOP_FAQ')"
+        },
+        {
+          "__typename": "SimpleHandlerResponse",
+          "displays": [
+            {
+              "__typename": "ListDisplay",
+              "type": "LIST",
+              "token": null,
+              "title": "Results",
+              "itemsName": "currentResult",
+              "itemsObject": "${SEARCH_RESULTS}",
+              "range": {
+                "length": 2,
+                "from": 0
+              },
+              "items": [
+                {
+                  "token": "result-${index}",
+                  "url": "${currentResult.source}",
+                  "synonyms": [],
+                  "image": null,
+                  "title": "${currentResult.title}",
+                  "description": "${currentResult.document}",
+                  "buttons": null
+                }
+              ]
+            }
+          ],
+          "outputSpeech": {
+            "ssml": "<speak></speak>",
+            "textToSpeech": null,
+            "displayText": "",
+            "suggestions": []
+          },
+          "segments": null,
+          "reprompt": {
+            "ssml": "<speak></speak>",
+            "textToSpeech": null,
+            "displayText": "",
+            "suggestions": null
+          },
+          "context": null,
+          "name": "Search Bar - List",
+          "tag": "KB_LIST_OF_RESULTS",
+          "system": null,
+          "data": null,
+          "channel": {
+            "name": "intelligent-search"
+          },
+          "conditions": "!!session('SEARCH_RESULTS') && !session('SUGGESTED_ANSWER') && !session('TOP_ANSWER') && !session('TOP_FAQ')"
+        },
+        {
+          "__typename": "SimpleHandlerResponse",
+          "displays": [
+            {
+              "__typename": "ListDisplay",
+              "type": "LIST",
+              "token": null,
+              "title": "Results",
+              "itemsName": "currentResult",
+              "itemsObject": "${SEARCH_RESULTS}",
+              "range": {
+                "length": 2,
+                "from": 0
+              },
+              "items": [
+                {
+                  "token": "result-${index}",
+                  "url": "${currentResult.source}",
+                  "synonyms": [],
+                  "image": null,
+                  "title": "${currentResult.title}",
+                  "description": "${currentResult.document}",
+                  "buttons": null
+                }
+              ]
+            }
+          ],
+          "outputSpeech": {
+            "ssml": "<speak>See if the below will answer your question, otherwise happy to put you in touch with somebody who will know the answer.</speak>",
+            "textToSpeech": null,
+            "displayText": "See if the below will answer your question, otherwise happy to put you in touch with somebody who will know the answer.",
+            "suggestions": [
+              {
+                "__typename": "SuggestionObject",
+                "title": "Contact Us"
+              }
+            ]
+          },
+          "segments": null,
+          "reprompt": {
+            "ssml": "<speak>Any other questions?</speak>",
+            "textToSpeech": null,
+            "displayText": "Any other questions?",
+            "suggestions": null
+          },
+          "context": null,
+          "name": "List",
+          "tag": "KB_LIST_OF_RESULTS",
+          "system": null,
+          "data": null,
+          "channel": {
+            "name": "widget|google-business-messages"
+          },
+          "conditions": "!!session('SEARCH_RESULTS') && !session('SUGGESTED_ANSWER') && !session('TOP_ANSWER') && !session('TOP_FAQ')"
+        },
+        {
+          "__typename": "SimpleHandlerResponse",
+          "displays": null,
+          "outputSpeech": {
+            "ssml": "<speak>No Results</speak>",
+            "textToSpeech": null,
+            "displayText": "No Results",
+            "suggestions": null
+          },
+          "segments": null,
+          "reprompt": {
+            "ssml": "<speak>What else can I help you with?</speak>",
+            "textToSpeech": null,
+            "displayText": "What else can I help you with?",
+            "suggestions": null
+          },
+          "context": null,
+          "name": "Search Bar - No Answers",
+          "tag": "KB_NO_ANSWER",
+          "system": null,
+          "data": null,
+          "channel": {
+            "name": "intelligent-search"
+          },
+          "conditions": "!session('TOP_ANSWER') && !session('TOP_FAQ') && !session('SUGGEST_ANSWER') && !session('SEARCH_RESULTS')"
+        },
+        {
+          "__typename": "SimpleHandlerResponse",
+          "displays": null,
+          "outputSpeech": {
+            "ssml": "<speak>I'm sorry, I don't know that one.  What else can I help you with?</speak>",
+            "textToSpeech": null,
+            "displayText": "I'm sorry, I don't know that one.  What else can I help you with?",
+            "suggestions": [
+              {
+                "__typename": "SuggestionObject",
+                "title": "Contact Us"
+              }
+            ]
+          },
+          "segments": null,
+          "reprompt": {
+            "ssml": "<speak>What else can I help you with?</speak>",
+            "textToSpeech": null,
+            "displayText": "What else can I help you with?",
+            "suggestions": null
+          },
+          "context": null,
+          "name": "No Answer",
+          "tag": "KB_NO_ANSWER",
+          "system": null,
+          "data": null,
+          "channel": {
+            "name": "widget|google-business-messages"
+          },
+          "conditions": null
+        }
+      ]
+    }
+  ],
+  "data": {
+    "QNA_BOT_LONGEST_HIGHLIGHT": false,
+    "REMOVE_LEADING_LINES_WITHOUT_HIGHLIGHTS": true,
+    "REMOVE_TRAILING_LINES_WITHOUT_HIGHLIGHTS": true,
+    "FUZZY_MATCH_FAQS": true
+  },
+  "forward": [
+    {
+      "key": "NoIntent",
+      "paths": [
+        {
+          "actions": null,
+          "conditions": null,
+          "data": null,
+          "platform": null,
+          "intentId": "ByeIntent",
+          "slots": null,
+          "type": "START"
+        }
+      ]
+    }
+  ],
+  "redirect": []
+}
