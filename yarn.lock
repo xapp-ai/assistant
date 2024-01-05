@@ -5865,6 +5865,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/aws-lambda@npm:8.10.131":
+  version: 8.10.131
+  resolution: "@types/aws-lambda@npm:8.10.131"
+  checksum: dcc3c37ea15950cc4f285d853fb8ef4f638710cb43889c0935e6741c942565314b84d6e6f59be1c1a7c4b82b78d4593d6e3db609a83d66276e887f962b20ec87
+  languageName: node
+  linkType: hard
+
 "@types/aws-lambda@npm:^0.0.33":
   version: 0.0.33
   resolution: "@types/aws-lambda@npm:0.0.33"
@@ -7380,7 +7387,7 @@ __metadata:
     "@babel/core": 7.22.20
     "@babel/preset-env": 7.22.20
     "@babel/preset-typescript": 7.22.15
-    "@types/aws-lambda": 8.10.130
+    "@types/aws-lambda": 8.10.131
     "@types/chai": 4.3.11
     "@types/cors": 2.8.17
     "@types/express": 4.17.21
