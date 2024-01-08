@@ -7348,7 +7348,7 @@ __metadata:
     sass: 1.58.0
     sass-loader: 10.4.1
     stentor-models: 1.58.64
-    style-loader: 2.0.0
+    style-loader: 3.3.3
     ts-jest: 29.1.1
     typescript: 5.2.2
   peerDependencies:
@@ -26020,15 +26020,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"style-loader@npm:2.0.0":
-  version: 2.0.0
-  resolution: "style-loader@npm:2.0.0"
-  dependencies:
-    loader-utils: ^2.0.0
-    schema-utils: ^3.0.0
+"style-loader@npm:3.3.3":
+  version: 3.3.3
+  resolution: "style-loader@npm:3.3.3"
   peerDependencies:
-    webpack: ^4.0.0 || ^5.0.0
-  checksum: 21425246a5a8f14d1625a657a3a56f8a323193fa341a71af818a2ed2a429efa2385a328b4381cf2f12c2d0e6380801eb9e0427ed9c3a10ff95c86e383184d632
+    webpack: ^5.0.0
+  checksum: f59c953f56f6a935bd6a1dfa409f1128fed2b66b48ce4a7a75b85862a7156e5e90ab163878962762f528ec4d510903d828da645e143fbffd26f055dc1c094078
   languageName: node
   linkType: hard
 
