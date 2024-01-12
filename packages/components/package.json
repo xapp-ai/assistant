@@ -8,11 +8,11 @@
   },
   "private": true,
   "dependencies": {
-    "@xapp/chat-widget": "1.65.3",
+    "@xapp/chat-widget": "1.65.4",
     "@xapp/oc-studio-starter-models": "1.0.0",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "stentor-models": "1.58.64"
+    "stentor-models": "1.58.79"
   },
   "devDependencies": {
     "@babel/core": "7.22.20",
@@ -52,7 +52,7 @@
     "typescript": "5.2.2"
   },
   "peerDependencies": {
-    "@xapp/chat-widget": "1.65.3",
+    "@xapp/chat-widget": "1.65.4",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
