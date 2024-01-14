@@ -14,7 +14,7 @@
     "eslint": "8.48.0",
     "eslint-plugin-notice": "0.9.10",
     "stentor-models": "1.58.79",
-    "typescript": "5.2.2"
+    "typescript": "5.3.3"
   },
   "peerDependencies": {
     "stentor-models": "1.X"

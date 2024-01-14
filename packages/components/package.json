@@ -49,7 +49,7 @@
     "sass-loader": "10.4.1",
     "style-loader": "2.0.0",
     "ts-jest": "29.1.1",
-    "typescript": "5.2.2"
+    "typescript": "5.3.3"
   },
   "peerDependencies": {
     "@xapp/chat-widget": "1.65.4",
