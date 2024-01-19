@@ -80,6 +80,7 @@ functions:
   app:
     name: studio-runtime-${self:custom.myEnvironment.APP_ID}-${sls:stage}
     handler: lib/index.handler
+    provisionedConcurrency: 1
     events:
       - http:
           method: POST
