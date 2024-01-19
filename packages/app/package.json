@@ -49,7 +49,7 @@
     "sinon-chai": "3.7.0",
     "ts-node": "10.9.2",
     "typescript": "5.3.3",
-    "webpack": "5.75.0",
+    "webpack": "5.89.0",
     "webpack-cli": "5.1.4",
     "webpack-node-externals": "3.0.0"
   },
@@ -66,13 +66,13 @@
     "test": "exit 0"
   },
   "dependencies": {
-    "@xapp/contact-capture-handler": "1.5.0",
+    "@xapp/contact-capture-handler": "1.5.1",
     "@xapp/oc-studio-starter-models": "1.0.0",
-    "@xapp/question-answering-handler": "2.4.1",
+    "@xapp/question-answering-handler": "2.4.3",
     "@xapp/stentor-gbm": "1.52.77",
-    "@xapp/stentor-lex-v2": "1.52.78",
+    "@xapp/stentor-lex-v2": "1.52.79",
     "@xapp/stentor-service-salesforce": "1.52.77",
-    "@xapp/x-nlu": "1.6.3",
+    "@xapp/x-nlu": "1.6.7",
     "addresser": "1.1.20",
     "ansi-styles": "6.2.1",
     "body-parser": "1.20.2",
