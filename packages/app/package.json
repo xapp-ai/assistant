@@ -17,8 +17,8 @@
     "node": "^12 || ^14 || ^16"
   },
   "devDependencies": {
-    "@babel/core": "7.23.7",
-    "@babel/preset-env": "7.23.8",
+    "@babel/core": "7.24.0",
+    "@babel/preset-env": "7.24.0",
     "@babel/preset-typescript": "7.23.3",
     "@types/aws-lambda": "8.10.131",
     "@types/chai": "4.3.11",
