@@ -69,7 +69,7 @@
     "@xapp/contact-capture-handler": "1.6.0",
     "@xapp/oc-studio-starter-models": "1.0.0",
     "@xapp/question-answering-handler": "2.5.1",
-    "@xapp/stentor-gbm": "1.53.35",
+    "@xapp/stentor-gbm": "1.53.43",
     "@xapp/stentor-lex-v2": "1.53.35",
     "@xapp/stentor-service-salesforce": "1.53.35",
     "@xapp/x-nlu": "1.6.8",

@@ -7183,7 +7183,7 @@ __metadata:
     "@xapp/contact-capture-handler": 1.6.0
     "@xapp/oc-studio-starter-models": 1.0.0
     "@xapp/question-answering-handler": 2.5.1
-    "@xapp/stentor-gbm": 1.53.35
+    "@xapp/stentor-gbm": 1.53.43
     "@xapp/stentor-lex-v2": 1.53.35
     "@xapp/stentor-service-salesforce": 1.53.35
     "@xapp/x-nlu": 1.6.8
@@ -7254,13 +7254,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xapp/stentor-app@npm:1.53.35":
-  version: 1.53.35
-  resolution: "@xapp/stentor-app@npm:1.53.35"
+"@xapp/stentor-app@npm:1.53.43":
+  version: 1.53.43
+  resolution: "@xapp/stentor-app@npm:1.53.43"
   peerDependencies:
     stentor-models: 1.x
     stentor-utils: 1.x
-  checksum: 3c2e743e7dd190423892a3d97ee43a0ce5b8265ad9617dcaa7c49056fc218cfed347275b4d443a4832074ee730a62b1e50990b7cb45d85ec40ff1bb02fc91979
+  checksum: 9d50eae2a8858d48f6011d2ce2ce5747a4a7076e800de2fd1da43d8e0300b0da96307cc2bb9043dbf491a67c0a52e6740ae29af83116045cc2f0dbc50389504d
   languageName: node
   linkType: hard
 
@@ -7276,12 +7276,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xapp/stentor-gbm@npm:1.53.35":
-  version: 1.53.35
-  resolution: "@xapp/stentor-gbm@npm:1.53.35"
+"@xapp/stentor-gbm@npm:1.53.43":
+  version: 1.53.43
+  resolution: "@xapp/stentor-gbm@npm:1.53.43"
   dependencies:
     "@xapp/patterns": 2.0.2
-    "@xapp/stentor-app": 1.53.35
+    "@xapp/stentor-app": 1.53.43
     google-auth-library: 9.6.3
     googleapis-common: 7.0.1
     node-fetch: 2.7.0
@@ -7298,7 +7298,7 @@ __metadata:
     stentor-request: 1.x
     stentor-response: 1.x
     stentor-utils: 1.x
-  checksum: 5c88dd06ace4463ef2ff3cc95d9366d2d27569b2048cd0d57f06388786382e7a5d36fa76bd439ed8fbb43fa2f41137e83b058af22704e13668cd9322d6c1c9fb
+  checksum: 3acfe7b59d1555e1c970f84cce6a1e6500e4793aa3d367ae0a57890f8f641b28e32b8eb1e6f02293fef31011e4f6b51148a1c7fc75dd796cbe76c1c581ee5049
   languageName: node
   linkType: hard
 
