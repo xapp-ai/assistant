@@ -81,6 +81,6 @@
     "parse-full-name": "1.2.6",
     "stentor": "1.59.15",
     "stentor-channel": "1.59.15",
-    "stentor-user-storage-dynamo": "1.59.13"
+    "stentor-user-storage-dynamo": "1.59.18"
   }
 }
