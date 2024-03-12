@@ -69,9 +69,9 @@
     "@xapp/contact-capture-handler": "1.6.0",
     "@xapp/oc-studio-starter-models": "1.0.0",
     "@xapp/question-answering-handler": "2.5.1",
-    "@xapp/stentor-gbm": "1.53.35",
-    "@xapp/stentor-lex-v2": "1.53.35",
-    "@xapp/stentor-service-salesforce": "1.53.35",
+    "@xapp/stentor-gbm": "1.53.43",
+    "@xapp/stentor-lex-v2": "1.53.45",
+    "@xapp/stentor-service-salesforce": "1.53.43",
     "@xapp/x-nlu": "1.6.8",
     "addresser": "1.1.20",
     "ansi-styles": "6.2.1",
@@ -79,8 +79,8 @@
     "compromise": "14.12.0",
     "express": "4.18.3",
     "parse-full-name": "1.2.6",
-    "stentor": "1.59.15",
-    "stentor-channel": "1.59.15",
-    "stentor-user-storage-dynamo": "1.59.13"
+    "stentor": "1.59.19",
+    "stentor-channel": "1.59.19",
+    "stentor-user-storage-dynamo": "1.59.18"
   }
 }
