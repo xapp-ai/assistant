@@ -13,7 +13,7 @@
     "@typescript-eslint/eslint-plugin": "7.1.1",
     "eslint": "8.57.0",
     "eslint-plugin-notice": "0.9.10",
-    "stentor-models": "1.59.13",
+    "stentor-models": "1.59.18",
     "typescript": "5.4.2"
   },
   "peerDependencies": {
