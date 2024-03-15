@@ -39,7 +39,7 @@
     "react-redux": "9.1.0",
     "redux": "5.0.1",
     "redux-thunk": "3.1.0",
-    "rollup": "4.12.1",
+    "rollup": "4.13.0",
     "rollup-plugin-peer-deps-external": "2.2.4",
     "rollup-plugin-postcss": "4.0.2",
     "rollup-plugin-scss": "4.0.0",

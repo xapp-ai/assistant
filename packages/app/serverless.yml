@@ -75,12 +75,16 @@ provider:
             - lex:RecognizeText
             - lex:RecognizeUtterance
           Resource: "arn:aws:lex:*:*:*"
+        - Effect: Allow
+          Action:
+            - kendra:*
+          Resource: "arn:aws:kendra:::*"
 
 functions:
   app:
     name: studio-runtime-${self:custom.myEnvironment.APP_ID}-${sls:stage}
     handler: lib/index.handler
-    provisionedConcurrency: 1
+    #    provisionedConcurrency: 1
     events:
       - http:
           method: POST
