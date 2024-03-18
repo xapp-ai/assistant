@@ -7179,7 +7179,7 @@ __metadata:
     "@xapp/oc-studio-starter-models": 1.0.0
     "@xapp/question-answering-handler": 2.5.2
     "@xapp/stentor-gbm": 1.53.43
-    "@xapp/stentor-lex-v2": 1.53.45
+    "@xapp/stentor-lex-v2": 1.53.47
     "@xapp/stentor-service-salesforce": 1.53.43
     "@xapp/x-nlu": 1.6.8
     addresser: 1.1.20
@@ -7235,9 +7235,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xapp/stentor-alexa-lib@npm:1.53.43":
-  version: 1.53.43
-  resolution: "@xapp/stentor-alexa-lib@npm:1.53.43"
+"@xapp/stentor-alexa-lib@npm:1.53.46":
+  version: 1.53.46
+  resolution: "@xapp/stentor-alexa-lib@npm:1.53.46"
   dependencies:
     ask-sdk-model: 1.86.0
     lodash.invert: 4.3.0
@@ -7245,7 +7245,7 @@ __metadata:
     stentor-constants: 1.x
     stentor-models: 1.x
     stentor-utils: 1.x
-  checksum: c8a28bde16e449a514d593f102321a6a261cc1e9cd2e24d82403d9cb048b96297aa4a08b3beb4ed2e2432236a96094a42bcb8ec8a37edf80479cd03c914500fb
+  checksum: 490b5fb93039956bc0ee276b7d96083b2996072d6d3eeadeaecd5716f09bba63ca422dfc0aed9a1c0999f8233264c0713ab712c09b6c859916db1ce17513624d
   languageName: node
   linkType: hard
 
@@ -7297,11 +7297,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xapp/stentor-lex-lib@npm:1.53.45":
-  version: 1.53.45
-  resolution: "@xapp/stentor-lex-lib@npm:1.53.45"
+"@xapp/stentor-lex-lib@npm:1.53.47":
+  version: 1.53.47
+  resolution: "@xapp/stentor-lex-lib@npm:1.53.47"
   dependencies:
-    "@xapp/stentor-alexa-lib": 1.53.43
+    "@xapp/stentor-alexa-lib": 1.53.46
     lodash.merge: 4.6.2
   peerDependencies:
     stentor-interaction-model: 1.x
@@ -7309,18 +7309,18 @@ __metadata:
     stentor-models: 1.x
     stentor-request: 1.x
     stentor-utils: 1.x
-  checksum: 2f78576bd4b2749a670d4f68ec54b8fd49962fb1a54c160639d7f805e9dd73f146b8c59b4e9d2eeabc66372ac144454bddde6d143660c08e23d871d8105bcb95
+  checksum: f2f5ced7925bbeabce846d97bc1350f74d1ca3b6df98eb0305181c6d26366cee606597de97ae6b672ade97aedb543902221e669b02742819872e2bc5300dd474
   languageName: node
   linkType: hard
 
-"@xapp/stentor-lex-v2@npm:1.53.45":
-  version: 1.53.45
-  resolution: "@xapp/stentor-lex-v2@npm:1.53.45"
+"@xapp/stentor-lex-v2@npm:1.53.47":
+  version: 1.53.47
+  resolution: "@xapp/stentor-lex-v2@npm:1.53.47"
   dependencies:
     "@xapp/patterns": 2.0.2
-    "@xapp/stentor-alexa-lib": 1.53.43
-    "@xapp/stentor-lex-lib": 1.53.45
-    "@xapp/stentor-service-lex": 1.53.45
+    "@xapp/stentor-alexa-lib": 1.53.46
+    "@xapp/stentor-lex-lib": 1.53.47
+    "@xapp/stentor-service-lex": 1.53.47
     actions-on-google: 2.14.0
   peerDependencies:
     stentor-channel: 1.x
@@ -7331,16 +7331,16 @@ __metadata:
     stentor-request: 1.x
     stentor-response: 1.x
     stentor-utils: 1.x
-  checksum: 69a28de3c2b0445bd6d2b9eb7212ef9846b30f9f6afa619328add2cccdd8178101d791008bf8d38566acd4cc3f1bd83b91a0626ce7efb764fc9148b259c1a901
+  checksum: 274aebd1948dadefb38e235bf0e0a0c1fb7e40395ad871b6d4b41b48f4796484eaba3449044b7ab9a8de0818730b686ac678110246753ccae3a0191b8c638c0a
   languageName: node
   linkType: hard
 
-"@xapp/stentor-service-lex@npm:1.53.45":
-  version: 1.53.45
-  resolution: "@xapp/stentor-service-lex@npm:1.53.45"
+"@xapp/stentor-service-lex@npm:1.53.47":
+  version: 1.53.47
+  resolution: "@xapp/stentor-service-lex@npm:1.53.47"
   dependencies:
-    "@xapp/stentor-alexa-lib": 1.53.43
-    "@xapp/stentor-lex-lib": 1.53.45
+    "@xapp/stentor-alexa-lib": 1.53.46
+    "@xapp/stentor-lex-lib": 1.53.47
     lodash.merge: 4.6.2
     uuid: 9.0.1
   peerDependencies:
@@ -7350,7 +7350,7 @@ __metadata:
     stentor-history: 1.x
     stentor-media: 1.x
     stentor-models: 1.x
-  checksum: c01860b4372ef58553a96525ba04b713e4bc340ea7ae565204d9b9e6a9da6118afb3921de211838899901ec54de82348334e0e56f181a0e740d85201124cafa9
+  checksum: 5a92feb17a90fd58cb8b7dc99faa30168e102f6d77f994610bf1b8d7e66d1f42fb20afcaf3f43da179e14d74913af360d25f8081c0249ff0d77ea0fbd75b2454
   languageName: node
   linkType: hard
 
@@ -17004,16 +17004,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:12.0.1":
-  version: 12.0.1
-  resolution: "marked@npm:12.0.1"
-  bin:
-    marked: bin/marked.js
-  checksum: 35ebc6c4612fcc028a1cd6419321e336be5b29d3feb68dfd5aaa7fcddb399c7873cd3291d60daf342db3eede747757e4e18515f349f0ee7b84ec24254f3a4190
-  languageName: node
-  linkType: hard
-
-"marked@npm:^12.0.0":
+"marked@npm:12.0.1, marked@npm:^12.0.0":
   version: 12.0.1
   resolution: "marked@npm:12.0.1"
   bin:
