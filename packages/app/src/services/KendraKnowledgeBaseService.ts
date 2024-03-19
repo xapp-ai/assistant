@@ -34,7 +34,6 @@ export class KendraKnowledgeBaseService extends StudioService implements Knowled
 
     public async search(query: string): Promise<Pick<KnowledgeBaseResult, "documents" | "suggested">> {
 
-
         const queryResults = await this.kendra.query({
             IndexId: this.indexId,
             QueryText: query
