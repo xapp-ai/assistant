@@ -44,6 +44,7 @@ export async function handler(event: any, context: Context, callback: Callback<a
         botAliasId: process.env.LEX_BOT_ALIAS_ID,
         llmService,
         knowledgeBaseService: studioService,
+        enableChat: true,
         intentMap: {
             questionAnswering: "OCSearch",
             helpWith: "LeadGeneration"
