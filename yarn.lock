@@ -6454,12 +6454,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.11.26":
-  version: 20.11.26
-  resolution: "@types/node@npm:20.11.26"
+"@types/node@npm:20.11.30":
+  version: 20.11.30
+  resolution: "@types/node@npm:20.11.30"
   dependencies:
     undici-types: ~5.26.4
-  checksum: 2cd5a373d2880b7f07ae65d4d23660cdcabddb12772ce631b6caad2f9283350b8a17c802590f67f0ccec5a9c7d43ae0ecd9637c5ad870b8f793328af8c61eae5
+  checksum: 7597767aa3e44b0f1bf62efa522dd17741135f283c11de6a20ead8bb7016fb4999cc30adcd8f2bb29ebb216906c92894346ccd187de170927dc1e212d2c07c81
   languageName: node
   linkType: hard
 
@@ -7169,7 +7169,7 @@ __metadata:
     "@types/cors": 2.8.17
     "@types/express": 4.17.21
     "@types/jest": 29.5.12
-    "@types/node": 20.11.26
+    "@types/node": 20.11.30
     "@types/sinon": 10.0.20
     "@types/sinon-chai": 3.2.12
     "@typescript-eslint/eslint-plugin": 7.2.0
@@ -17004,16 +17004,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:12.0.1":
-  version: 12.0.1
-  resolution: "marked@npm:12.0.1"
-  bin:
-    marked: bin/marked.js
-  checksum: 35ebc6c4612fcc028a1cd6419321e336be5b29d3feb68dfd5aaa7fcddb399c7873cd3291d60daf342db3eede747757e4e18515f349f0ee7b84ec24254f3a4190
-  languageName: node
-  linkType: hard
-
-"marked@npm:^12.0.0":
+"marked@npm:12.0.1, marked@npm:^12.0.0":
   version: 12.0.1
   resolution: "marked@npm:12.0.1"
   bin:
