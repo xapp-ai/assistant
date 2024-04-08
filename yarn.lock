@@ -7180,7 +7180,7 @@ __metadata:
     "@xapp/question-answering-handler": 2.5.2
     "@xapp/stentor-gbm": 1.53.43
     "@xapp/stentor-lex-v2": 1.53.45
-    "@xapp/stentor-service-salesforce": 1.53.43
+    "@xapp/stentor-service-salesforce": 1.55.3
     "@xapp/x-nlu": 1.6.8
     addresser: 1.1.20
     ansi-styles: 6.2.1
@@ -7354,16 +7354,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xapp/stentor-service-salesforce@npm:1.53.43":
-  version: 1.53.43
-  resolution: "@xapp/stentor-service-salesforce@npm:1.53.43"
+"@xapp/stentor-service-salesforce@npm:1.55.3":
+  version: 1.55.3
+  resolution: "@xapp/stentor-service-salesforce@npm:1.55.3"
   dependencies:
     jsforce: 1.11.1
   peerDependencies:
     stentor-logger: 1.x
     stentor-models: 1.x
     stentor-service-fetch: 1.x
-  checksum: 73b11bd2597ecab31a88bf11b273a31d4180595853f0f92452916614ff1ae27dfe5ac8cdc5bf72a94d77457bc0eb50f147eca953709a1715238ed6e77cb32a9a
+  checksum: 70cf4524522353de7e73d9a1de8137dd1c17deb82f94e59da7a0296e6b1e3ee0e55cd9c72a46930df338189038b3f5b8b50619751d923d17314ed32be654b1c9
   languageName: node
   linkType: hard
 
@@ -17004,16 +17004,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:12.0.1":
-  version: 12.0.1
-  resolution: "marked@npm:12.0.1"
-  bin:
-    marked: bin/marked.js
-  checksum: 35ebc6c4612fcc028a1cd6419321e336be5b29d3feb68dfd5aaa7fcddb399c7873cd3291d60daf342db3eede747757e4e18515f349f0ee7b84ec24254f3a4190
-  languageName: node
-  linkType: hard
-
-"marked@npm:^12.0.0":
+"marked@npm:12.0.1, marked@npm:^12.0.0":
   version: 12.0.1
   resolution: "marked@npm:12.0.1"
   bin:
