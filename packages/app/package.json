@@ -70,7 +70,7 @@
     "@xapp/oc-studio-starter-models": "1.0.0",
     "@xapp/question-answering-handler": "2.5.2",
     "@xapp/stentor-gbm": "1.53.43",
-    "@xapp/stentor-lex-v2": "1.53.45",
+    "@xapp/stentor-lex-v2": "1.55.4",
     "@xapp/stentor-service-salesforce": "1.53.43",
     "@xapp/x-nlu": "1.6.8",
     "addresser": "1.1.20",
