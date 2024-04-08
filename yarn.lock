@@ -7184,7 +7184,7 @@ __metadata:
     "@xapp/x-nlu": 1.6.8
     addresser: 1.1.20
     ansi-styles: 6.2.1
-    aws-sdk: 2.1572.0
+    aws-sdk: 2.1594.0
     babel-loader: 9.1.3
     babel-preset-minify: 0.5.2
     body-parser: 1.20.2
@@ -8136,9 +8136,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-sdk@npm:2.1572.0":
-  version: 2.1572.0
-  resolution: "aws-sdk@npm:2.1572.0"
+"aws-sdk@npm:2.1594.0":
+  version: 2.1594.0
+  resolution: "aws-sdk@npm:2.1594.0"
   dependencies:
     buffer: 4.9.2
     events: 1.1.1
@@ -8150,7 +8150,7 @@ __metadata:
     util: ^0.12.4
     uuid: 8.0.0
     xml2js: 0.6.2
-  checksum: eb2de7bec48a7dc7a3f6b7541bcfbf691190aa382fe175f30fcdcd9fe280f4bafc5a28c74d3b882fff157ecedb654440e286cdc6d8dce4dd350ccd0fed69ec10
+  checksum: e1eff69dd62649982a10cb2b76da17d600807b790dc5cca989ed22124cba80c0727edd67eba54861517b8571f4836fdafd75fb73180e30b1821762d79921a412
   languageName: node
   linkType: hard
 
@@ -17004,16 +17004,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"marked@npm:12.0.1":
-  version: 12.0.1
-  resolution: "marked@npm:12.0.1"
-  bin:
-    marked: bin/marked.js
-  checksum: 35ebc6c4612fcc028a1cd6419321e336be5b29d3feb68dfd5aaa7fcddb399c7873cd3291d60daf342db3eede747757e4e18515f349f0ee7b84ec24254f3a4190
-  languageName: node
-  linkType: hard
-
-"marked@npm:^12.0.0":
+"marked@npm:12.0.1, marked@npm:^12.0.0":
   version: 12.0.1
   resolution: "marked@npm:12.0.1"
   bin:
