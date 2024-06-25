@@ -35,13 +35,15 @@ export async function handler(event: any, context: Context, callback: Callback<a
         token: process.env.STUDIO_TOKEN
     });
 
+    const temperature: number = parseFloat(process.env.LLM_TEMPERATURE || "0.6");
     const model: 'GPT-3.5' | 'GPT-4' = process.env.LLM_MODEL as 'GPT-3.5' || "GPT-4";
     //  const disableLeads: boolean = process.env.DISABLE_LEADS === "true";
     const businessDescription: string = process.env.BUSINESS_DESCRIPTION || "XAPP AI is a conversational AI company that provides intelligent virtual assistants for enterprise and small businesses with their home service templates.  XAPP AI has a with deep understanding of applying conversational AI, intelligent search and generative AI to create conversational chat, search and messaging.";
 
     const llmService = new OpenAIService({
         businessDescription,
-        model
+        model,
+        temperature
     });
 
     const questionAnswering = process.env.QUESTION_ANSWERING_INTENT_ID || "OCSearch";
