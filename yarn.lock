@@ -7310,8 +7310,8 @@ __metadata:
     typescript: 5.5.2
   peerDependencies:
     "@xapp/chat-widget": 1.65.8
-    react: 17.0.2
-    react-dom: 17.0.2
+    react: 18.3.1
+    react-dom: 18.3.1
   languageName: unknown
   linkType: soft
 
