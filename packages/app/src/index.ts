@@ -20,7 +20,9 @@ import { XNLU, OpenAIService } from "@xapp/x-nlu";
 // Services
 import { DynamoUserStorage } from "stentor-user-storage-dynamo";
 import { StudioService } from "stentor-service-studio";
-import { SalesforceService } from "@xapp/stentor-service-salesforce";
+// import { SalesforceService } from "@xapp/stentor-service-salesforce";
+import { TrackingCRMService } from "./services/TrackingCRMService";
+
 
 // Custom Handlers
 import { QuestionAnsweringHandler } from "@xapp/question-answering-handler";
@@ -54,7 +56,6 @@ export async function handler(event: any, context: Context, callback: Callback<a
         botAliasId: process.env.LEX_BOT_ALIAS_ID,
         llmService,
         knowledgeBaseService: studioService,
-
         switchToLeadCaptureOn: "YES",
         conversationMode: true,
         askForContactInfo: true,
@@ -78,7 +79,7 @@ export async function handler(event: any, context: Context, callback: Callback<a
     const assistant = new Assistant()
         // We are using a simple dynamo user storage but all you need is something that implements the interface UserStorageService
         .withUserStorage(new DynamoUserStorage())
-        .withCrmService(new SalesforceService(
+        .withCrmService(new TrackingCRMService(
             {
                 appId: process.env.STUDIO_APP_ID,
                 leadOwner: process.env.SALESFORCE_LEAD_OWNER,
