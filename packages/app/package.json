@@ -66,21 +66,21 @@
     "test": "exit 0"
   },
   "dependencies": {
-    "@xapp/contact-capture-handler": "1.11.0",
+    "@xapp/contact-capture-handler": "1.11.1",
     "@xapp/oc-studio-starter-models": "1.0.0",
     "@xapp/question-answering-handler": "2.5.11",
-    "@xapp/stentor-gbm": "1.62.1",
-    "@xapp/stentor-lex-v2": "1.62.1",
-    "@xapp/stentor-service-salesforce": "1.62.1",
-    "@xapp/x-nlu": "2.0.9",
+    "@xapp/stentor-gbm": "1.62.10",
+    "@xapp/stentor-lex-v2": "1.62.10",
+    "@xapp/stentor-service-salesforce": "1.62.10",
+    "@xapp/x-nlu": "2.0.10",
     "addresser": "1.1.20",
     "ansi-styles": "6.2.1",
     "body-parser": "1.20.2",
     "compromise": "14.13.0",
     "express": "4.19.2",
     "parse-full-name": "1.2.6",
-    "stentor": "1.59.90",
-    "stentor-channel": "1.59.90",
-    "stentor-user-storage-dynamo": "1.59.90"
+    "stentor": "1.59.91",
+    "stentor-channel": "1.59.91",
+    "stentor-user-storage-dynamo": "1.59.91"
   }
 }

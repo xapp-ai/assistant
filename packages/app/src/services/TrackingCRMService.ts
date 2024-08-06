@@ -20,15 +20,20 @@ export class TrackingCRMService extends SalesforceService {
                 // Sandbox endpoint
                 const endpoint = "https://www.google.com/maps/conversion/debug/collect";
 
-                const partnerId = "20003016";
+                const partnerId = Number("20003016");
+
+                const body = JSON.stringify({
+                    conversion_partner_id: partnerId,
+                    rwg_token,
+                    merchant_changed: 2
+                });
+
+                log().debug(`Google Actions Center tracking body\n${body}`);
+                console.log(body);
 
                 const result = await fetch(endpoint, {
                     method: "POST",
-                    body: JSON.stringify({
-                        conversion_partner_id: partnerId,
-                        rwg_token,
-                        merchant_changed: 2
-                    })
+                    body
                 }).then((response) => {
                     log().info(`Google Actions Center Response Status ${response.status}`);
                     return response.text();
