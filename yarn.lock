@@ -7395,7 +7395,7 @@ __metadata:
     "@xapp/x-nlu": 2.0.10
     addresser: 1.1.20
     ansi-styles: 6.2.1
-    aws-sdk: 2.1664.0
+    aws-sdk: 2.1671.0
     babel-loader: 9.1.3
     babel-preset-minify: 0.5.2
     body-parser: 1.20.2
@@ -8302,9 +8302,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-sdk@npm:2.1664.0":
-  version: 2.1664.0
-  resolution: "aws-sdk@npm:2.1664.0"
+"aws-sdk@npm:2.1671.0":
+  version: 2.1671.0
+  resolution: "aws-sdk@npm:2.1671.0"
   dependencies:
     buffer: 4.9.2
     events: 1.1.1
@@ -8316,7 +8316,7 @@ __metadata:
     util: ^0.12.4
     uuid: 8.0.0
     xml2js: 0.6.2
-  checksum: 144bb86f4726eea7fc7a0454211947a407e359b70c8a1dfde6c44c6b77cd2bc222f692b983f64e0c6ae5a8d6eb9f95596aeba1cc182acfaa56c9fb52133c8b24
+  checksum: e60ecbe682a6bb49cbbaacbf681daef19799457ca2918917a7e377a603cd78fa2e5102c85f0f5a5a20ff8e1b4f448ffc9bba5c4f13385bcb54bbfa8737beba15
   languageName: node
   linkType: hard
 
