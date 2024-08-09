@@ -7274,14 +7274,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xapp/contact-capture-handler@npm:1.11.1":
-  version: 1.11.1
-  resolution: "@xapp/contact-capture-handler@npm:1.11.1"
+"@xapp/contact-capture-handler@npm:1.11.3":
+  version: 1.11.3
+  resolution: "@xapp/contact-capture-handler@npm:1.11.3"
   peerDependencies:
     "@xapp/question-answering-handler": 2.x
     stentor: 1.x
     stentor-service-fetch: 1.x
-  checksum: 04c438d143e05532087ade3dd9116b28789fdffa95308f91b470b8cb2bcfd18022eeb521494cb3cb5ddb42c009b66ed82b06bafff3b6073cc7bbc31eeee12456
+  checksum: 6820d9e4b5e80afc837206e57683d77eb223a461a707e200bf73ba63b10a13572f8d57563fae08e1140899f099cd988936684e19b72a64c66b606a194e0b6f2a
   languageName: node
   linkType: hard
 
@@ -7340,7 +7340,7 @@ __metadata:
     ts-jest: 29.2.2
     typescript: 5.5.4
   peerDependencies:
-    "@xapp/chat-widget": 1.65.8
+    "@xapp/chat-widget": 1.72.4
     react: 17.0.2
     react-dom: 17.0.2
   languageName: unknown
@@ -7386,11 +7386,11 @@ __metadata:
     "@typescript-eslint/eslint-plugin": 7.16.1
     "@typescript-eslint/parser": 7.16.1
     "@xapp/config": 0.2.3
-    "@xapp/contact-capture-handler": 1.11.1
+    "@xapp/contact-capture-handler": 1.11.3
     "@xapp/oc-studio-starter-models": 1.0.0
     "@xapp/question-answering-handler": 2.5.11
     "@xapp/stentor-gbm": 1.62.10
-    "@xapp/stentor-lex-v2": 1.62.10
+    "@xapp/stentor-lex-v2": 1.62.13
     "@xapp/stentor-service-salesforce": 1.62.10
     "@xapp/x-nlu": 2.0.10
     addresser: 1.1.20
@@ -7508,9 +7508,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xapp/stentor-lex-lib@npm:1.62.10":
-  version: 1.62.10
-  resolution: "@xapp/stentor-lex-lib@npm:1.62.10"
+"@xapp/stentor-lex-lib@npm:1.62.13":
+  version: 1.62.13
+  resolution: "@xapp/stentor-lex-lib@npm:1.62.13"
   dependencies:
     "@xapp/stentor-alexa-lib": 1.62.10
     lodash.merge: 4.6.2
@@ -7520,18 +7520,18 @@ __metadata:
     stentor-models: 1.x
     stentor-request: 1.x
     stentor-utils: 1.x
-  checksum: 08da9e54b761c0ede2edf71ef85bbef963c04a821cf9cd62f0b7f15e304c13045bdbfb62c5b763dbcf5a12eef269a09e9cded71cf6b3e80e4550d298b974c117
+  checksum: 40f6a92897f1ec8c256ed96c75ab0e321231681f9a5a7c429180e48f73c95fc17600b4a46d0a9560dc6fb2a9318007e0062e04404cc8108705f57849318030c9
   languageName: node
   linkType: hard
 
-"@xapp/stentor-lex-v2@npm:1.62.10":
-  version: 1.62.10
-  resolution: "@xapp/stentor-lex-v2@npm:1.62.10"
+"@xapp/stentor-lex-v2@npm:1.62.13":
+  version: 1.62.13
+  resolution: "@xapp/stentor-lex-v2@npm:1.62.13"
   dependencies:
     "@xapp/patterns": 2.0.2
     "@xapp/stentor-alexa-lib": 1.62.10
-    "@xapp/stentor-lex-lib": 1.62.10
-    "@xapp/stentor-service-lex": 1.62.10
+    "@xapp/stentor-lex-lib": 1.62.13
+    "@xapp/stentor-service-lex": 1.62.13
     actions-on-google: 2.14.0
   peerDependencies:
     stentor-channel: 1.x
@@ -7542,16 +7542,16 @@ __metadata:
     stentor-request: 1.x
     stentor-response: 1.x
     stentor-utils: 1.x
-  checksum: aaa870afddb2af4bde44284217a20f6e37a06251b29559d2131aa4fc8db2611167a88f2a5ecc1038b8cc4c753bbd5338ad4b94943c19e14ebb2df4d3879c9758
+  checksum: edc334df2e9adafec596b16dd34ff3fb21baada3a9cd2437460f8963b2c1a4e5b7304dc7e2ec65e998d75dfed38123cb6d2cbaac76cbd95df126a5a8c2db2cf0
   languageName: node
   linkType: hard
 
-"@xapp/stentor-service-lex@npm:1.62.10":
-  version: 1.62.10
-  resolution: "@xapp/stentor-service-lex@npm:1.62.10"
+"@xapp/stentor-service-lex@npm:1.62.13":
+  version: 1.62.13
+  resolution: "@xapp/stentor-service-lex@npm:1.62.13"
   dependencies:
     "@xapp/stentor-alexa-lib": 1.62.10
-    "@xapp/stentor-lex-lib": 1.62.10
+    "@xapp/stentor-lex-lib": 1.62.13
     lodash.merge: 4.6.2
     uuid: 10.0.0
   peerDependencies:
@@ -7561,7 +7561,7 @@ __metadata:
     stentor-history: 1.x
     stentor-media: 1.x
     stentor-models: 1.x
-  checksum: edd359486b2e2601dc4cf5caa7a44d604f0a2d3328250554912d36886ae00e8cd4cdd1b033519f9715a201c22d20dd162a784655d8f2b0a020403f667ea88661
+  checksum: 1299127a703c8857c0da1be9e94c502d4e0ddce883364f2d5a37eda39a8d8807f47344aac9832c3f49a37445df22d954fb7c70d5813ac3eaa916646e1e241c54
   languageName: node
   linkType: hard
 
