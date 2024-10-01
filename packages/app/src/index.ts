@@ -59,7 +59,7 @@ export async function handler(event: any, context: Context, callback: Callback<a
         switchToLeadCaptureOn: "YES",
         conversationMode: true,
         askForContactInfo: true,
-        passToLLM: ["yes", "no", "thanks"],
+        passToLLM: ["yes", "no", "thanks", "thatsAll"],
         intentMap: {
             questionAnswering,
             helpWith,
