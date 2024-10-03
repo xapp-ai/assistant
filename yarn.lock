@@ -7379,7 +7379,7 @@ __metadata:
     ts-jest: 29.2.5
     typescript: 5.6.2
   peerDependencies:
-    "@xapp/chat-widget": 1.65.8
+    "@xapp/chat-widget": 1.74.6
     react: 18.3.1
     react-dom: 18.3.1
   languageName: unknown
@@ -7429,8 +7429,8 @@ __metadata:
     "@xapp/oc-studio-starter-models": 1.0.0
     "@xapp/question-answering-handler": 2.5.12
     "@xapp/stentor-gbm": 1.62.67
-    "@xapp/stentor-lex-v2": 1.62.67
-    "@xapp/stentor-service-salesforce": 1.62.67
+    "@xapp/stentor-lex-v2": 1.62.69
+    "@xapp/stentor-service-salesforce": 1.62.69
     "@xapp/x-nlu": 2.0.15
     addresser: 1.1.20
     ansi-styles: 6.2.1
@@ -7563,14 +7563,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xapp/stentor-lex-v2@npm:1.62.67":
-  version: 1.62.67
-  resolution: "@xapp/stentor-lex-v2@npm:1.62.67"
+"@xapp/stentor-lex-v2@npm:1.62.69":
+  version: 1.62.69
+  resolution: "@xapp/stentor-lex-v2@npm:1.62.69"
   dependencies:
     "@xapp/patterns": 2.0.2
     "@xapp/stentor-alexa-lib": 1.62.67
     "@xapp/stentor-lex-lib": 1.62.67
-    "@xapp/stentor-service-lex": 1.62.67
+    "@xapp/stentor-service-lex": 1.62.69
     actions-on-google: 2.14.0
   peerDependencies:
     stentor-channel: 1.x
@@ -7581,13 +7581,13 @@ __metadata:
     stentor-request: 1.x
     stentor-response: 1.x
     stentor-utils: 1.x
-  checksum: 9f24c2228f9c8638fe5fe6eab8c2a534c1078b0788171549150014d8112816d5d8e4386152e76c1b5c355ac070d71f0e10713b75976d21e8a2c8da0250eb7986
+  checksum: 7efc1fde5bc7be969d22b92a557ac3bccce74dad93ad77dbf9d740be117b8352e6a04b3af4199d664de6cc43b8c45cf1c69340610821ca51c83675bad7471ef5
   languageName: node
   linkType: hard
 
-"@xapp/stentor-service-lex@npm:1.62.67":
-  version: 1.62.67
-  resolution: "@xapp/stentor-service-lex@npm:1.62.67"
+"@xapp/stentor-service-lex@npm:1.62.69":
+  version: 1.62.69
+  resolution: "@xapp/stentor-service-lex@npm:1.62.69"
   dependencies:
     "@xapp/stentor-alexa-lib": 1.62.67
     "@xapp/stentor-lex-lib": 1.62.67
@@ -7600,20 +7600,20 @@ __metadata:
     stentor-history: 1.x
     stentor-media: 1.x
     stentor-models: 1.x
-  checksum: 8e0c8bd0d23d0f1a8485828db32a4d49200f51ab27e123906ebb43540d24c39e0fe0c025be08554a5d943b6aa78dc5d409aad585ed29dc2885051be532621e8b
+  checksum: 64ee3ba2c4467e29b6b68fa83822af603911885a8ae89f3f0bd581113b48abfb20f3e689880ba09078c013a3db869fbef49455b522fda9435ce6a9cfe716a971
   languageName: node
   linkType: hard
 
-"@xapp/stentor-service-salesforce@npm:1.62.67":
-  version: 1.62.67
-  resolution: "@xapp/stentor-service-salesforce@npm:1.62.67"
+"@xapp/stentor-service-salesforce@npm:1.62.69":
+  version: 1.62.69
+  resolution: "@xapp/stentor-service-salesforce@npm:1.62.69"
   dependencies:
     jsforce: 3.4.1
   peerDependencies:
     stentor-logger: 1.x
     stentor-models: 1.x
     stentor-service-fetch: 1.x
-  checksum: 23d1994c75f4083da17bda0b5b9c25319e7998adf630eb1c41e0d86c8b308b6621aa672ce75d53fe3c91f1c1f55a8db008cdffc94fdfa36a5bd3b123b3b2946d
+  checksum: e619d8ddede69e1f25ba009b8f7606a9f7b4d625f3b2efb8457952cc6cb2c8a5334b61a37a9da70643c8cfe301546f70ac6d9ceef0bbe8c5e57b08019426a219
   languageName: node
   linkType: hard
 
