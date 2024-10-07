@@ -7431,7 +7431,7 @@ __metadata:
     "@xapp/question-answering-handler": 2.5.12
     "@xapp/stentor-gbm": 1.62.67
     "@xapp/stentor-lex-v2": 1.62.69
-    "@xapp/stentor-service-salesforce": 1.62.69
+    "@xapp/stentor-service-salesforce": 1.62.73
     "@xapp/x-nlu": 2.0.15
     addresser: 1.1.20
     ansi-styles: 6.2.1
@@ -7605,16 +7605,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@xapp/stentor-service-salesforce@npm:1.62.69":
-  version: 1.62.69
-  resolution: "@xapp/stentor-service-salesforce@npm:1.62.69"
+"@xapp/stentor-service-salesforce@npm:1.62.73":
+  version: 1.62.73
+  resolution: "@xapp/stentor-service-salesforce@npm:1.62.73"
   dependencies:
-    jsforce: 3.4.1
+    jsforce: 3.5.1
   peerDependencies:
     stentor-logger: 1.x
     stentor-models: 1.x
     stentor-service-fetch: 1.x
-  checksum: e619d8ddede69e1f25ba009b8f7606a9f7b4d625f3b2efb8457952cc6cb2c8a5334b61a37a9da70643c8cfe301546f70ac6d9ceef0bbe8c5e57b08019426a219
+  checksum: 6bc51e02b448b1009bc9754f340c65a25466f7439846668df7a0963154876acd0b898d614603f7f30672d55980459fd46bb90537541fdeb106f68bbdc2558bce
   languageName: node
   linkType: hard
 
@@ -15105,14 +15105,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsforce@npm:3.4.1":
-  version: 3.4.1
-  resolution: "jsforce@npm:3.4.1"
+"jsforce@npm:3.5.1":
+  version: 3.5.1
+  resolution: "jsforce@npm:3.5.1"
   dependencies:
     "@babel/runtime": ^7.23.1
     "@babel/runtime-corejs3": ^7.23.1
     "@sindresorhus/is": ^4
-    abort-controller: ^3.0.0
     base64url: ^3.0.1
     commander: ^4.0.1
     core-js: ^3.33.0
@@ -15130,7 +15129,7 @@ __metadata:
   bin:
     jsforce: bin/jsforce
     jsforce-gen-schema: bin/jsforce-gen-schema
-  checksum: 97690ffa39e2f623fcb6e104967e485206858eca996b12d7282d2b6db062e4cdf7a5a10367b212e6f8e42553a48cc6ed2d26e387cd43cad0767f4a3abf0f0272
+  checksum: c1b60b6603a8af0b31a8f09f2f3e0f0121232420ea7d776d6dad947aa58d5ff54398df9f14736589037b90f80d289857a676411d8ff260b8be3c590a1d77810b
   languageName: node
   linkType: hard
 
