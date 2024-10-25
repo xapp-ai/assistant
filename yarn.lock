@@ -6735,12 +6735,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:20.16.10":
-  version: 20.16.10
-  resolution: "@types/node@npm:20.16.10"
+"@types/node@npm:20.17.1":
+  version: 20.17.1
+  resolution: "@types/node@npm:20.17.1"
   dependencies:
     undici-types: ~6.19.2
-  checksum: 8b4d5a0af828871627e80da095df50ef8ae7ca458f39ccde1d060e3bf97b0bc76af9547bd5d75ce4ccb1dd80466804b2fe4f12553c11cb8691c6667effd9a9d7
+  checksum: 22bc7f32533985c2f33aa4642776c1096a3ca43133ff5783f0b3fe049dc968def7871da8f5d27634d4651ce6bcf4abe31c9d38c4a9a5d0b78118edc8d47c30ce
   languageName: node
   linkType: hard
 
@@ -7420,7 +7420,7 @@ __metadata:
     "@types/cors": 2.8.17
     "@types/express": 5.0.0
     "@types/jest": 29.5.13
-    "@types/node": 20.16.10
+    "@types/node": 20.17.1
     "@types/sinon": 17.0.3
     "@types/sinon-chai": 3.2.12
     "@typescript-eslint/eslint-plugin": 7.18.0
