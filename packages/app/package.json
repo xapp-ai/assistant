@@ -76,7 +76,7 @@
     "addresser": "1.1.20",
     "ansi-styles": "6.2.1",
     "body-parser": "1.20.3",
-    "compromise": "14.14.0",
+    "compromise": "14.14.3",
     "express": "4.21.0",
     "parse-full-name": "1.2.6",
     "stentor": "1.59.126",
