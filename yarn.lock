@@ -7554,7 +7554,7 @@ __metadata:
     body-parser: 1.20.3
     cache-loader: 4.1.0
     chai: 4.5.0
-    compromise: 14.14.0
+    compromise: 14.19.0
     cors: 2.8.5
     eslint: 8.57.1
     eslint-plugin-notice: 0.9.10
@@ -9980,6 +9980,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"compromise@npm:14.19.0":
+  version: 14.19.0
+  resolution: "compromise@npm:14.19.0"
+  dependencies:
+    efrt: 2.9.0
+    suffix-thumb: 6.0.0
+  checksum: 0e3cac59ac2b14d5edbbb6fe17b628e996b3720facc48bfdfe26728929ee5db3f06a3f9b0fba6c14f228bf0dfabf19a1c27bb97cef3ba037ea05791f38937a61
+  languageName: node
+  linkType: hard
+
 "concat-map@npm:0.0.1":
   version: 0.0.1
   resolution: "concat-map@npm:0.0.1"
@@ -11174,6 +11184,13 @@ __metadata:
   version: 2.7.0
   resolution: "efrt@npm:2.7.0"
   checksum: 649da95aa60adc411563e04d8f953e67a67ebafca6f3479d5768cab2d011068de4379ad978ba8a87d574d7ea2494a82ecbe3a8f9f8f9bca3ddcc3d5cb4ea11ae
+  languageName: node
+  linkType: hard
+
+"efrt@npm:2.9.0":
+  version: 2.9.0
+  resolution: "efrt@npm:2.9.0"
+  checksum: d557de1bfc4848e6f9c907960df4193befa3ce6723ce945029721583f6b0962a11b9ba2e3deb7ffe93171c7f71d73ed5cdab5796dde0eb8ebf842968ebb853d4
   languageName: node
   linkType: hard
 
@@ -21940,6 +21957,13 @@ __metadata:
   version: 5.0.2
   resolution: "suffix-thumb@npm:5.0.2"
   checksum: 4c4f37168b9455c460451c9531fd2708dcd20aadbb3bc505901a0bb616fa9239a582661cd002625de3cf499ce747fbac45d074e75f0f1bccd7b88fb9c6f4fac9
+  languageName: node
+  linkType: hard
+
+"suffix-thumb@npm:6.0.0":
+  version: 6.0.0
+  resolution: "suffix-thumb@npm:6.0.0"
+  checksum: 069bdb921d3a2384b1ad4bce17f81626a29670492f9a6339105ab9745729b499993dfadad813c483bdeeff93e943155661020852c2d66cc3c4d9889d495d2ec1
   languageName: node
   linkType: hard
 
